@@ -4,12 +4,11 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Main from '../components/Main';
 
 class Header extends Component {
   render() {
     const {actions} = this.props;
-    return <h1 actions={actions} >Static text</h1>;
+    return <h1  >Static text</h1>;
   }
 }
 
