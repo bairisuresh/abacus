@@ -4,11 +4,11 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-
+import HeaderRoom from '../components/HeaderComponent'
 class Header extends Component {
   render() {
     const {actions} = this.props;
-    return <h1  >Static text</h1>;
+    return <HeaderRoom/>;
   }
 }
 

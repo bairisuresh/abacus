@@ -1,0 +1,27 @@
+.headroom-wrapper{
+  height: 56px !important;
+  background-color: blue;
+
+  .headroom{
+    position: fixed !important;
+    -webkit-transform: translateY(0) !important;
+    transform: translateY(0) !important;
+
+    span{
+      color: #fff;
+      font-size: 12px;
+      font-weight: normal;
+    }
+    .icon{
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 24px;
+      width: 24px;
+      display: block;
+    }
+    .icon.header-bell-icon{
+      background-image: url('../images/notify-bell.svg');
+      background-size: 21.1px 24px;
+    }
+  }
+}

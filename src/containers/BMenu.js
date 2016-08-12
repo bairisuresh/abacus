@@ -5,7 +5,7 @@ import React, {
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import MenuObject from 'react-burger-menu';
-
+require('styles//App.css');
 class BMenu extends Component {
   render() {
     const { actions } = this.props;
