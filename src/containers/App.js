@@ -10,7 +10,6 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Main from '../components/Main';
 import Menu from './BMenu';
 import Header from './Header'
 import Body from './Body';
@@ -20,10 +19,10 @@ class App extends Component {
     const {actions } = this.props;
     return (<div id="outer-container">
               <Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
-              <main id ='wrapper-page'>
+              <div id ='wrapper-page'>
                 <Header/>
                 {actions.children};
-              </main>
+              </div>
             </div>);
   }
 }
