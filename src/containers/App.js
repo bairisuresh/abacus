@@ -17,11 +17,14 @@ import Body from './Body';
 class App extends Component {
   render() {
     const {actions } = this.props;
-    return (<div id="outer-container">
-              <Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
-              <div id ='wrapper-page'>
-                <Header/>
-                {actions.children};
+    return (<div>
+              <Header/>
+              <div id="outer-container">
+                <Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
+                <div id ='wrapper-page'>
+                  
+                  {actions.children};
+                </div>
               </div>
             </div>);
   }
