@@ -8,9 +8,9 @@ import { createStore, applyMiddleware } from 'redux';
 import { Router, IndexRoute, Route, browserHistory } from 'react-router';
 import reducers from './reducers';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
-import { Settings } from './containers/Settings';
-import { Alerts } from './containers/Alerts';
-import { Body } from './containers/Body';
+import Settings from './containers/Settings';
+import Alerts from './containers/Alerts';
+import Body from './containers/Body';
 
 const store = createStore(
   combineReducers({

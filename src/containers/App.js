@@ -25,13 +25,14 @@ class App extends Component {
     var that = this;
     return (<div className='app-container'>
               <Header/>
-              <div id="outer-container">
+              <div id="outer-container" >
                 <Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
-                <div id ='wrapper-page'>
+                <div id ="wrapper-page" >
                   { this.props.children }
                 </div>
               </div>
-            </div>);
+            </div>
+            );
   }
 }
 /* Populated by react-webpack-redux:reducer
