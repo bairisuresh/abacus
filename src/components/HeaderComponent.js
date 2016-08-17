@@ -9,7 +9,7 @@ class HeaderComponent extends React.Component {
     return (
       <div className="header-component">
           <Headroom className="headroom--pinned">
-                  <a href="javascript:void(0);" className="menu-icon"></a>
+                  
                   <span className="icon header-search-icon"></span>
                   <span className="icon header-bell-icon"></span>
           </Headroom>

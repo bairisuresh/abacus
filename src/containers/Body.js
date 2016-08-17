@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 class Body extends Component {
   render() {
     const {actions} = this.props;
-    return <div actions={actions} >Body</div>;
+    return (<div actions={ actions } > Body </div>);        
   }
 }
 
