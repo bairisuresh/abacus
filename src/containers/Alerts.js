@@ -4,11 +4,12 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import Tabs from '../components/AlertTabsComponent';
 
 class Alerts extends Component {
   render() {
     const {actions} = this.props;
-    return <div actions={actions} >Alerts</div>;
+    return <Tabs actions={actions} />;
   }
 }
 

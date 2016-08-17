@@ -8,7 +8,7 @@ class AlertTabsComponent extends React.Component {
   render() {
     return (
       <div className="alerttabs-component">
-        Please edit src/components///AlertTabsComponent.js to update this component!
+        Alerts
       </div>
     );
   }

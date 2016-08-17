@@ -4,11 +4,12 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import Configuration from '../components/ConfigListComponent';
 
 class Settings extends Component {
   render() {
     const {actions} = this.props;
-    return <div actions={actions} >Settings</div>;
+    return <Configuration actions={actions} />;
   }
 }
 
