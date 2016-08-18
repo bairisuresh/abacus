@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Swiper from 'react-id-swiper';
-import HTabContent from '../components/HTabContentComponent';
+import HTabContent from '../components/HtabContentComponent';
 
 require('styles//HomeTabs.scss');
 require('styles//swiper.min.css')
