@@ -65,11 +65,13 @@
   },
   "dependencies": {
     "core-js": "^2.0.0",
+    "jquery": "^3.1.0",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
     "react-bootstrap": "^0.30.2",
     "react-burger-menu": "^1.10.2",
     "react-dom": "^15.0.0",
+    "react-id-swiper": "^1.0.5",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.1",
     "react-router-redux": "^4.0.5",

@@ -1,6 +1,10 @@
 .rrc-app, .app-container  {
-  margin: 0;
-  padding: 0;	
-  width : 100%;
-  height : 100%;
+	margin: 0;
+	padding: 0;	
+	width : 100%;
+	height : 100%;
+	.help-space {
+		height: 10px;
+		background: #fff;
+	}  
 }

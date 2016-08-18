@@ -4,11 +4,13 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import HomeTabs from '../components/HomeTabsComponent';
 
 class Body extends Component {
   render() {
     const {actions} = this.props;
-    return (<div  > Body </div>);        
+    return (
+        <HomeTabs/>);        
   }
 }
 

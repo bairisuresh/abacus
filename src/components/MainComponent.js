@@ -20,6 +20,7 @@ class MainComponent extends React.Component {
 	      	<Header/>
 			<div id="outer-container" >
 				<Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
+				<div className="help-space"></div>
 				<div id ="wrapper-page" >
 					{ childrenWithProps }
 				</div>
