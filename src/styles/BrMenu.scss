@@ -14,16 +14,18 @@
   background: #666;
 }
 .bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+    width: 43px;
+    height: 43px;
+    background: url(../images/main_menu_icon.png) no-repeat center;
+    background-size: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: transparent;
 }
 
 /* Position and sizing of clickable cross button */

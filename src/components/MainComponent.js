@@ -9,13 +9,19 @@ require('styles//Main.scss');
 
 class MainComponent extends React.Component {
   render() {
+  	const {actions} = this.props; 
+  	const childrenWithProps = React.Children.map(this.props.children,(child) => React.cloneElement(child, {
+			actions : actions
+		})
+	);
+
     return (
       	<div className='app-container'>
 	      	<Header/>
 			<div id="outer-container" >
 				<Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
 				<div id ="wrapper-page" >
-					{ this.props.children }
+					{ childrenWithProps }
 				</div>
 			</div>
 	    </div>

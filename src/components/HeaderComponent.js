@@ -1,19 +1,19 @@
 'use strict';
 
 import React from 'react';
-import Headroom from 'react-headroom';
 require('styles//Header.scss');
 
 class HeaderComponent extends React.Component {
   render() {
     return (
-      <div className="header-component">
-          <Headroom className="headroom--pinned">
-                  
-                  <span className="icon header-search-icon"></span>
-                  <span className="icon header-bell-icon"></span>
-          </Headroom>
-      </div>
+        <div className="top-bar">
+          <div className="main-menu"></div>
+          <h1>Regulatory Resource Center</h1>
+          <div className="settings-btn"></div>
+          <div className="notifications-btn">
+            <span>12</span>
+          </div>
+        </div>
     );
   }
 }
