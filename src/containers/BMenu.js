@@ -21,14 +21,35 @@ BMenu.propTypes = {
 };
 
 function mapStateToProps(state) {
-  const props = {};
+  const props = {
+
+    
+  };
   return props;
 }
 
 function mapDispatchToProps(dispatch) {
-  const actions = {};
+  const actions = {
+      routeChanged : function(route){
+        console.log("Route is ",route);
+      }
+    }
   const actionMap = { actions: bindActionCreators(actions, dispatch) };
   return actionMap;
+}
+
+const mapStateToProps = (state) => {
+  return {
+    isOpen: isMenuOpen(state.todos, state.visibilityFilter)
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onTodoClick: (id) => {
+      dispatch(toggleTodo(id))
+    }
+  }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(BMenu);
