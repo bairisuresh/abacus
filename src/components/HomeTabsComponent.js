@@ -35,7 +35,7 @@ class HomeTabsComponent extends React.Component {
         }
     }
     return (
-    	<div>
+    	<div className="home-tabs">
 		     <div className="top-tabs">
 				<div className="swiper-hldr">
 					<div className="swiper-container-outer">

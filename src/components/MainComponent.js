@@ -18,10 +18,10 @@ class MainComponent extends React.Component {
     return (
       	<div className='app-container'>
 	      	<Header/>
-			<div id="outer-container" >
+			<div id="outer-container" className="outer-container" >
 				<Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
 				<div className="help-space"></div>
-				<div id ="wrapper-page" >
+				<div id ="wrapper-page" className="wrapper-page" >
 					{ childrenWithProps }
 				</div>
 			</div>
