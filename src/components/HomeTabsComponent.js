@@ -1,8 +1,8 @@
 'use strict';
 
 import React from 'react';
-import $ from 'jquery';
 import Swiper from 'react-id-swiper';
+import HTabContent from '../components/HTabContentComponent';
 
 require('styles//HomeTabs.scss');
 require('styles//swiper.min.css')
@@ -35,19 +35,22 @@ class HomeTabsComponent extends React.Component {
         }
     }
     return (
-	     <div className="top-tabs">
-			<div className="swiper-hldr">
-				<div className="swiper-container-outer">
-					<Swiper {...params}>
-						<div className="swiper-slide active">Home</div>
-						<div className="swiper-slide">Events</div>
-						<div className="swiper-slide">Experts</div>
-						<div className="swiper-slide">Regulations</div>
-						<div className="swiper-slide">News</div>
-						<div className="swiper-slide">White Papers</div>
-					</Swiper>
+    	<div>
+		     <div className="top-tabs">
+				<div className="swiper-hldr">
+					<div className="swiper-container-outer">
+						<Swiper {...params}>
+							<div className="swiper-slide active">Home</div>
+							<div className="swiper-slide">Events</div>
+							<div className="swiper-slide">Experts</div>
+							<div className="swiper-slide">Regulations</div>
+							<div className="swiper-slide">News</div>
+							<div className="swiper-slide">White Papers</div>
+						</Swiper>
+					</div>
 				</div>
 			</div>
+			<HTabContent/>
 		</div>
     );
   }
