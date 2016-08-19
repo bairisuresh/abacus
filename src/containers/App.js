@@ -10,16 +10,14 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Main from  '../components/MainComponent';
-
+import Main from '../components/MainComponent';
 require('styles//App.scss');
-
 /* Populated by react-webpack-redux:reducer */
 class App extends Component {
   render() {
-    const { actions } = this.props;
+    const {actions, BMReducer} = this.props;
     return (
-      <Main actions = {actions} >
+      <Main actions={actions} BMReducer={BMReducer}>
         {this.props.children}  
       </Main>
     );
@@ -31,16 +29,18 @@ class App extends Component {
  *       adjust it here.
  */
 App.propTypes = {
-  actions: PropTypes.object.isRequired
+  actions: PropTypes.object.isRequired,
+  BMReducer: PropTypes.object.isRequired
 };
 function mapStateToProps(state) {
   /* Populated by react-webpack-redux:reducer */
- const props = {};
+  console.error("state of reducer here is appjs ",state);
+  const props = { BMReducer: state.BMReducer };
   return props;
 }
 function mapDispatchToProps(dispatch) {
   /* Populated by react-webpack-redux:action */
-  const actions = {};
+  const actions = { BrMenu: require('../actions/BrMenu.js') };
   const actionMap = { actions: bindActionCreators(actions, dispatch) };
   return actionMap;
 }

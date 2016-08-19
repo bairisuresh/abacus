@@ -7,8 +7,9 @@ import { connect } from 'react-redux';
 import HeaderRoom from '../components/HeaderComponent'
 class Header extends Component {
   render() {
-    const {actions} = this.props;
-    return <HeaderRoom/>;
+    const {actions,BMReducer} = this.props;
+    console.error("header Props ",[this.props,BMReducer]);
+    return <HeaderRoom headState={BMReducer}/>;
   }
 }
 
@@ -16,7 +17,8 @@ Header.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
-function mapStateToProps(state) {
+function mapStateToProps(state,ownProps) {
+  console.error("state in Headerjs ",[state,ownProps]);
   const props = {};
   return props;
 }
