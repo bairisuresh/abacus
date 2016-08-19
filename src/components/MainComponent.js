@@ -2,23 +2,26 @@
 
 import React from 'react';
 import Menu from '../containers/BMenu';
-import Header from '../containers/Header';
+import HeaderCont from '../containers/Header';
 
 require('styles//Main.scss');
 
 
 class MainComponent extends React.Component {
   render() {
-  	const {actions,BMReducer} = this.props; 
+  	const {actions, BMReducer, Header} = this.props; 
+  	const headertProps = {actions,Header};
+  	console.error('headertProps ',headertProps);
+  	console.error("MainComponent ",{actions,BMReducer, Header});
   	const childrenWithProps = React.Children.map(this.props.children,(child) => React.cloneElement(child, {
 			actions : actions,
-			BMReducer : BMReducer
+			BMReducer : BMReducer,
+			Header :Header
 		})
 	);
-  	const {route} = BMReducer;
     return (
       	<div className='app-container'>
-	      	<Header route={route}/>
+	      	<HeaderCont {...headertProps}/>
 			<div id="outer-container" className="outer-container" >
 				<Menu pageWrapId={ "wrapper-page" } outerContainerId={ "outer-container" }/>
 				<div className="help-space"></div>

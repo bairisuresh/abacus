@@ -8,5 +8,8 @@
  */
 import { combineReducers } from 'redux';
 /* Populated by react-webpack-redux:reducer */
-const reducers = { BMReducer: require('../reducers/BMReducer.js') };
+const reducers = {
+  BMReducer: require('../reducers/BMReducer.js'),
+  Header: require('../reducers/Header.js'),
+};
 module.exports = reducers;
