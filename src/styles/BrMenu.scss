@@ -40,25 +40,126 @@
 }
 
 /* General sidebar styles */
-.bm-menu {
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-}
+
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
   fill: #373a47;
 }
 
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
+
+
+.bm-menu-wrap{
+  width: 85% !important;
+  .bm-menu {
+    background: #f1f5f8;  
+    width: 100%;
+    height: 100%;
+    color: #3380a9;
+    height: calc(100% - 43px);
+    overflow-y: auto;
+
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: inherit; 
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      .menu-search-form {
+        padding: 10px 20px;
+        background: #f1f5f8;
+        border-bottom: 1px solid #c1d9e5;
+      }  
+      ul.slide-menu-links
+      {
+        padding-left: 0;
+        list-style: none;
+        width: 88%;
+
+      }
+      ul.slide-menu-links li a {
+        display: block;
+        padding: 10px 20px;
+        border-bottom: 1px solid #c1d9e5;
+        font-size: 12px;
+        color: #3380a9;
+        cursor: pointer;
+      }
+
+      ul.slide-menu-links li a.lang {
+        background: url(../images/chevron_down.png) no-repeat;
+          background-size: 16px;
+          background-position: 95%;
+      }
+
+      ul.slide-menu-links.menu-logout a {
+        border-bottom: none;
+        padding: 30px 20px;
+        color: #002b5e;
+        background: url(../images/logout_icon.png) no-repeat;
+          background-size: 25px;
+          background-position: 98%;
+      }      
+
+    }    
+  }
 }
+/*Profile details start*/
+.profile-details-wrapper {
+  background: #cdcdcd;
+  .profile-details-hldr {
+    padding: 12px 20px;
+
+    .profile-details {
+      display: flex;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      align-items: center;
+      color: #053c6d;
+      
+      background: url(../images/arrow_right_dark.png) no-repeat;
+        background-size: 10px;
+        background-position: 90%;
+      .profile-pic {
+        width: 50px;
+          height: 50px;
+          background: #e5e5e5;
+          border-radius: 100px;
+        margin-right: 10px;
+      }       
+    }
+  } 
+}
+.profile-pic img {
+  width: 100%;
+}
+.profile-info{ 
+  p{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  span {
+    font-size: 10px;
+  } 
+}
+.menu-search-form {
+  padding: 10px 20px;
+  background: #f1f5f8;
+  border-bottom: 1px solid #c1d9e5;
+  .form-group {
+    margin-bottom: 0;
+    .form-control {
+      text-align: center;
+    }   
+  }
+}
+
+/*Profile details end*/
+
+
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
   z-index: 2 !important;
+  background: rgba(0,0,0,.6) !important;
 }
