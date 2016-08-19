@@ -34,6 +34,7 @@ App.propTypes = {
 };
 function mapStateToProps(state) {
   /* Populated by react-webpack-redux:reducer */
+  console.error("state of reducer here is appjs ",state);
   const props = { BMReducer: state.BMReducer };
   return props;
 }

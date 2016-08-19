@@ -7,7 +7,11 @@
 		height: 10px;
 		background: #fff;
 	} 
-	.outer-container, .wrapper-page{
-		height : 100%;
+	.outer-container{
+		height: calc(100% - 43px);
+		.wrapper-page{
+			height: calc(100% - 10px);
+		}
 	}
+
 }

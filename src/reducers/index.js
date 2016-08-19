@@ -9,4 +9,4 @@
 import { combineReducers } from 'redux';
 /* Populated by react-webpack-redux:reducer */
 const reducers = { BMReducer: require('../reducers/BMReducer.js') };
-module.exports = combineReducers(reducers);
+module.exports = reducers;

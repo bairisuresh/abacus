@@ -17,9 +17,9 @@ class BrMenuComponent extends React.Component {
 		const Menu = MenuObject.slide;
 		return (
 		<Menu isOpen={this.state.isOpen}  actions={actions}  pageWrapId={ actions.pageWrapId } outerContainerId = {actions.outerContainerId} >
-		  <Link to="/"><div onClick={()=>{actions.routeChanged("/");this.setState({isOpen : false});}}>Home</div></Link>
-		  <Link to="/alerts"><div onClick={()=>{actions.routeChanged("/alerts");this.setState({isOpen : false});}}>Alerts</div></Link>
-		  <Link to="/config"><div onClick={()=>{actions.routeChanged("/config");this.setState({isOpen : false});}}>Settings</div></Link>
+		  <Link to="/"><div onClick={()=>{actions.actionRouteChange("/");this.setState({isOpen : false});}}>Home</div></Link>
+		  <Link to="/alerts"><div onClick={()=>{actions.actionRouteChange("/alerts");this.setState({isOpen : false});}}>Alerts</div></Link>
+		  <Link to="/config"><div onClick={()=>{actions.actionRouteChange("/config");this.setState({isOpen : false});}}>Settings</div></Link>
 		</Menu>
 		);
 	}

@@ -18,7 +18,7 @@ const store = createStore(
     routing: routerReducer
   })
 )
-
+console.error("state in indexjs ",store.getState());
 render(
     <Provider store={store}>
   		<Router history={browserHistory}>
