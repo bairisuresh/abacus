@@ -1,8 +1,14 @@
-import {NAVIGATE_SETTINGS, NAVIGATE_ALERTS} from './const';
+import {NAVIGATE_SETTINGS, NAVIGATE_ALERTS, NAVIGATE_HOME} from './const'; 
 
-export function navigateToSettings(data) {
-	  return { type: NAVIGATE_SETTINGS, data };
-	};
-export function navigateToAlerts(data){
-		return { type: NAVIGATE_ALERTS, data };
-	};
+module.exports = {
+	  		navigateToSettings : function(data){
+	  			return { type: NAVIGATE_SETTINGS, data };	
+	  		}, 
+			navigateToAlerts : function(data){
+				return { type: NAVIGATE_ALERTS, data };
+			}, 
+			navigateToHome : function(data){
+				return { type: NAVIGATE_HOME, data };
+			}
+		}
+

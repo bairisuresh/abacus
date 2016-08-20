@@ -15,12 +15,13 @@ require('styles//App.scss');
 /* Populated by react-webpack-redux:reducer */
 class App extends Component {
   render() {
-    const {actions, BMReducer, Header} = this.props;
+    const {actions, BMReducer, HReducer} = this.props;
     const transferProps = {
       actions,
       BMReducer,
-      Header
+      HReducer
     };
+    console.error("actions appjs class ",actions);
     return (
       <Main {...transferProps}>
         {this.props.children}  
@@ -36,14 +37,14 @@ class App extends Component {
 App.propTypes = {
   actions: PropTypes.object.isRequired,
   BMReducer: PropTypes.object.isRequired,
-  Header: PropTypes.object.isRequired
+  HReducer: PropTypes.object.isRequired
 };
 function mapStateToProps(state) {
   /* Populated by react-webpack-redux:reducer */
   console.error('state of reducer here is appjs ', state);
   const props = {
     BMReducer: state.BMReducer,
-    Header: state.Header
+    HReducer: state.HReducer
   };
   return props;
 }
@@ -51,7 +52,7 @@ function mapDispatchToProps(dispatch) {
   /* Populated by react-webpack-redux:action */
   const actions = {
     BrMenu: require('../actions/BrMenu.js'),
-    Header: require('../actions/Header.js'),
+    HeaderActions: require('../actions/Header.js')
   };
   console.error('app actions ', actions);
   const actionMap = { actions: bindActionCreators(actions, dispatch) };

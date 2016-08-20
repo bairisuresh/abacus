@@ -1,6 +1,6 @@
-var reducer = require('../../src/reducers/Header');
+var reducer = require('../../src/reducers/HReducer');
 
-describe('Header', () => {
+describe('HReducer', () => {
 
   it('should not change the passed state', (done) => {
 

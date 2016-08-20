@@ -3,13 +3,14 @@
 import React from 'react';
 import MenuObject from 'react-burger-menu';
 import { Link } from 'react-router';
-require('styles//BrMenu.scss');
+import {ALERTS, HOME} from '../actions/const';
+require('styles/BrMenu.scss');
 
 class BrMenuComponent extends React.Component {
   render() {
     
     const { actions } = this.props;
-    const {actionRouteChange} = actions;
+    const {actionRouteChange, navigateToAlerts, navigateToHome} = actions;
     const Menu = MenuObject.slide;
     console.error("isOpen>>> ",this.props.isOpen)
     return (
@@ -34,7 +35,7 @@ class BrMenuComponent extends React.Component {
 			 </form>
 		</div>
 		<ul className="slide-menu-links marg-b-30">
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/")}}><Link to="/" >Home</Link></li>
+			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/");navigateToHome({state : HOME})}}><Link to="/" >Home</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/events")}}><Link to="/events" >Events</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/experts")}}><Link to="/experts" >Experts</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/regulations")}}><Link to="/regulations" >Regulations</Link></li>
@@ -44,7 +45,7 @@ class BrMenuComponent extends React.Component {
 		</ul>
 		<ul className="slide-menu-links">
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/myprofile")}}><Link to="/myprofile" >My Profile</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/alerts")}} ><Link to="/alerts" ><span>My Alerts</span></Link></li>
+			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/alerts"); navigateToAlerts({state : ALERTS});}} ><Link to="/alerts" ><span>My Alerts</span></Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/englishus")}}><Link to="/englishus" className="lang" >English (US)</Link></li>
 		</ul>
 		

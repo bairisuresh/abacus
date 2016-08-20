@@ -3,8 +3,8 @@
  * If you change the type from object to something else, do not forget to update
  * src/container/App.js accordingly.
  */
-import {NAVIGATE_SETTINGS, NAVIGATE_ALERTS, HOME, SETTINGS, ALERTS} from '../actions/const';
-const initialState = {heading:"Regulatory Resource Center",data:{state:HOME}};
+import {NAVIGATE_SETTINGS, NAVIGATE_ALERTS, NAVIGATE_HOME, HOME, SETTINGS, ALERTS} from '../actions/const';
+const initialState = {heading:"Regulatory Resource CenterResource Center",data:{state:HOME}};
 
 module.exports = function(state = initialState, action) {
   /* Keep the reducer clean - do not mutate the original state. */
@@ -18,7 +18,11 @@ module.exports = function(state = initialState, action) {
     } break;
 
     case NAVIGATE_ALERTS: {
-      return {heading:"ALERTS",data :Object.assign({},action.data,{state:ALERTS})};
+      return {heading:"My Alerts",data :Object.assign({},action.data,{state:ALERTS})};
+    } break;
+
+    case NAVIGATE_HOME: {
+      return {heading:"Regulatory Resource Center",data :Object.assign({},action.data,{state:HOME})};
     } break;
     
     default: {

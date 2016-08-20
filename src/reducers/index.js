@@ -7,9 +7,13 @@
  *          you edit them, they are not updated again.
  */
 import { combineReducers } from 'redux';
+import { routerReducer } from 'react-router-redux';
 /* Populated by react-webpack-redux:reducer */
 const reducers = {
   BMReducer: require('../reducers/BMReducer.js'),
-  Header: require('../reducers/Header.js'),
+  HReducer: require('../reducers/HReducer.js'),
 };
-module.exports = reducers;
+ module.exports = combineReducers({
+    ...reducers,
+    routing: routerReducer
+  });

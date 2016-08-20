@@ -11,12 +11,13 @@ require('styles//BrMenu.scss');
 
 class BMenu extends Component {
   render() {
-    const { actions, BMReducer } = this.props;
+    const { actions, BMReducer, HReducer } = this.props;
     const {isOpen} = BMReducer;
+    const tbmProps = {isOpen,BMReducer,HReducer,actions};
     console.error("Props here is ",this.props);
     //specifying animation type to get component
     return (
-      <BrMenu actions={ actions } isOpen={isOpen}  BMReducer={BMReducer}/>
+      <BrMenu {...tbmProps}/>
     );
   }
 }
@@ -29,7 +30,9 @@ BMenu.propTypes = {
 
 
 function mapDispatchToProps(dispatch,props) {
-  const actions = { actionRouteChange: require('../actions/BrMenu.js') };
+  const actions = Object.assign({},
+    {actionRouteChange: require('../actions/BrMenu.js')},
+    require('../actions/Header.js'))
   const actionMap = {actions:bindActionCreators(actions, dispatch)};
   console.error("mapDispatchToProps actions ",actionMap);
   return actionMap;
@@ -37,7 +40,8 @@ function mapDispatchToProps(dispatch,props) {
 
 const mapStateToProps = (state) => {
   console.error("state of reducer here is bmenujs  ",state);
-  const props = { BMReducer: state.BMReducer };
+  const props = { BMReducer: state.BMReducer,
+                  HReducer  : state.HReducer };
   return props;
 }
 

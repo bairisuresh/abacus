@@ -7,17 +7,11 @@ import App from './containers/App';
 import { createStore, applyMiddleware } from 'redux';
 import { Router, IndexRoute, Route, browserHistory } from 'react-router';
 import reducers from './reducers';
-import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 import Settings from './containers/Settings';
 import Alerts from './containers/Alerts';
 import Body from './containers/Body';
 
-const store = createStore(
-  combineReducers({
-    ...reducers,
-    routing: routerReducer
-  })
-)
+const store = createStore(reducers);
 console.error("state in indexjs ",store.getState());
 render(
     <Provider store={store}>

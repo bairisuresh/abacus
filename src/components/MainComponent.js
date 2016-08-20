@@ -9,14 +9,14 @@ require('styles//Main.scss');
 
 class MainComponent extends React.Component {
   render() {
-  	const {actions, BMReducer, Header} = this.props; 
-  	const headertProps = {actions,Header};
+  	const {actions, BMReducer, HReducer} = this.props; 
+  	const headertProps = {actions,HReducer};
   	console.error('headertProps ',headertProps);
-  	console.error("MainComponent ",{actions,BMReducer, Header});
+  	console.error("MainComponent ",{actions,BMReducer, HReducer});
   	const childrenWithProps = React.Children.map(this.props.children,(child) => React.cloneElement(child, {
 			actions : actions,
 			BMReducer : BMReducer,
-			Header :Header
+			HReducer :HReducer
 		})
 	);
     return (
