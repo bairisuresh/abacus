@@ -1,23 +1,33 @@
-import {FETCH_JSON, RECEIVE_JSON, FAILED_FETCH_JSON} from './const';
+import {FETCH_JSON, RECEIVE_JSON, FAILED_FETCH_JSON, CURRENT_JSON} from './const';
 import fetch from 'isomorphic-fetch'
 require('es6-promise').polyfill();
 
+function requestJson(selection){
+	return {
+		type: FETCH_JSON,
+	}	
+}
 
-function receiveJson(jsonName,data) {
+function receiveJson(selection,data) {
 	return {
 		type: RECEIVE_JSON,
-		jsonName,
 		data,
 		timeStamp : Date.now()
 	}	
 };
 
-function failedToFetchJson(jsonName) {
-	return { type: FAILED_FETCH_JSON, jsonName };
+
+function currentSelection(selection){
+	return { type: CURRENT_JSON, selection };
+}
+
+function failedToFetchJson(selection) {
+	return { type: FAILED_FETCH_JSON, selection };
 };
 
-function shouldFetchPosts(state, jsonName) {
-  const posts = state.postsBySubreddit[jsonName]
+
+function shouldFetchPosts(state, selection) {
+  const posts = state.postsBySubreddit[selection]
   if (!posts) {
     return true
   } else if (posts.isFetching) {
@@ -27,7 +37,7 @@ function shouldFetchPosts(state, jsonName) {
   }
 }
 
-module.exports.fetchPostsIfNeeded = function(jsonName) {
+module.exports.fetchPostsIfNeeded = function(selection) {
 
   // Note that the function also receives getState()
   // which lets you choose what to dispatch next.
@@ -36,9 +46,9 @@ module.exports.fetchPostsIfNeeded = function(jsonName) {
   // a cached value is already available.
 
   return (dispatch, getState) => {
-    if (shouldFetchPosts(getState(), jsonName)) {
+    if (shouldFetchPosts(getState(), selection)) {
       // Dispatch a thunk from thunk!
-      return dispatch(fetchJson(jsonName))
+      return dispatch(fetchJson(selection))
     } else {
       // Let the calling code know there's nothing to wait for.
       return Promise.resolve()
@@ -46,12 +56,13 @@ module.exports.fetchPostsIfNeeded = function(jsonName) {
   }
 }
 
-module.exports.fetchJson = function(jsonName) {
+module.exports.fetchJson = function(selection) {
 	return dispatch => {
 		console.error("fetchJson dispatch");
-		return fetch(`../sources/${jsonName}.json`)
+		dispatch(requestJson(selection));
+		return fetch(`../sources/${selection}.json`)
 			.then((response) => {
-				if(response){
+				if(response.status == 200){
 					return response.json();
 				}else{
 					return "";
@@ -59,9 +70,10 @@ module.exports.fetchJson = function(jsonName) {
 			})
 			.then((json) => {
 				if(json){
-					dispatch(receiveJson(jsonName, json));
+					dispatch(currentSelection(selection));
+					dispatch(receiveJson(selection, json));
 				}else{
-					dispatch(failedToFetchJson(jsonName));		  		
+					dispatch(failedToFetchJson(selection));		  		
 				}
 			});
 	}
