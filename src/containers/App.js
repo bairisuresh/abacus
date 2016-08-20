@@ -21,7 +21,7 @@ class App extends Component {
       BMReducer,
       HReducer
     };
-    console.error("actions appjs class ",actions);
+    console.error('actions appjs class ', actions);
     return (
       <Main {...transferProps}>
         {this.props.children}  
@@ -52,7 +52,8 @@ function mapDispatchToProps(dispatch) {
   /* Populated by react-webpack-redux:action */
   const actions = {
     BrMenu: require('../actions/BrMenu.js'),
-    HeaderActions: require('../actions/Header.js')
+    HeaderActions: require('../actions/Header.js'),
+    FetchJson: require('../actions/FetchJson.js')
   };
   console.error('app actions ', actions);
   const actionMap = { actions: bindActionCreators(actions, dispatch) };

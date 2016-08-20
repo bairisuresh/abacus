@@ -1,1 +1,2721 @@
-{"totalTime":65,"totalHits":52,"documents":[{"fields":{"eventId":[245],"title":["06/02/16 NEW EVENT Test for Approval Alertqq"],"eventDescription":["<div>06/02/16 NEW EVENT Test for Approval Alert</div><div><br></div><div>Just an SQA test to confirm the Approval Alert is sent and the issue within the body of the email is corrected.</div>"],"eventHost":["Derek Cote"],"eventLocation":["JQB, Quincy, MA"],"eventSpeakers":["TBD"],"eventType":["Meeting"],"startDate":["2016-06-22T05:00:00.000-0400"],"endDate":["2016-06-22T06:30:00.000-0400"],"eventUpdatedTimeStamp":["2016-06-24T05:50:14.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;06/02/16 NEW EVENT Test for Approval Alert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just an SQA test to confirm the Approval Alert is sent and the issue within the body of the email is corrected.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[242],"title":["SQA NEW EVENT to test ALERTS 5/27/2016"],"eventDescription":["<div>SQA NEW EVENT to test ALERTS 5/27/2016</div><div><br></div><div>This is to verify if the Approver/Administrator roles receive an email to Verify this new Event.</div>"],"eventHost":["tbd"],"eventLocation":["State Street, JQB, Quincy, MA"],"eventSpeakers":["tbd"],"eventType":["Meeting"],"startDate":["2016-08-15T10:00:00.000-0400"],"endDate":["2016-08-15T11:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-06-08T07:34:54.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA NEW EVENT to test ALERTS 5/27/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is to verify if the Approver/Administrator roles receive an email to Verify this new Event.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[241],"title":["NEW TEST EVENT by SQA 5/27/2016"],"eventDescription":["<div>NEW EVENT TEST created by SQA on 5/27/2016</div><div><br></div><div>This is just a test.</div><div><br></div>"],"eventHost":["tbd"],"eventLocation":["State Street, JAB, Quincy, MA"],"eventSpeakers":["tbd"],"eventType":["Meeting"],"startDate":["2016-07-25T06:00:00.000-0400"],"endDate":["2016-07-25T07:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-27T07:45:02.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;NEW EVENT TEST created by SQA on 5/27/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is just a test.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[238],"title":["Fiduciary Event &gt; SQA Test "],"eventDescription":["<div>SQA test to verify the spell check feature</div><div><br></div><div><br></div>"],"eventHost":["State Street Corp"],"eventLocation":["John Adams Building, Quincy, MA"],"eventSpeakers":["Multiple "],"eventType":["Meeting"],"startDate":["2016-05-17T10:10:00.000-0400"],"endDate":["2016-05-17T10:10:00.000-0400"],"topics_tags":["fiduciary"],"eventUpdatedTimeStamp":["2016-05-27T07:32:20.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA test to verify the spell check feature&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[217],"title":["New Test Event 6/30/2016 &gt; All Day Conference"],"eventDescription":["<div>New Test Event 6/30/2016 &gt; All Day Conference</div><div><br></div><div>More information to come.&nbsp;&nbsp; Save the date if interested in attending.</div><div><br></div><div>Focus will be on Money Market Reform and Risk Analytics</div>"],"eventHost":["tbd"],"eventLocation":["tbd"],"eventSpeakers":["tbd"],"eventType":["Conference"],"startDate":["2016-06-30T05:30:00.000-0400"],"endDate":["2016-06-30T12:30:00.000-0400"],"topics_tags":["money market reform","Risk Analytics"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events","Registrations"],"uri":["NA"],"text":["&lt;div&gt;New Test Event 6/30/2016 &amp;gt; All Day Conference&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;More information to come.&amp;nbsp;&amp;nbsp; Save the date if interested in attending.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Focus will be on Money Market Reform and Risk Analytics&lt;/div&gt;"],"entityId":["217"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[216],"title":["aaa &gt; Edit event for test "],"eventDescription":["<div>aaa &amp;gt; just a test to edit an event.</div>"],"eventHost":["aaa"],"eventLocation":["aa"],"eventSpeakers":["aaa"],"eventType":["Meeting"],"startDate":["2016-08-17T02:00:00.000-0400"],"endDate":["2016-08-17T02:30:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events","Registrations"],"uri":["aaa"],"text":["&lt;div&gt;aaa &amp;amp;gt; just a test to edit an event.&lt;/div&gt;"],"entityId":["216"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[207],"title":["SQA Test Event 3/28/2016"],"eventDescription":["<div>SQA Test Event on 3/28/2016.</div><div><br></div><div>This event is just added to check the Verification Process and if it correctly is reflected in the Content Workflow Statistics report.</div><div><br></div><div>Edit this event to retest the size and alignment of the action buttons.</div>"],"eventHost":["tbd"],"eventLocation":["State Street JAB Quincy, MA"],"eventSpeakers":["n/a"],"eventType":["Meeting"],"startDate":["2016-03-28T10:00:00.000-0400"],"endDate":["2016-03-28T12:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA Test Event on 3/28/2016.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This event is just added to check the Verification Process and if it correctly is reflected in the Content Workflow Statistics report.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Edit this event to retest the size and alignment of the action buttons.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[205],"title":["1234-Z3L5V"],"eventDescription":["<div><b>1234-gDOMHp8GIhxxZxUYqxoffA09DlMlpP9D43OPNAQtBfu9NdzIyKMIMuiM5jjwOXr1i3D5Sek0Q5N9g1wzVeWOcBZKVbUFqvQNYC0TLDZuhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-zw3jO"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-03-07T01:50:00.000-0500"],"endDate":["2016-03-07T01:50:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-gDOMHp8GIhxxZxUYqxoffA09DlMlpP9D43OPNAQtBfu9NdzIyKMIMuiM5jjwOXr1i3D5Sek0Q5N9g1wzVeWOcBZKVbUFqvQNYC0TLDZuhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[222],"title":["Event With Region and Country - 1"],"eventDescription":["<div>Test event for </div>"],"eventHost":["Raja gaddam"],"eventLocation":["Boston"],"eventSpeakers":["Raja"],"eventType":["Meeting"],"startDate":["2016-04-26T07:57:00.000-0400"],"endDate":["2016-05-04T07:57:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Test event for &lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[213],"title":["04/18/2016 SQA Test Event &gt; Meeting"],"eventDescription":["<div>04/18/2016 SQA Test Event &gt; Meeting</div><div><br></div><div>Just testing the Edit of an Event functionality. </div><div><br></div><div>Adding some tags:&nbsp; Innovation</div>"],"eventHost":["TBD"],"eventLocation":["State Street, Quincy, MA"],"eventSpeakers":["TBD"],"eventType":["Meeting"],"startDate":["2016-04-18T09:00:00.000-0400"],"endDate":["2016-04-18T10:30:00.000-0400"],"topics_tags":["Innovation"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;04/18/2016 SQA Test Event &amp;gt; Meeting&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just testing the Edit of an Event functionality. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Adding some tags:&amp;nbsp; Innovation&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[201],"title":["1234-jbK3O"],"eventDescription":["<div><b>1234-qmaHzgH9c3rcfyEr2vWyzJSo63DtWM2opqwdea9ha1zrFBl8ONBuRcGIDGaFNomzbdXZbBn2wPxIkCTGSEOjmIGmUXKI9EEWO9pCMw6nhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-uBbFy"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T03:51:00.000-0500"],"endDate":["2016-02-07T03:51:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-qmaHzgH9c3rcfyEr2vWyzJSo63DtWM2opqwdea9ha1zrFBl8ONBuRcGIDGaFNomzbdXZbBn2wPxIkCTGSEOjmIGmUXKI9EEWO9pCMw6nhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[195],"title":["1234-4KDez"],"eventDescription":["<div><b>1234-PeRrY7oTJ9CUBnWih9VcjKt1rMcknwON2dX1sp4wBPot67qwJQyvFAubJL9l5dHmyY2yz401fzLEv94uxQOG8qiCTWtRqTBxic5if16Nhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-mhQtB"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T11:22:00.000-0500"],"endDate":["2016-02-07T11:22:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-PeRrY7oTJ9CUBnWih9VcjKt1rMcknwON2dX1sp4wBPot67qwJQyvFAubJL9l5dHmyY2yz401fzLEv94uxQOG8qiCTWtRqTBxic5if16Nhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[200],"title":["1234-l6Jgr"],"eventDescription":["<div><b>1234-TviQPj9HCTsNe1KHrmn0LlNEyaQgaXZDgCZwDBGu651PilGcnpodNgZEMlOPC3GN4YIMboeZQ24Ot8wmEO2VKWY9OwSsWZ2dzoUtN3a9https://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-uA5Dg"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T12:07:00.000-0500"],"endDate":["2016-02-07T12:07:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-TviQPj9HCTsNe1KHrmn0LlNEyaQgaXZDgCZwDBGu651PilGcnpodNgZEMlOPC3GN4YIMboeZQ24Ot8wmEO2VKWY9OwSsWZ2dzoUtN3a9https://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[102],"title":["CFA Austin Speakers Conference "],"eventDescription":["CFA Speakers Conference in Austin, Texas"],"eventHost":["N/A"],"eventLocation":["Austin, TX"],"eventSpeakers":["Nidhi Shandilya "],"eventType":["Conference"],"startDate":["2015-09-23T08:00:00.000-0400"],"endDate":["2015-09-23T12:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["CFA Speakers Conference in Austin, Texas"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[100],"title":["WMS Client Council"],"eventDescription":["Wealth Management Services Client Council in Boston, MA"],"eventHost":["N/A"],"eventLocation":["Boston, MA"],"eventSpeakers":["Sean Fullerton"],"eventType":["Conference"],"startDate":["2015-09-23T08:00:00.000-0400"],"endDate":["2015-09-23T12:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["Wealth Management Services Client Council in Boston, MA"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[187],"title":["Test Daily Alert for Event"],"eventDescription":["<div>Sample event for Daily Alert test</div>"],"eventHost":["Raja"],"eventLocation":["Boston"],"eventSpeakers":["Raja"],"eventType":["Meeting"],"startDate":["2016-02-02T06:38:00.000-0500"],"endDate":["2016-03-09T06:38:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Sample event for Daily Alert test&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[188],"title":["sdfsd"],"eventDescription":["<div>sdsgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggsdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdf</div>"],"eventHost":["sfd"],"eventLocation":["sfdsd"],"eventSpeakers":["sdf"],"eventType":["Meeting"],"startDate":["2016-02-02T06:38:00.000-0500"],"endDate":["2016-02-02T06:38:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[189],"title":["Sample event "],"eventDescription":["<div>Sample event </div>"],"eventHost":["Raja Gaddam"],"eventLocation":["Quincy"],"eventSpeakers":["Raja"],"eventType":["Meeting"],"startDate":["2016-02-02T12:09:00.000-0500"],"endDate":["2016-02-25T12:09:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Sample event &lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[172],"title":["Modifying event for Approch Alerts"],"eventDescription":["<div>Sample URL</div><div><br></div><div>Made update to Start/End dates</div>"],"eventHost":["Raja Gaddam"],"eventLocation":["Boston"],"eventSpeakers":["Raja"],"eventType":["Meeting"],"startDate":["2016-08-16T14:50:00.000-0400"],"endDate":["2016-08-16T17:50:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Sample URL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Made update to Start/End dates&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[196],"title":["1234-G7vXC"],"eventDescription":["<div><b>1234-bvgOjpMhZXbpcuv3Q4VJx3zsbbmKWQUG9wMdJdtrPgV4X1d1clPFIcQEzegiccvidGpQQruMOF2rhEEj7uILap87OjOF7koNUM1sMwlUhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-iQfJQ"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T11:28:00.000-0500"],"endDate":["2016-02-07T11:28:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-bvgOjpMhZXbpcuv3Q4VJx3zsbbmKWQUG9wMdJdtrPgV4X1d1clPFIcQEzegiccvidGpQQruMOF2rhEEj7uILap87OjOF7koNUM1sMwlUhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[202],"title":["2016 Mutual Funds and Investment Management Conference"],"eventDescription":["<div><b>REGISTRATION FEES</b></div><div>ICI members/FBA members: $1,550</div><div>Nonmembers: $2,100</div><div>Directors: $680</div><div>Government employees: $680</div><div><br></div><div><b>CONFERENCE HIGHLIGHTS</b></div><ul><li>Learn from SEC staff and industry experts about recent and upcoming regulatory efforts affecting funds</li><li>Listen to industry experts discuss what today�s regulatory environment, market trends, and evolving business practices mean for the fund industry of tomorrow</li><li>Learn from senior officials about the SEC�s enforcement and compliance programs</li><li>Hear from industry experts and SEC staff as they assess the �alert� level of current industry topics</li><li>Gather valuable information at the conference�s wide-ranging panel sessions, covering such topics as:</li><li>\tDerivatives regulation</li></ul><ul><li>\tTax and accounting developments</li><li>\tDOL fiduciary rule</li><li>\tEU regulatory process</li><li>\tCybersecurity</li><li>\tEquity market structure</li><li>\tLiquidity risk management</li><li>\tIssues facing fund boards</li><li>\tFunds� interaction with portfolio companies</li><li>\tTrends in fund litigation</li><li>\tOversight of service providers</li><li>\tThe SEC�s use of data for compliance and enforcement purposes</li><li>Network with your peers and exchange ideas about current industry issues and developments</li><li>Earn ethics CLE credit</li></ul>"],"eventHost":["Investment Company Institute (\"ICI\")"],"eventLocation":["JW Marriott Grande Lakes in Orlando, Florida."],"eventSpeakers":["SEC Staff and Industry Experts"],"eventType":["Conference"],"startDate":["2016-03-13T03:00:00.000-0400"],"endDate":["2016-03-16T12:00:00.000-0400"],"topics_tags":["Derivatives","fiduciary","cybersecurity","Liquidity Risk"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["https://www.ici.org/events/upcoming/conf_16_mfimc?WT.mc_id=mconf_feb16"],"text":["&lt;div&gt;&lt;b&gt;REGISTRATION FEES&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ICI members/FBA members: $1,550&lt;/div&gt;&lt;div&gt;Nonmembers: $2,100&lt;/div&gt;&lt;div&gt;Directors: $680&lt;/div&gt;&lt;div&gt;Government employees: $680&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;CONFERENCE HIGHLIGHTS&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Learn from SEC staff and industry experts about recent and upcoming regulatory efforts affecting funds&lt;/li&gt;&lt;li&gt;Listen to industry experts discuss what today�s regulatory environment, market trends, and evolving business practices mean for the fund industry of tomorrow&lt;/li&gt;&lt;li&gt;Learn ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[128],"title":["Street Talks Webinar Series: Liquidity - SEC Guidance and Impact on '40 Act Funds - Recap "],"eventDescription":["Street Talks Webinar Series: Liquidity - SEC Guidance and Impact on '40 Act Funds - Recap"],"eventHost":["Jane Kirkland"],"eventLocation":["Boston, MA"],"eventSpeakers":["Roderick Fisher; Megan Green"],"eventType":["Webinar"],"startDate":["2015-08-11T20:00:00.000-0400"],"endDate":["2015-08-11T20:00:00.000-0400"],"topics_tags":["40 Act"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["http://event.on24.com/eventRegistration/EventLobbyServlet?target=lobby.jsp&eventid=1030027&sessionid=1&key=BDF43EF2CFBE81BC2FB3B9BBB45600D8&eventuserid=124005182 "],"text":["Street Talks Webinar Series: Liquidity - SEC Guidance and Impact on '40 Act Funds - Recap"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[183],"title":["Sample event for IPad test on 1/25/16"],"eventDescription":["<div>Sample event for iPad testing, DO NOT DELETE</div><div><br></div><div><span style=\"color: rgb(0, 138, 0);\"><span style=\"background-color: rgb(230, 0, 0);\">sample text to color change and font</span></span></div><ul><li>Sample test </li><li>Step 2</li></ul>"],"eventHost":["Raja Gaddam"],"eventLocation":["Bostongg"],"eventSpeakers":["Raja"],"eventType":["Webinar"],"startDate":["2016-01-25T09:22:00.000-0500"],"endDate":["2016-02-27T09:22:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Sample event for iPad testing, DO NOT DELETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 138, 0);&quot;&gt;&lt;span style=&quot;background-color: rgb(230, 0, 0);&quot;&gt;sample text to color change and font&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Sample test &lt;/li&gt;&lt;li&gt;Step 2&lt;/li&gt;&lt;/ul&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[199],"title":["1234-S1rs3"],"eventDescription":["<div><b>1234-M2sWPq0R07Ts9ihWl9pEkVK9sjSRHOok0Dzm6eW1CX6Qwlrap5eS6ZwrHYBHIikmTJBHS4ZgmxbxZ2Mg2RCLLGoagiPiNqutNU7XUTsuhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-zdUle"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T11:59:00.000-0500"],"endDate":["2016-02-07T11:59:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-M2sWPq0R07Ts9ihWl9pEkVK9sjSRHOok0Dzm6eW1CX6Qwlrap5eS6ZwrHYBHIikmTJBHS4ZgmxbxZ2Mg2RCLLGoagiPiNqutNU7XUTsuhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[198],"title":["1234-LFBAT"],"eventDescription":["<div><b>1234-g1lrzxoIvAOV2TiLxUKYJ00DlmgWUh6PJpgOf1EvpGt3orkA9BEzaL9qO6DmqBWoE8mMNDGGqpJcH7p3cPXtMIO8pZdizreYSezpeHWHhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-AZFR9"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T11:48:00.000-0500"],"endDate":["2016-02-07T11:48:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-g1lrzxoIvAOV2TiLxUKYJ00DlmgWUh6PJpgOf1EvpGt3orkA9BEzaL9qO6DmqBWoE8mMNDGGqpJcH7p3cPXtMIO8pZdizreYSezpeHWHhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[197],"title":["1234-Uka4O"],"eventDescription":["<div><b>1234-1vBHZNBmYOp5KP3X1PFgmj9ZqjsN4iemhBk3TfZTizSGMMDWSabGSvSMmwcQwWrPLcYjGadVZV7WAEnMQF54gJEVRIRycjxwhd4KYtrRhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-homRp"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T11:33:00.000-0500"],"endDate":["2016-02-07T11:33:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-1vBHZNBmYOp5KP3X1PFgmj9ZqjsN4iemhBk3TfZTizSGMMDWSabGSvSMmwcQwWrPLcYjGadVZV7WAEnMQF54gJEVRIRycjxwhd4KYtrRhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[192],"title":["1234-A2N77"],"eventDescription":["<div><b>1234-eWlgmQRJPYsZTITWuJvqcMi1jFPN1rTDNGoH3wic7VWYq7PVFP0QVs52yTtRaeRyeYloum27Btsr0tLlY4ilBdRwKvjjdAb3dyTBWCBshttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-0ttvA"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T09:06:00.000-0500"],"endDate":["2016-02-07T09:06:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-eWlgmQRJPYsZTITWuJvqcMi1jFPN1rTDNGoH3wic7VWYq7PVFP0QVs52yTtRaeRyeYloum27Btsr0tLlY4ilBdRwKvjjdAb3dyTBWCBshttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[193],"title":["1234-2bhJK"],"eventDescription":["<div><b>1234-FBF2ZAQ7HpumHvyYpIDRksec5p3gxoNggBdZP8jkibDp4AzT52OjVjw7PPdKGKLsOngfsIirytJiZYiF0klFKEv7egk94JNJBkNQutBxhttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-UtqeT"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T09:11:00.000-0500"],"endDate":["2016-02-07T09:11:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-FBF2ZAQ7HpumHvyYpIDRksec5p3gxoNggBdZP8jkibDp4AzT52OjVjw7PPdKGKLsOngfsIirytJiZYiF0klFKEv7egk94JNJBkNQutBxhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[194],"title":["1234-pnjNR"],"eventDescription":["<div><b>1234-fnwzbbnqB3frRxF7U2rt7TWCzWszWk1l7SigAARFVN3OdOMz0JMmH8eHvwSpTYEqc4t9pyIulWIu0lyUk2InIPN9NLVeRDV7kNJjvNjChttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-OrvCs"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-02-07T09:21:00.000-0500"],"endDate":["2016-02-07T09:21:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-fnwzbbnqB3frRxF7U2rt7TWCzWszWk1l7SigAARFVN3OdOMz0JMmH8eHvwSpTYEqc4t9pyIulWIu0lyUk2InIPN9NLVeRDV7kNJjvNjChttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[76],"title":["2015 Fund Directors Conference"],"eventDescription":["Summary:\nGiven the rapidly changing environment for funds�from new regulatory requirements to an evolving marketplace�it�s more important than ever for independent fund directors to stay on top of current issues. IDC�s 2015 Fund Directors Conference will help you gain insights into the implications of the wide-ranging changes facing funds and their boards. The event will provide the latest information while offering you opportunities to meet other directors, network, and discuss issues and governance practices.\nCONFERENCE TOPICS\n�\tFund directors� core responsibilities�a special session for newer directors as well as those interested in a refresher on directors� fundamental responsibilities*\n�\tCybersecurity: preparing for and responding to a breach\n�\tPractices for mitigating litigation risk\n�\tLeadership perspectives on the evolving fund industry\n�\tUpdate on SEC activities: enforcement, examinations, and regulatory initiatives"],"eventHost":["Independent Directors Council (IDC)"],"eventLocation":["Chicago, IL"],"eventSpeakers":["James Poterba"],"eventType":["Conference"],"startDate":["2015-10-26T06:30:00.000-0400"],"endDate":["2015-10-28T10:30:00.000-0400"],"topics_tags":["cybersecurity"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["Summary:\nGiven the rapidly changing environment for funds�from new regulatory requirements to an evolving marketplace�it�s more important than ever for independent fund directors to stay on top of current issues. IDC�s 2015 Fund Directors Conference will help you gain insights into the implications of the wide-ranging changes facing funds and their boards. The event will provide the latest information while offering you opportunities to meet other directors, network, and discuss issues and governance ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[77],"title":["Money Market Reform Training Session"],"eventDescription":["Summary:\nState Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements.\nMany clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.\nThere has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally � accordingly they think this is an issue that each fund/board should address on its own."],"eventHost":["Jack Carnes"],"eventLocation":["N/A"],"eventSpeakers":["James Brewster; Lynne Winchester; Sheila McClorey"],"eventType":["Training"],"startDate":["2015-03-26T08:00:00.000-0400"],"endDate":["2015-03-26T09:00:00.000-0400"],"topics_tags":["money market reform","NAV"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["Summary:\nState Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements.\nMany clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.\nThere has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally � accordingly ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[78],"title":["2015 Annual Chief Compliance Officer Due Diligence Forum"],"eventDescription":["Summary:\nAgenda at a Glance\n. New Regulations Impacting Mutual Funds\n. Keynote speaker, Norm Champ Former SEC Director, Division of Investment Management\n. State Street�s Control Environment: A Day in the Life\n.Top 10 Issues Impacting the Compliance World\n. Post-Event Networking Reception\nHotel Accommodations\nWe�re pleased to offer a limited number of guest rooms at the Mandarin Oriental Hotel at a special group rate of $385 per night.*\nCall the Mandarin Hotel directly at +1 617 535 8880 and reference the Chief Compliance Officer Forum room block to book your room. Any reservations made after September 26th are subject to room and rate availability.\n*This rate is after a partial subsidy by State Street. For more information on the amount subsidized by State Street please contact Kaitlin Mulryan at KSMulryan@StateStreet.com"],"eventHost":["State Street Corporation"],"eventLocation":["Mandarin Oriental Hotel, Boston, MA"],"eventSpeakers":["Norm Champ; Derek Cote"],"eventType":["Conference"],"startDate":["2015-10-21T04:30:00.000-0400"],"endDate":["2015-10-21T15:00:00.000-0400"],"topics_tags":["Chief Compliance Officer"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["Summary:\nAgenda at a Glance\n. New Regulations Impacting Mutual Funds\n. Keynote speaker, Norm Champ Former SEC Director, Division of Investment Management\n. State Street�s Control Environment: A Day in the Life\n.Top 10 Issues Impacting the Compliance World\n. Post-Event Networking Reception\nHotel Accommodations\nWe�re pleased to offer a limited number of guest rooms at the Mandarin Oriental Hotel at a special group rate of $385 per night.*\nCall the Mandarin Hotel directly at +1 617 535 8880 and reference ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[103],"title":["Financial Planning Association of New York "],"eventDescription":["?Financial Planning Association conference in New York, New York.\n"],"eventHost":["N/A"],"eventLocation":["New York, NY"],"eventSpeakers":["Mirtha Kastrapeli "],"eventType":["Conference"],"startDate":["2015-09-26T04:00:00.000-0400"],"endDate":["2015-09-26T12:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["?Financial Planning Association conference in New York, New York."],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[104],"title":["Institutional Investor HR Forum"],"eventDescription":["?Institutional Invester HR Forum in Boston, MA"],"eventHost":["Suzanne Duncan"],"eventLocation":["Boston, MA"],"eventSpeakers":["N/A"],"eventType":["Conference"],"startDate":["2015-10-19T05:00:00.000-0400"],"endDate":["2015-10-19T12:00:00.000-0400"],"topics_tags":["Institutional Investor"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["?Institutional Invester HR Forum in Boston, MA"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[184],"title":["NACHA Payments 2016 Conference"],"eventDescription":["<div>A unique conference experience that encapsulates the players and thought-leadership that are setting the agenda for the future, and propels industry dialogue forward to ensure the continued strength and integrity of the ACH Network and the U.S. payments ecosystem, and their responsiveness to the customer. </div><div><br></div><div>other tags: shortened settlement; faster payment</div>"],"eventHost":["NACHA - The Electronic Payments Association"],"eventLocation":["Phoenix, AZ"],"eventSpeakers":["No State Street speakers"],"eventType":["Conference"],"startDate":["2016-04-17T09:00:00.000-0400"],"endDate":["2016-04-20T08:00:00.000-0400"],"topics_tags":["ACH","shortened settlement"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["https://www.nacha.org/events/payments-2016"],"text":["&lt;div&gt;A unique conference experience that encapsulates the players and thought-leadership that are setting the agenda for the future, and propels industry dialogue forward to ensure the continued strength and integrity of the ACH Network and the U.S. payments ecosystem, and their responsiveness to the customer. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;other tags: shortened settlement; faster payment&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[99],"title":["Money Market Reform Training"],"eventDescription":["State Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements. Many clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.There has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally accordingly they think this is an issue that each fund/board should address on its own.Valuation guidance is not limited to money funds, but applies to all funds. Essentially, a fund may continue to use amortized cost to value a debt security with a remaining maturity less than 60 days, so long as its board determines each time that amortized cost approximates the true value of such security. This implies that an analysis must be performed that confirms that the amortized cost is approximately the same as the market value."],"eventHost":["Jack Carnes"],"eventLocation":["State Street Corporation"],"eventSpeakers":["James Brewster, Lynne Winchester, Sheila McClorey"],"eventType":["Training"],"startDate":["2015-06-16T08:00:00.000-0400"],"endDate":["2015-06-16T09:00:00.000-0400"],"topics_tags":["money market reform","NAV","Market Value"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["State Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements. Many clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.There has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally accordingly they think ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[185],"title":["T+2 Symposium"],"eventDescription":["<div><br></div><div><span style='color: rgb(51, 51, 51); font-family: \"Helvetica\",\"sans-serif\"; font-size: 10.5pt;'>&nbsp;</span><span style='font-family: \"Arial\",\"sans-serif\"; font-size: 10pt;'>The industry is planning to shorten the settlement cycle to trade date plus two business days, or T+2, in the U.S. by the end of Q3 2017. The instruments subject to the shortened settlement cycle include equities, corporate and municipal bonds, unit investment trusts, and financial instruments comprised of these products.&nbsp; </span></div><div><br></div><div><span style='font-family: \"Arial\",\"sans-serif\"; font-size: 10pt;'>&nbsp;Discuss how firms can get ready for the move to T+2, including implementation timeline, milestones and dependencies, regulatory and rule changes for Legal, Compliance, Risk, Technology and Operations teams, vendor and service provider preparedness, and the framework for internal and industry-wide testing.</span></div><div><br></div><div><br></div>"],"eventHost":["Securities Industry and Financial Markets Association (SIFMA) "],"eventLocation":["boston, ma"],"eventSpeakers":["No State Street speakers"],"eventType":["Conference"],"startDate":["2016-02-23T02:30:00.000-0500"],"endDate":["2016-02-23T08:30:00.000-0500"],"topics_tags":["T+2","shortened settlement"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["http://www.sifma.org/t2symposium2016/"],"text":["&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style='color: rgb(51, 51, 51); font-family: &quot;Helvetica&quot;,&quot;sans-serif&quot;; font-size: 10.5pt;'&gt;&amp;nbsp;&lt;/span&gt;&lt;span style='font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10pt;'&gt;The industry is planning to shorten the settlement cycle to trade date plus two business days, or T+2, in the U.S. by the end of Q3 2017. The instruments subject to the shortened settlement cycle include equities, corporate and municipal bonds, unit investment trusts, and financial instruments comprised of ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[190],"title":["ee"],"eventDescription":["<div>ee</div>"],"eventHost":["eee"],"eventLocation":["eee"],"eventSpeakers":["ee"],"eventType":["Conference"],"startDate":["2016-02-04T03:06:00.000-0500"],"endDate":["2016-02-04T03:06:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["eee"],"text":["&lt;div&gt;ee&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[191],"title":["TestEvent"],"eventDescription":["<div>this is the test event.</div>"],"eventHost":["Pujan"],"eventLocation":["TBD"],"eventSpeakers":["Pujan"],"eventType":["Meeting"],"startDate":["2016-02-18T06:33:00.000-0500"],"endDate":["2016-02-19T06:33:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["www.google.com"],"text":["&lt;div&gt;this is the test event.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[215],"title":["sefsd"],"eventDescription":["<div>sdfs</div>"],"eventHost":["sdf"],"eventLocation":["fssdf"],"eventSpeakers":["sfd"],"eventType":["Meeting"],"startDate":["2016-03-29T13:44:00.000-0400"],"endDate":["2016-03-29T13:44:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;sdfs&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[211],"title":["Test Event for Approcah"],"eventDescription":["<div>Sample event for to validate Approaching events alerts</div>"],"eventHost":["Raja Gaddam"],"eventLocation":["Quincy MA"],"eventSpeakers":["Raja"],"eventType":["Training"],"startDate":["2016-03-15T12:12:00.000-0400"],"endDate":["2016-03-23T12:12:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Sample event for to validate Approaching events alerts&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[212],"title":["SQA Test Event 3/25/16 - Test Alerts "],"eventDescription":["<div>SQA Test Event 3/25/16 - this event is just setup to test the Alerts in RRC</div><div><br></div><div>Register for Event Functionality and Alerts</div>"],"eventHost":["tbd"],"eventLocation":["State Street - JQB"],"eventSpeakers":["n/a"],"eventType":["Meeting"],"startDate":["2016-03-25T05:00:00.000-0400"],"endDate":["2016-03-25T06:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA Test Event 3/25/16 - this event is just setup to test the Alerts in RRC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Register for Event Functionality and Alerts&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[210],"title":["SQA Event - Add Conference for 5/9/2016"],"eventDescription":["<div>SQA Event - Add Conference for 5/9/2016</div><div><br></div><div>One day conference from 9:00 AM through 4:00 PM at the Channel Center in Boston</div><div><br></div><div>Conference will cover AML.</div><div><br></div><div>This is just a test.</div>"],"eventHost":["tbd"],"eventLocation":["State Street - Channel Center, Boston"],"eventSpeakers":["tbd"],"eventType":["Conference"],"startDate":["2016-05-09T05:00:00.000-0400"],"endDate":["2016-05-09T12:00:00.000-0400"],"topics_tags":["AML"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA Event - Add Conference for 5/9/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;One day conference from 9:00 AM through 4:00 PM at the Channel Center in Boston&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Conference will cover AML.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is just a test.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[203],"title":["1234-R3K0O"],"eventDescription":["<div><b>1234-IRvNGJGrr9yIErOMqeIqtdjogqSH4frSpRfWjrTqa1S3cjRFJHP9qJTCiJZqZ8xlROtVmZD9usqCvqm6Io8xArDP8MNLCEAbEIlx06sThttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["utuiyju"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-03-02T00:16:00.000-0500"],"endDate":["2016-03-02T00:16:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-IRvNGJGrr9yIErOMqeIqtdjogqSH4frSpRfWjrTqa1S3cjRFJHP9qJTCiJZqZ8xlROtVmZD9usqCvqm6Io8xArDP8MNLCEAbEIlx06sThttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[204],"title":["1234-dtLVI"],"eventDescription":["<div><b>7Tpyq0Vphomp3LGK0M3gJ3RA0shttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["ghghf"],"eventSpeakers":["StrSpeaker"],"eventType":["Meeting"],"startDate":["2016-03-02T01:32:00.000-0500"],"endDate":["2016-03-07T01:32:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;7Tpyq0Vphomp3LGK0M3gJ3RA0shttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[209],"title":["SQA Event - Add Training Test"],"eventDescription":["<div>SQA Event - Add Training Test - now modify by another user</div><div><br></div><div>Just verifying how the Event is displayed in landing page to verify if the Date Updated vs Start Date of event is being used.&nbsp; This may already be fixed.&nbsp;&nbsp; Won't be able to fully verify this until the next day is this item needs to be ingested into Attivio.&nbsp;&nbsp; Also, need to check if text is wrapping correctly in Event Details as this was an issue with a few events added by automation team previously.</div><div><br></div><ul><li><span style=\"color: rgb(0, 71, 178);\">Change Text Color is working</span></li><li><span style=\"color: rgb(230, 0, 0);\">So are bullets</span></li><li><span style=\"color: rgb(0, 138, 0);\"><b>Bold, <i>Italic, <s>Strikeout</s>, </i></b><u>and underline are still functioning</u></span></li></ul><div><br></div><ol><li><span style=\"color: rgb(0, 102, 204);\">Number list</span></li><li><span style=\"background-color: rgb(255, 255, 0);\">Highlight text is also working</span></li></ol><div><br></div><div>Second Content Approver modifies this event to verify how the Content Workflow Statistics report reflects this modified request and approval done by different users.</div><div><br></div>"],"eventHost":["tbd"],"eventLocation":["State Street - Crown Colony"],"eventSpeakers":["n/a"],"eventType":["Training"],"startDate":["2016-05-16T10:00:00.000-0400"],"endDate":["2016-05-16T13:00:00.000-0400"],"topics_tags":["automation"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA Event - Add Training Test - now modify by another user&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just verifying how the Event is displayed in landing page to verify if the Date Updated vs Start Date of event is being used.&amp;nbsp; This may already be fixed.&amp;nbsp;&amp;nbsp; Won't be able to fully verify this until the next day is this item needs to be ingested into Attivio.&amp;nbsp;&amp;nbsp; Also, need to check if text is wrapping correctly in Event Details as this was an issue with a few events added by automation team ... "],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[206],"title":["1234-K4Omu"],"eventDescription":["<div><b>1234-nGkBIvbfSsdoPQCFp78JhraHOOTNNmJ6DMEWY2ZARkzw3u7OyojOPTBEtsT3OyCHTgUcnPQxhJ171NMvQepAd3rSmaDGi6YuR2MWJ5CShttps://myssc-uat2.statestreet.com</b></div>"],"eventHost":["TBD"],"eventLocation":["1234-7YteY"],"eventSpeakers":["StrSpeakerNA"],"eventType":["Meeting"],"startDate":["2016-03-07T02:18:00.000-0500"],"endDate":["2016-03-07T02:18:00.000-0500"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;&lt;b&gt;1234-nGkBIvbfSsdoPQCFp78JhraHOOTNNmJ6DMEWY2ZARkzw3u7OyojOPTBEtsT3OyCHTgUcnPQxhJ171NMvQepAd3rSmaDGi6YuR2MWJ5CShttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[208],"title":["SQA Event Test 2 03/29/2016"],"eventDescription":["<div>SQA Event Test 2 03/29/2016</div><div><br></div><div>Additional SQA test to verify the creation/approval of Events and how they are captured in the Content Workflow Statistics Report.</div>"],"eventHost":["tbd"],"eventLocation":["State Street JQB Quincy, MA"],"eventSpeakers":["tbd"],"eventType":["Training"],"startDate":["2016-03-29T06:30:00.000-0400"],"endDate":["2016-03-29T08:00:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;SQA Event Test 2 03/29/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional SQA test to verify the creation/approval of Events and how they are captured in the Content Workflow Statistics Report.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[214],"title":["3/27/2016 SQA 5 Day Alert Event Test"],"eventDescription":["<div>3/27/2016 SQA 5 Day Alert Event Test</div><div><br></div><div>Just trying to test the Approaching 5 Day alert for events.</div>"],"eventHost":["TBD"],"eventLocation":["State Street, Crown Colony Office"],"eventSpeakers":["NA"],"eventType":["Training"],"startDate":["2016-03-27T10:00:00.000-0400"],"endDate":["2016-03-27T12:30:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;3/27/2016 SQA 5 Day Alert Event Test&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just trying to test the Approaching 5 Day alert for events.&lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[220],"title":["TEST 100"],"eventDescription":["<div>aaaaa</div>"],"eventHost":["Axay"],"eventLocation":["loca"],"eventSpeakers":["Axay"],"eventType":["Meeting"],"startDate":["2016-04-22T13:50:00.000-0400"],"endDate":["2016-04-22T13:50:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-03T02:54:48.000-0400"],"feed":["Events"],"uri":["aaa"],"text":["&lt;div&gt;aaaaa&lt;/div&gt;"],"country":["US"],"region":["APAC"]}},{"fields":{"eventId":[224],"title":["New Event of RRC for Region USA"],"eventDescription":["<div>Test Event for Region USA </div>"],"eventHost":["Raja Gaddam"],"eventLocation":["Boston"],"eventSpeakers":["Raja"],"eventType":["Meeting"],"startDate":["2016-05-02T12:51:00.000-0400"],"endDate":["2016-05-19T12:51:00.000-0400"],"eventUpdatedTimeStamp":["2016-05-02T19:12:21.000-0400"],"feed":["Events"],"uri":["NA"],"text":["&lt;div&gt;Test Event for Region USA &lt;/div&gt;"],"country":["US"],"region":["AMER"]}},{"fields":{"eventId":[221],"title":["Event for region verification"],"eventDescription":["<div>Capital market, fiduciary, IMS, NAV, Trade</div>"],"eventHost":["ver"],"eventLocation":["ver"],"eventSpeakers":["ver"],"eventType":["Meeting"],"startDate":["2016-04-26T06:21:00.000-0400"],"endDate":["2016-04-26T06:21:00.000-0400"],"topics_tags":["fiduciary","NAV"],"eventUpdatedTimeStamp":["2016-04-26T06:36:36.000-0400"],"feed":["Events"],"uri":["ver"],"text":["&lt;div&gt;Capital market, fiduciary, IMS, NAV, Trade&lt;/div&gt;"],"country":["US"],"region":["AMER"]}}],"facets":[{"label":"Topics/Tags","buckets":[{"label":"fiduciary","filter":"topics_tags:PHRASE(TERM(fiduciary, TOKENIZED), facet=true, filter=true)","count":3},{"label":"money market reform","filter":"topics_tags:PHRASE(TERM(\"money market reform\", TOKENIZED), facet=true, filter=true)","count":3},{"label":"NAV","filter":"topics_tags:PHRASE(TERM(NAV, TOKENIZED), facet=true, filter=true)","count":3},{"label":"cybersecurity","filter":"topics_tags:PHRASE(TERM(cybersecurity, TOKENIZED), facet=true, filter=true)","count":2},{"label":"shortened settlement","filter":"topics_tags:PHRASE(TERM(\"shortened settlement\", TOKENIZED), facet=true, filter=true)","count":2},{"label":"40 Act","filter":"topics_tags:PHRASE(TERM(\"40 Act\", TOKENIZED), facet=true, filter=true)","count":1},{"label":"ACH","filter":"topics_tags:PHRASE(TERM(ACH, TOKENIZED), facet=true, filter=true)","count":1},{"label":"AML","filter":"topics_tags:PHRASE(TERM(AML, TOKENIZED), facet=true, filter=true)","count":1},{"label":"automation","filter":"topics_tags:PHRASE(TERM(automation, TOKENIZED), facet=true, filter=true)","count":1},{"label":"Chief Compliance Officer","filter":"topics_tags:PHRASE(TERM(\"Chief Compliance Officer\", TOKENIZED), facet=true, filter=true)","count":1}]},{"label":"Organization","buckets":[{"label":"SSC","filter":"organization:PHRASE(TERM(SSC, TOKENIZED), facet=true, filter=true)","count":52}]},{"label":"Region","buckets":[{"label":"AMER","filter":"region:PHRASE(TERM(AMER, TOKENIZED), facet=true, filter=true)","count":51},{"label":"APAC","filter":"region:PHRASE(TERM(APAC, TOKENIZED), facet=true, filter=true)","count":1}]},{"label":"Country","buckets":[{"label":"US","filter":"country:PHRASE(TERM(US, TOKENIZED), facet=true, filter=true)","count":52}]},{"label":"Document Type"}],"feedback":[{"messageName":"abc.searchProfile","stageName":"applyBusinessCenter","message":"rrcuser_premium"},{"messageName":"abc.campaign","stageName":"applyBusinessCenter","message":"default"}]}
+{
+    "totalTime": 65,
+    "totalHits": 52,
+    "documents": [
+        {
+            "fields": {
+                "eventId": [
+                    245
+                ],
+                "title": [
+                    "06/02/16 NEW EVENT Test for Approval Alertqq"
+                ],
+                "eventDescription": [
+                    "<div>06/02/16 NEW EVENT Test for Approval Alert</div><div><br></div><div>Just an SQA test to confirm the Approval Alert is sent and the issue within the body of the email is corrected.</div>"
+                ],
+                "eventHost": [
+                    "Derek Cote"
+                ],
+                "eventLocation": [
+                    "JQB, Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "TBD"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-06-22T05:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-06-22T06:30:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-06-24T05:50:14.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;06/02/16 NEW EVENT Test for Approval Alert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just an SQA test to confirm the Approval Alert is sent and the issue within the body of the email is corrected.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    242
+                ],
+                "title": [
+                    "SQA NEW EVENT to test ALERTS 5/27/2016"
+                ],
+                "eventDescription": [
+                    "<div>SQA NEW EVENT to test ALERTS 5/27/2016</div><div><br></div><div>This is to verify if the Approver/Administrator roles receive an email to Verify this new Event.</div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street, JQB, Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "tbd"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-08-15T10:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-08-15T11:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-06-08T07:34:54.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA NEW EVENT to test ALERTS 5/27/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is to verify if the Approver/Administrator roles receive an email to Verify this new Event.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    241
+                ],
+                "title": [
+                    "NEW TEST EVENT by SQA 5/27/2016"
+                ],
+                "eventDescription": [
+                    "<div>NEW EVENT TEST created by SQA on 5/27/2016</div><div><br></div><div>This is just a test.</div><div><br></div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street, JAB, Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "tbd"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-07-25T06:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-07-25T07:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-27T07:45:02.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;NEW EVENT TEST created by SQA on 5/27/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is just a test.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    238
+                ],
+                "title": [
+                    "Fiduciary Event &gt; SQA Test "
+                ],
+                "eventDescription": [
+                    "<div>SQA test to verify the spell check feature</div><div><br></div><div><br></div>"
+                ],
+                "eventHost": [
+                    "State Street Corp"
+                ],
+                "eventLocation": [
+                    "John Adams Building, Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "Multiple "
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-05-17T10:10:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-05-17T10:10:00.000-0400"
+                ],
+                "topics_tags": [
+                    "fiduciary"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-27T07:32:20.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA test to verify the spell check feature&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    217
+                ],
+                "title": [
+                    "New Test Event 6/30/2016 &gt; All Day Conference"
+                ],
+                "eventDescription": [
+                    "<div>New Test Event 6/30/2016 &gt; All Day Conference</div><div><br></div><div>More information to come.&nbsp;&nbsp; Save the date if interested in attending.</div><div><br></div><div>Focus will be on Money Market Reform and Risk Analytics</div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "tbd"
+                ],
+                "eventSpeakers": [
+                    "tbd"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-06-30T05:30:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-06-30T12:30:00.000-0400"
+                ],
+                "topics_tags": [
+                    "money market reform",
+                    "Risk Analytics"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events",
+                    "Registrations"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;New Test Event 6/30/2016 &amp;gt; All Day Conference&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;More information to come.&amp;nbsp;&amp;nbsp; Save the date if interested in attending.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Focus will be on Money Market Reform and Risk Analytics&lt;/div&gt;"
+                ],
+                "entityId": [
+                    "217"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    216
+                ],
+                "title": [
+                    "aaa &gt; Edit event for test "
+                ],
+                "eventDescription": [
+                    "<div>aaa &amp;gt; just a test to edit an event.</div>"
+                ],
+                "eventHost": [
+                    "aaa"
+                ],
+                "eventLocation": [
+                    "aa"
+                ],
+                "eventSpeakers": [
+                    "aaa"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-08-17T02:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-08-17T02:30:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events",
+                    "Registrations"
+                ],
+                "uri": [
+                    "aaa"
+                ],
+                "text": [
+                    "&lt;div&gt;aaa &amp;amp;gt; just a test to edit an event.&lt;/div&gt;"
+                ],
+                "entityId": [
+                    "216"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    207
+                ],
+                "title": [
+                    "SQA Test Event 3/28/2016"
+                ],
+                "eventDescription": [
+                    "<div>SQA Test Event on 3/28/2016.</div><div><br></div><div>This event is just added to check the Verification Process and if it correctly is reflected in the Content Workflow Statistics report.</div><div><br></div><div>Edit this event to retest the size and alignment of the action buttons.</div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street JAB Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "n/a"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-28T10:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-28T12:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA Test Event on 3/28/2016.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This event is just added to check the Verification Process and if it correctly is reflected in the Content Workflow Statistics report.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Edit this event to retest the size and alignment of the action buttons.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    205
+                ],
+                "title": [
+                    "1234-Z3L5V"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-gDOMHp8GIhxxZxUYqxoffA09DlMlpP9D43OPNAQtBfu9NdzIyKMIMuiM5jjwOXr1i3D5Sek0Q5N9g1wzVeWOcBZKVbUFqvQNYC0TLDZuhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-zw3jO"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-07T01:50:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-03-07T01:50:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-gDOMHp8GIhxxZxUYqxoffA09DlMlpP9D43OPNAQtBfu9NdzIyKMIMuiM5jjwOXr1i3D5Sek0Q5N9g1wzVeWOcBZKVbUFqvQNYC0TLDZuhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    222
+                ],
+                "title": [
+                    "Event With Region and Country - 1"
+                ],
+                "eventDescription": [
+                    "<div>Test event for </div>"
+                ],
+                "eventHost": [
+                    "Raja gaddam"
+                ],
+                "eventLocation": [
+                    "Boston"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-04-26T07:57:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-05-04T07:57:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Test event for &lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    213
+                ],
+                "title": [
+                    "04/18/2016 SQA Test Event &gt; Meeting"
+                ],
+                "eventDescription": [
+                    "<div>04/18/2016 SQA Test Event &gt; Meeting</div><div><br></div><div>Just testing the Edit of an Event functionality. </div><div><br></div><div>Adding some tags:&nbsp; Innovation</div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "State Street, Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "TBD"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-04-18T09:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-04-18T10:30:00.000-0400"
+                ],
+                "topics_tags": [
+                    "Innovation"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;04/18/2016 SQA Test Event &amp;gt; Meeting&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just testing the Edit of an Event functionality. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Adding some tags:&amp;nbsp; Innovation&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    201
+                ],
+                "title": [
+                    "1234-jbK3O"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-qmaHzgH9c3rcfyEr2vWyzJSo63DtWM2opqwdea9ha1zrFBl8ONBuRcGIDGaFNomzbdXZbBn2wPxIkCTGSEOjmIGmUXKI9EEWO9pCMw6nhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-uBbFy"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T03:51:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T03:51:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-qmaHzgH9c3rcfyEr2vWyzJSo63DtWM2opqwdea9ha1zrFBl8ONBuRcGIDGaFNomzbdXZbBn2wPxIkCTGSEOjmIGmUXKI9EEWO9pCMw6nhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    195
+                ],
+                "title": [
+                    "1234-4KDez"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-PeRrY7oTJ9CUBnWih9VcjKt1rMcknwON2dX1sp4wBPot67qwJQyvFAubJL9l5dHmyY2yz401fzLEv94uxQOG8qiCTWtRqTBxic5if16Nhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-mhQtB"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T11:22:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T11:22:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-PeRrY7oTJ9CUBnWih9VcjKt1rMcknwON2dX1sp4wBPot67qwJQyvFAubJL9l5dHmyY2yz401fzLEv94uxQOG8qiCTWtRqTBxic5if16Nhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    200
+                ],
+                "title": [
+                    "1234-l6Jgr"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-TviQPj9HCTsNe1KHrmn0LlNEyaQgaXZDgCZwDBGu651PilGcnpodNgZEMlOPC3GN4YIMboeZQ24Ot8wmEO2VKWY9OwSsWZ2dzoUtN3a9https://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-uA5Dg"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T12:07:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T12:07:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-TviQPj9HCTsNe1KHrmn0LlNEyaQgaXZDgCZwDBGu651PilGcnpodNgZEMlOPC3GN4YIMboeZQ24Ot8wmEO2VKWY9OwSsWZ2dzoUtN3a9https://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    102
+                ],
+                "title": [
+                    "CFA Austin Speakers Conference "
+                ],
+                "eventDescription": [
+                    "CFA Speakers Conference in Austin, Texas"
+                ],
+                "eventHost": [
+                    "N/A"
+                ],
+                "eventLocation": [
+                    "Austin, TX"
+                ],
+                "eventSpeakers": [
+                    "Nidhi Shandilya "
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2015-09-23T08:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-09-23T12:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "CFA Speakers Conference in Austin, Texas"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    100
+                ],
+                "title": [
+                    "WMS Client Council"
+                ],
+                "eventDescription": [
+                    "Wealth Management Services Client Council in Boston, MA"
+                ],
+                "eventHost": [
+                    "N/A"
+                ],
+                "eventLocation": [
+                    "Boston, MA"
+                ],
+                "eventSpeakers": [
+                    "Sean Fullerton"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2015-09-23T08:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-09-23T12:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "Wealth Management Services Client Council in Boston, MA"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    187
+                ],
+                "title": [
+                    "Test Daily Alert for Event"
+                ],
+                "eventDescription": [
+                    "<div>Sample event for Daily Alert test</div>"
+                ],
+                "eventHost": [
+                    "Raja"
+                ],
+                "eventLocation": [
+                    "Boston"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-02T06:38:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-03-09T06:38:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Sample event for Daily Alert test&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    188
+                ],
+                "title": [
+                    "sdfsd"
+                ],
+                "eventDescription": [
+                    "<div>sdsgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggsdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</div><div>sdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdfdf</div>"
+                ],
+                "eventHost": [
+                    "sfd"
+                ],
+                "eventLocation": [
+                    "sfdsd"
+                ],
+                "eventSpeakers": [
+                    "sdf"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-02T06:38:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-02T06:38:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    189
+                ],
+                "title": [
+                    "Sample event "
+                ],
+                "eventDescription": [
+                    "<div>Sample event </div>"
+                ],
+                "eventHost": [
+                    "Raja Gaddam"
+                ],
+                "eventLocation": [
+                    "Quincy"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-02T12:09:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-25T12:09:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Sample event &lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    172
+                ],
+                "title": [
+                    "Modifying event for Approch Alerts"
+                ],
+                "eventDescription": [
+                    "<div>Sample URL</div><div><br></div><div>Made update to Start/End dates</div>"
+                ],
+                "eventHost": [
+                    "Raja Gaddam"
+                ],
+                "eventLocation": [
+                    "Boston"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-08-16T14:50:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-08-16T17:50:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Sample URL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Made update to Start/End dates&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    196
+                ],
+                "title": [
+                    "1234-G7vXC"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-bvgOjpMhZXbpcuv3Q4VJx3zsbbmKWQUG9wMdJdtrPgV4X1d1clPFIcQEzegiccvidGpQQruMOF2rhEEj7uILap87OjOF7koNUM1sMwlUhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-iQfJQ"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T11:28:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T11:28:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-bvgOjpMhZXbpcuv3Q4VJx3zsbbmKWQUG9wMdJdtrPgV4X1d1clPFIcQEzegiccvidGpQQruMOF2rhEEj7uILap87OjOF7koNUM1sMwlUhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    202
+                ],
+                "title": [
+                    "2016 Mutual Funds and Investment Management Conference"
+                ],
+                "eventDescription": [
+                    "<div><b>REGISTRATION FEES</b></div><div>ICI members/FBA members: $1,550</div><div>Nonmembers: $2,100</div><div>Directors: $680</div><div>Government employees: $680</div><div><br></div><div><b>CONFERENCE HIGHLIGHTS</b></div><ul><li>Learn from SEC staff and industry experts about recent and upcoming regulatory efforts affecting funds</li><li>Listen to industry experts discuss what today�s regulatory environment, market trends, and evolving business practices mean for the fund industry of tomorrow</li><li>Learn from senior officials about the SEC�s enforcement and compliance programs</li><li>Hear from industry experts and SEC staff as they assess the �alert� level of current industry topics</li><li>Gather valuable information at the conference�s wide-ranging panel sessions, covering such topics as:</li><li>\tDerivatives regulation</li></ul><ul><li>\tTax and accounting developments</li><li>\tDOL fiduciary rule</li><li>\tEU regulatory process</li><li>\tCybersecurity</li><li>\tEquity market structure</li><li>\tLiquidity risk management</li><li>\tIssues facing fund boards</li><li>\tFunds� interaction with portfolio companies</li><li>\tTrends in fund litigation</li><li>\tOversight of service providers</li><li>\tThe SEC�s use of data for compliance and enforcement purposes</li><li>Network with your peers and exchange ideas about current industry issues and developments</li><li>Earn ethics CLE credit</li></ul>"
+                ],
+                "eventHost": [
+                    "Investment Company Institute (\"ICI\")"
+                ],
+                "eventLocation": [
+                    "JW Marriott Grande Lakes in Orlando, Florida."
+                ],
+                "eventSpeakers": [
+                    "SEC Staff and Industry Experts"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-03-13T03:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-16T12:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "Derivatives",
+                    "fiduciary",
+                    "cybersecurity",
+                    "Liquidity Risk"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "https://www.ici.org/events/upcoming/conf_16_mfimc?WT.mc_id=mconf_feb16"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;REGISTRATION FEES&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ICI members/FBA members: $1,550&lt;/div&gt;&lt;div&gt;Nonmembers: $2,100&lt;/div&gt;&lt;div&gt;Directors: $680&lt;/div&gt;&lt;div&gt;Government employees: $680&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;CONFERENCE HIGHLIGHTS&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Learn from SEC staff and industry experts about recent and upcoming regulatory efforts affecting funds&lt;/li&gt;&lt;li&gt;Listen to industry experts discuss what today�s regulatory environment, market trends, and evolving business practices mean for the fund industry of tomorrow&lt;/li&gt;&lt;li&gt;Learn ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    128
+                ],
+                "title": [
+                    "Street Talks Webinar Series: Liquidity - SEC Guidance and Impact on '40 Act Funds - Recap "
+                ],
+                "eventDescription": [
+                    "Street Talks Webinar Series: Liquidity - SEC Guidance and Impact on '40 Act Funds - Recap"
+                ],
+                "eventHost": [
+                    "Jane Kirkland"
+                ],
+                "eventLocation": [
+                    "Boston, MA"
+                ],
+                "eventSpeakers": [
+                    "Roderick Fisher; Megan Green"
+                ],
+                "eventType": [
+                    "Webinar"
+                ],
+                "startDate": [
+                    "2015-08-11T20:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-08-11T20:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "40 Act"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "http://event.on24.com/eventRegistration/EventLobbyServlet?target=lobby.jsp&eventid=1030027&sessionid=1&key=BDF43EF2CFBE81BC2FB3B9BBB45600D8&eventuserid=124005182 "
+                ],
+                "text": [
+                    "Street Talks Webinar Series: Liquidity - SEC Guidance and Impact on '40 Act Funds - Recap"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    183
+                ],
+                "title": [
+                    "Sample event for IPad test on 1/25/16"
+                ],
+                "eventDescription": [
+                    "<div>Sample event for iPad testing, DO NOT DELETE</div><div><br></div><div><span style=\"color: rgb(0, 138, 0);\"><span style=\"background-color: rgb(230, 0, 0);\">sample text to color change and font</span></span></div><ul><li>Sample test </li><li>Step 2</li></ul>"
+                ],
+                "eventHost": [
+                    "Raja Gaddam"
+                ],
+                "eventLocation": [
+                    "Bostongg"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Webinar"
+                ],
+                "startDate": [
+                    "2016-01-25T09:22:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-27T09:22:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Sample event for iPad testing, DO NOT DELETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 138, 0);&quot;&gt;&lt;span style=&quot;background-color: rgb(230, 0, 0);&quot;&gt;sample text to color change and font&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Sample test &lt;/li&gt;&lt;li&gt;Step 2&lt;/li&gt;&lt;/ul&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    199
+                ],
+                "title": [
+                    "1234-S1rs3"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-M2sWPq0R07Ts9ihWl9pEkVK9sjSRHOok0Dzm6eW1CX6Qwlrap5eS6ZwrHYBHIikmTJBHS4ZgmxbxZ2Mg2RCLLGoagiPiNqutNU7XUTsuhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-zdUle"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T11:59:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T11:59:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-M2sWPq0R07Ts9ihWl9pEkVK9sjSRHOok0Dzm6eW1CX6Qwlrap5eS6ZwrHYBHIikmTJBHS4ZgmxbxZ2Mg2RCLLGoagiPiNqutNU7XUTsuhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    198
+                ],
+                "title": [
+                    "1234-LFBAT"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-g1lrzxoIvAOV2TiLxUKYJ00DlmgWUh6PJpgOf1EvpGt3orkA9BEzaL9qO6DmqBWoE8mMNDGGqpJcH7p3cPXtMIO8pZdizreYSezpeHWHhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-AZFR9"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T11:48:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T11:48:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-g1lrzxoIvAOV2TiLxUKYJ00DlmgWUh6PJpgOf1EvpGt3orkA9BEzaL9qO6DmqBWoE8mMNDGGqpJcH7p3cPXtMIO8pZdizreYSezpeHWHhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    197
+                ],
+                "title": [
+                    "1234-Uka4O"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-1vBHZNBmYOp5KP3X1PFgmj9ZqjsN4iemhBk3TfZTizSGMMDWSabGSvSMmwcQwWrPLcYjGadVZV7WAEnMQF54gJEVRIRycjxwhd4KYtrRhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-homRp"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T11:33:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T11:33:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-1vBHZNBmYOp5KP3X1PFgmj9ZqjsN4iemhBk3TfZTizSGMMDWSabGSvSMmwcQwWrPLcYjGadVZV7WAEnMQF54gJEVRIRycjxwhd4KYtrRhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    192
+                ],
+                "title": [
+                    "1234-A2N77"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-eWlgmQRJPYsZTITWuJvqcMi1jFPN1rTDNGoH3wic7VWYq7PVFP0QVs52yTtRaeRyeYloum27Btsr0tLlY4ilBdRwKvjjdAb3dyTBWCBshttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-0ttvA"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T09:06:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T09:06:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-eWlgmQRJPYsZTITWuJvqcMi1jFPN1rTDNGoH3wic7VWYq7PVFP0QVs52yTtRaeRyeYloum27Btsr0tLlY4ilBdRwKvjjdAb3dyTBWCBshttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    193
+                ],
+                "title": [
+                    "1234-2bhJK"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-FBF2ZAQ7HpumHvyYpIDRksec5p3gxoNggBdZP8jkibDp4AzT52OjVjw7PPdKGKLsOngfsIirytJiZYiF0klFKEv7egk94JNJBkNQutBxhttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-UtqeT"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T09:11:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T09:11:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-FBF2ZAQ7HpumHvyYpIDRksec5p3gxoNggBdZP8jkibDp4AzT52OjVjw7PPdKGKLsOngfsIirytJiZYiF0klFKEv7egk94JNJBkNQutBxhttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    194
+                ],
+                "title": [
+                    "1234-pnjNR"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-fnwzbbnqB3frRxF7U2rt7TWCzWszWk1l7SigAARFVN3OdOMz0JMmH8eHvwSpTYEqc4t9pyIulWIu0lyUk2InIPN9NLVeRDV7kNJjvNjChttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-OrvCs"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-07T09:21:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-07T09:21:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-fnwzbbnqB3frRxF7U2rt7TWCzWszWk1l7SigAARFVN3OdOMz0JMmH8eHvwSpTYEqc4t9pyIulWIu0lyUk2InIPN9NLVeRDV7kNJjvNjChttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    76
+                ],
+                "title": [
+                    "2015 Fund Directors Conference"
+                ],
+                "eventDescription": [
+                    "Summary:\nGiven the rapidly changing environment for funds�from new regulatory requirements to an evolving marketplace�it�s more important than ever for independent fund directors to stay on top of current issues. IDC�s 2015 Fund Directors Conference will help you gain insights into the implications of the wide-ranging changes facing funds and their boards. The event will provide the latest information while offering you opportunities to meet other directors, network, and discuss issues and governance practices.\nCONFERENCE TOPICS\n�\tFund directors� core responsibilities�a special session for newer directors as well as those interested in a refresher on directors� fundamental responsibilities*\n�\tCybersecurity: preparing for and responding to a breach\n�\tPractices for mitigating litigation risk\n�\tLeadership perspectives on the evolving fund industry\n�\tUpdate on SEC activities: enforcement, examinations, and regulatory initiatives"
+                ],
+                "eventHost": [
+                    "Independent Directors Council (IDC)"
+                ],
+                "eventLocation": [
+                    "Chicago, IL"
+                ],
+                "eventSpeakers": [
+                    "James Poterba"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2015-10-26T06:30:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-10-28T10:30:00.000-0400"
+                ],
+                "topics_tags": [
+                    "cybersecurity"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "Summary:\nGiven the rapidly changing environment for funds�from new regulatory requirements to an evolving marketplace�it�s more important than ever for independent fund directors to stay on top of current issues. IDC�s 2015 Fund Directors Conference will help you gain insights into the implications of the wide-ranging changes facing funds and their boards. The event will provide the latest information while offering you opportunities to meet other directors, network, and discuss issues and governance ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    77
+                ],
+                "title": [
+                    "Money Market Reform Training Session"
+                ],
+                "eventDescription": [
+                    "Summary:\nState Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements.\nMany clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.\nThere has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally � accordingly they think this is an issue that each fund/board should address on its own."
+                ],
+                "eventHost": [
+                    "Jack Carnes"
+                ],
+                "eventLocation": [
+                    "N/A"
+                ],
+                "eventSpeakers": [
+                    "James Brewster; Lynne Winchester; Sheila McClorey"
+                ],
+                "eventType": [
+                    "Training"
+                ],
+                "startDate": [
+                    "2015-03-26T08:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-03-26T09:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "money market reform",
+                    "NAV"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "Summary:\nState Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements.\nMany clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.\nThere has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally � accordingly ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    78
+                ],
+                "title": [
+                    "2015 Annual Chief Compliance Officer Due Diligence Forum"
+                ],
+                "eventDescription": [
+                    "Summary:\nAgenda at a Glance\n. New Regulations Impacting Mutual Funds\n. Keynote speaker, Norm Champ Former SEC Director, Division of Investment Management\n. State Street�s Control Environment: A Day in the Life\n.Top 10 Issues Impacting the Compliance World\n. Post-Event Networking Reception\nHotel Accommodations\nWe�re pleased to offer a limited number of guest rooms at the Mandarin Oriental Hotel at a special group rate of $385 per night.*\nCall the Mandarin Hotel directly at +1 617 535 8880 and reference the Chief Compliance Officer Forum room block to book your room. Any reservations made after September 26th are subject to room and rate availability.\n*This rate is after a partial subsidy by State Street. For more information on the amount subsidized by State Street please contact Kaitlin Mulryan at KSMulryan@StateStreet.com"
+                ],
+                "eventHost": [
+                    "State Street Corporation"
+                ],
+                "eventLocation": [
+                    "Mandarin Oriental Hotel, Boston, MA"
+                ],
+                "eventSpeakers": [
+                    "Norm Champ; Derek Cote"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2015-10-21T04:30:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-10-21T15:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "Chief Compliance Officer"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "Summary:\nAgenda at a Glance\n. New Regulations Impacting Mutual Funds\n. Keynote speaker, Norm Champ Former SEC Director, Division of Investment Management\n. State Street�s Control Environment: A Day in the Life\n.Top 10 Issues Impacting the Compliance World\n. Post-Event Networking Reception\nHotel Accommodations\nWe�re pleased to offer a limited number of guest rooms at the Mandarin Oriental Hotel at a special group rate of $385 per night.*\nCall the Mandarin Hotel directly at +1 617 535 8880 and reference ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    103
+                ],
+                "title": [
+                    "Financial Planning Association of New York "
+                ],
+                "eventDescription": [
+                    "?Financial Planning Association conference in New York, New York.\n"
+                ],
+                "eventHost": [
+                    "N/A"
+                ],
+                "eventLocation": [
+                    "New York, NY"
+                ],
+                "eventSpeakers": [
+                    "Mirtha Kastrapeli "
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2015-09-26T04:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-09-26T12:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "?Financial Planning Association conference in New York, New York."
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    104
+                ],
+                "title": [
+                    "Institutional Investor HR Forum"
+                ],
+                "eventDescription": [
+                    "?Institutional Invester HR Forum in Boston, MA"
+                ],
+                "eventHost": [
+                    "Suzanne Duncan"
+                ],
+                "eventLocation": [
+                    "Boston, MA"
+                ],
+                "eventSpeakers": [
+                    "N/A"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2015-10-19T05:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-10-19T12:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "Institutional Investor"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "?Institutional Invester HR Forum in Boston, MA"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    184
+                ],
+                "title": [
+                    "NACHA Payments 2016 Conference"
+                ],
+                "eventDescription": [
+                    "<div>A unique conference experience that encapsulates the players and thought-leadership that are setting the agenda for the future, and propels industry dialogue forward to ensure the continued strength and integrity of the ACH Network and the U.S. payments ecosystem, and their responsiveness to the customer. </div><div><br></div><div>other tags: shortened settlement; faster payment</div>"
+                ],
+                "eventHost": [
+                    "NACHA - The Electronic Payments Association"
+                ],
+                "eventLocation": [
+                    "Phoenix, AZ"
+                ],
+                "eventSpeakers": [
+                    "No State Street speakers"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-04-17T09:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-04-20T08:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "ACH",
+                    "shortened settlement"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "https://www.nacha.org/events/payments-2016"
+                ],
+                "text": [
+                    "&lt;div&gt;A unique conference experience that encapsulates the players and thought-leadership that are setting the agenda for the future, and propels industry dialogue forward to ensure the continued strength and integrity of the ACH Network and the U.S. payments ecosystem, and their responsiveness to the customer. &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;other tags: shortened settlement; faster payment&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    99
+                ],
+                "title": [
+                    "Money Market Reform Training"
+                ],
+                "eventDescription": [
+                    "State Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements. Many clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.There has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally accordingly they think this is an issue that each fund/board should address on its own.Valuation guidance is not limited to money funds, but applies to all funds. Essentially, a fund may continue to use amortized cost to value a debt security with a remaining maturity less than 60 days, so long as its board determines each time that amortized cost approximates the true value of such security. This implies that an analysis must be performed that confirms that the amortized cost is approximately the same as the market value."
+                ],
+                "eventHost": [
+                    "Jack Carnes"
+                ],
+                "eventLocation": [
+                    "State Street Corporation"
+                ],
+                "eventSpeakers": [
+                    "James Brewster, Lynne Winchester, Sheila McClorey"
+                ],
+                "eventType": [
+                    "Training"
+                ],
+                "startDate": [
+                    "2015-06-16T08:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2015-06-16T09:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "money market reform",
+                    "NAV",
+                    "Market Value"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "State Street's Jim Brewster hosts a training video which discusses overall approach and readiness to the Money Market Reform requirements. Many clients are considering the use of intraday pricing points to address their Floating NAV liquidity needs and the trend seems to be moving towards one to four pricing points.There has been several discussion around NAV error guidelines for a Floating NAV. The ICI believes it is highly unlikely SEC would address formally or informally accordingly they think ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    185
+                ],
+                "title": [
+                    "T+2 Symposium"
+                ],
+                "eventDescription": [
+                    "<div><br></div><div><span style='color: rgb(51, 51, 51); font-family: \"Helvetica\",\"sans-serif\"; font-size: 10.5pt;'>&nbsp;</span><span style='font-family: \"Arial\",\"sans-serif\"; font-size: 10pt;'>The industry is planning to shorten the settlement cycle to trade date plus two business days, or T+2, in the U.S. by the end of Q3 2017. The instruments subject to the shortened settlement cycle include equities, corporate and municipal bonds, unit investment trusts, and financial instruments comprised of these products.&nbsp; </span></div><div><br></div><div><span style='font-family: \"Arial\",\"sans-serif\"; font-size: 10pt;'>&nbsp;Discuss how firms can get ready for the move to T+2, including implementation timeline, milestones and dependencies, regulatory and rule changes for Legal, Compliance, Risk, Technology and Operations teams, vendor and service provider preparedness, and the framework for internal and industry-wide testing.</span></div><div><br></div><div><br></div>"
+                ],
+                "eventHost": [
+                    "Securities Industry and Financial Markets Association (SIFMA) "
+                ],
+                "eventLocation": [
+                    "boston, ma"
+                ],
+                "eventSpeakers": [
+                    "No State Street speakers"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-02-23T02:30:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-23T08:30:00.000-0500"
+                ],
+                "topics_tags": [
+                    "T+2",
+                    "shortened settlement"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "http://www.sifma.org/t2symposium2016/"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style='color: rgb(51, 51, 51); font-family: &quot;Helvetica&quot;,&quot;sans-serif&quot;; font-size: 10.5pt;'&gt;&amp;nbsp;&lt;/span&gt;&lt;span style='font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10pt;'&gt;The industry is planning to shorten the settlement cycle to trade date plus two business days, or T+2, in the U.S. by the end of Q3 2017. The instruments subject to the shortened settlement cycle include equities, corporate and municipal bonds, unit investment trusts, and financial instruments comprised of ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    190
+                ],
+                "title": [
+                    "ee"
+                ],
+                "eventDescription": [
+                    "<div>ee</div>"
+                ],
+                "eventHost": [
+                    "eee"
+                ],
+                "eventLocation": [
+                    "eee"
+                ],
+                "eventSpeakers": [
+                    "ee"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-02-04T03:06:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-04T03:06:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "eee"
+                ],
+                "text": [
+                    "&lt;div&gt;ee&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    191
+                ],
+                "title": [
+                    "TestEvent"
+                ],
+                "eventDescription": [
+                    "<div>this is the test event.</div>"
+                ],
+                "eventHost": [
+                    "Pujan"
+                ],
+                "eventLocation": [
+                    "TBD"
+                ],
+                "eventSpeakers": [
+                    "Pujan"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-02-18T06:33:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-02-19T06:33:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "www.google.com"
+                ],
+                "text": [
+                    "&lt;div&gt;this is the test event.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    215
+                ],
+                "title": [
+                    "sefsd"
+                ],
+                "eventDescription": [
+                    "<div>sdfs</div>"
+                ],
+                "eventHost": [
+                    "sdf"
+                ],
+                "eventLocation": [
+                    "fssdf"
+                ],
+                "eventSpeakers": [
+                    "sfd"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-29T13:44:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-29T13:44:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;sdfs&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    211
+                ],
+                "title": [
+                    "Test Event for Approcah"
+                ],
+                "eventDescription": [
+                    "<div>Sample event for to validate Approaching events alerts</div>"
+                ],
+                "eventHost": [
+                    "Raja Gaddam"
+                ],
+                "eventLocation": [
+                    "Quincy MA"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Training"
+                ],
+                "startDate": [
+                    "2016-03-15T12:12:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-23T12:12:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Sample event for to validate Approaching events alerts&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    212
+                ],
+                "title": [
+                    "SQA Test Event 3/25/16 - Test Alerts "
+                ],
+                "eventDescription": [
+                    "<div>SQA Test Event 3/25/16 - this event is just setup to test the Alerts in RRC</div><div><br></div><div>Register for Event Functionality and Alerts</div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street - JQB"
+                ],
+                "eventSpeakers": [
+                    "n/a"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-25T05:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-25T06:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA Test Event 3/25/16 - this event is just setup to test the Alerts in RRC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Register for Event Functionality and Alerts&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    210
+                ],
+                "title": [
+                    "SQA Event - Add Conference for 5/9/2016"
+                ],
+                "eventDescription": [
+                    "<div>SQA Event - Add Conference for 5/9/2016</div><div><br></div><div>One day conference from 9:00 AM through 4:00 PM at the Channel Center in Boston</div><div><br></div><div>Conference will cover AML.</div><div><br></div><div>This is just a test.</div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street - Channel Center, Boston"
+                ],
+                "eventSpeakers": [
+                    "tbd"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-05-09T05:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-05-09T12:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "AML"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA Event - Add Conference for 5/9/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;One day conference from 9:00 AM through 4:00 PM at the Channel Center in Boston&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Conference will cover AML.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This is just a test.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    203
+                ],
+                "title": [
+                    "1234-R3K0O"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-IRvNGJGrr9yIErOMqeIqtdjogqSH4frSpRfWjrTqa1S3cjRFJHP9qJTCiJZqZ8xlROtVmZD9usqCvqm6Io8xArDP8MNLCEAbEIlx06sThttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "utuiyju"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-02T00:16:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-03-02T00:16:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-IRvNGJGrr9yIErOMqeIqtdjogqSH4frSpRfWjrTqa1S3cjRFJHP9qJTCiJZqZ8xlROtVmZD9usqCvqm6Io8xArDP8MNLCEAbEIlx06sThttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    204
+                ],
+                "title": [
+                    "1234-dtLVI"
+                ],
+                "eventDescription": [
+                    "<div><b>7Tpyq0Vphomp3LGK0M3gJ3RA0shttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "ghghf"
+                ],
+                "eventSpeakers": [
+                    "StrSpeaker"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-02T01:32:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-03-07T01:32:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;7Tpyq0Vphomp3LGK0M3gJ3RA0shttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    209
+                ],
+                "title": [
+                    "SQA Event - Add Training Test"
+                ],
+                "eventDescription": [
+                    "<div>SQA Event - Add Training Test - now modify by another user</div><div><br></div><div>Just verifying how the Event is displayed in landing page to verify if the Date Updated vs Start Date of event is being used.&nbsp; This may already be fixed.&nbsp;&nbsp; Won't be able to fully verify this until the next day is this item needs to be ingested into Attivio.&nbsp;&nbsp; Also, need to check if text is wrapping correctly in Event Details as this was an issue with a few events added by automation team previously.</div><div><br></div><ul><li><span style=\"color: rgb(0, 71, 178);\">Change Text Color is working</span></li><li><span style=\"color: rgb(230, 0, 0);\">So are bullets</span></li><li><span style=\"color: rgb(0, 138, 0);\"><b>Bold, <i>Italic, <s>Strikeout</s>, </i></b><u>and underline are still functioning</u></span></li></ul><div><br></div><ol><li><span style=\"color: rgb(0, 102, 204);\">Number list</span></li><li><span style=\"background-color: rgb(255, 255, 0);\">Highlight text is also working</span></li></ol><div><br></div><div>Second Content Approver modifies this event to verify how the Content Workflow Statistics report reflects this modified request and approval done by different users.</div><div><br></div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street - Crown Colony"
+                ],
+                "eventSpeakers": [
+                    "n/a"
+                ],
+                "eventType": [
+                    "Training"
+                ],
+                "startDate": [
+                    "2016-05-16T10:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-05-16T13:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "automation"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA Event - Add Training Test - now modify by another user&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just verifying how the Event is displayed in landing page to verify if the Date Updated vs Start Date of event is being used.&amp;nbsp; This may already be fixed.&amp;nbsp;&amp;nbsp; Won't be able to fully verify this until the next day is this item needs to be ingested into Attivio.&amp;nbsp;&amp;nbsp; Also, need to check if text is wrapping correctly in Event Details as this was an issue with a few events added by automation team ... "
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    206
+                ],
+                "title": [
+                    "1234-K4Omu"
+                ],
+                "eventDescription": [
+                    "<div><b>1234-nGkBIvbfSsdoPQCFp78JhraHOOTNNmJ6DMEWY2ZARkzw3u7OyojOPTBEtsT3OyCHTgUcnPQxhJ171NMvQepAd3rSmaDGi6YuR2MWJ5CShttps://myssc-uat2.statestreet.com</b></div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "1234-7YteY"
+                ],
+                "eventSpeakers": [
+                    "StrSpeakerNA"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-03-07T02:18:00.000-0500"
+                ],
+                "endDate": [
+                    "2016-03-07T02:18:00.000-0500"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;&lt;b&gt;1234-nGkBIvbfSsdoPQCFp78JhraHOOTNNmJ6DMEWY2ZARkzw3u7OyojOPTBEtsT3OyCHTgUcnPQxhJ171NMvQepAd3rSmaDGi6YuR2MWJ5CShttps://myssc-uat2.statestreet.com&lt;/b&gt;&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    208
+                ],
+                "title": [
+                    "SQA Event Test 2 03/29/2016"
+                ],
+                "eventDescription": [
+                    "<div>SQA Event Test 2 03/29/2016</div><div><br></div><div>Additional SQA test to verify the creation/approval of Events and how they are captured in the Content Workflow Statistics Report.</div>"
+                ],
+                "eventHost": [
+                    "tbd"
+                ],
+                "eventLocation": [
+                    "State Street JQB Quincy, MA"
+                ],
+                "eventSpeakers": [
+                    "tbd"
+                ],
+                "eventType": [
+                    "Training"
+                ],
+                "startDate": [
+                    "2016-03-29T06:30:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-29T08:00:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;SQA Event Test 2 03/29/2016&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional SQA test to verify the creation/approval of Events and how they are captured in the Content Workflow Statistics Report.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    214
+                ],
+                "title": [
+                    "3/27/2016 SQA 5 Day Alert Event Test"
+                ],
+                "eventDescription": [
+                    "<div>3/27/2016 SQA 5 Day Alert Event Test</div><div><br></div><div>Just trying to test the Approaching 5 Day alert for events.</div>"
+                ],
+                "eventHost": [
+                    "TBD"
+                ],
+                "eventLocation": [
+                    "State Street, Crown Colony Office"
+                ],
+                "eventSpeakers": [
+                    "NA"
+                ],
+                "eventType": [
+                    "Training"
+                ],
+                "startDate": [
+                    "2016-03-27T10:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-27T12:30:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;3/27/2016 SQA 5 Day Alert Event Test&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Just trying to test the Approaching 5 Day alert for events.&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    220
+                ],
+                "title": [
+                    "TEST 100"
+                ],
+                "eventDescription": [
+                    "<div>aaaaa</div>"
+                ],
+                "eventHost": [
+                    "Axay"
+                ],
+                "eventLocation": [
+                    "loca"
+                ],
+                "eventSpeakers": [
+                    "Axay"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-04-22T13:50:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-04-22T13:50:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-03T02:54:48.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "aaa"
+                ],
+                "text": [
+                    "&lt;div&gt;aaaaa&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "APAC"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    224
+                ],
+                "title": [
+                    "New Event of RRC for Region USA"
+                ],
+                "eventDescription": [
+                    "<div>Test Event for Region USA </div>"
+                ],
+                "eventHost": [
+                    "Raja Gaddam"
+                ],
+                "eventLocation": [
+                    "Boston"
+                ],
+                "eventSpeakers": [
+                    "Raja"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-05-02T12:51:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-05-19T12:51:00.000-0400"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-02T19:12:21.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "NA"
+                ],
+                "text": [
+                    "&lt;div&gt;Test Event for Region USA &lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        },
+        {
+            "fields": {
+                "eventId": [
+                    221
+                ],
+                "title": [
+                    "Event for region verification"
+                ],
+                "eventDescription": [
+                    "<div>Capital market, fiduciary, IMS, NAV, Trade</div>"
+                ],
+                "eventHost": [
+                    "ver"
+                ],
+                "eventLocation": [
+                    "ver"
+                ],
+                "eventSpeakers": [
+                    "ver"
+                ],
+                "eventType": [
+                    "Meeting"
+                ],
+                "startDate": [
+                    "2016-04-26T06:21:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-04-26T06:21:00.000-0400"
+                ],
+                "topics_tags": [
+                    "fiduciary",
+                    "NAV"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-04-26T06:36:36.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "ver"
+                ],
+                "text": [
+                    "&lt;div&gt;Capital market, fiduciary, IMS, NAV, Trade&lt;/div&gt;"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        }
+    ],
+    "facets": [
+        {
+            "label": "Topics/Tags",
+            "buckets": [
+                {
+                    "label": "fiduciary",
+                    "filter": "topics_tags:PHRASE(TERM(fiduciary, TOKENIZED), facet=true, filter=true)",
+                    "count": 3
+                },
+                {
+                    "label": "money market reform",
+                    "filter": "topics_tags:PHRASE(TERM(\"money market reform\", TOKENIZED), facet=true, filter=true)",
+                    "count": 3
+                },
+                {
+                    "label": "NAV",
+                    "filter": "topics_tags:PHRASE(TERM(NAV, TOKENIZED), facet=true, filter=true)",
+                    "count": 3
+                },
+                {
+                    "label": "cybersecurity",
+                    "filter": "topics_tags:PHRASE(TERM(cybersecurity, TOKENIZED), facet=true, filter=true)",
+                    "count": 2
+                },
+                {
+                    "label": "shortened settlement",
+                    "filter": "topics_tags:PHRASE(TERM(\"shortened settlement\", TOKENIZED), facet=true, filter=true)",
+                    "count": 2
+                },
+                {
+                    "label": "40 Act",
+                    "filter": "topics_tags:PHRASE(TERM(\"40 Act\", TOKENIZED), facet=true, filter=true)",
+                    "count": 1
+                },
+                {
+                    "label": "ACH",
+                    "filter": "topics_tags:PHRASE(TERM(ACH, TOKENIZED), facet=true, filter=true)",
+                    "count": 1
+                },
+                {
+                    "label": "AML",
+                    "filter": "topics_tags:PHRASE(TERM(AML, TOKENIZED), facet=true, filter=true)",
+                    "count": 1
+                },
+                {
+                    "label": "automation",
+                    "filter": "topics_tags:PHRASE(TERM(automation, TOKENIZED), facet=true, filter=true)",
+                    "count": 1
+                },
+                {
+                    "label": "Chief Compliance Officer",
+                    "filter": "topics_tags:PHRASE(TERM(\"Chief Compliance Officer\", TOKENIZED), facet=true, filter=true)",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "label": "Organization",
+            "buckets": [
+                {
+                    "label": "SSC",
+                    "filter": "organization:PHRASE(TERM(SSC, TOKENIZED), facet=true, filter=true)",
+                    "count": 52
+                }
+            ]
+        },
+        {
+            "label": "Region",
+            "buckets": [
+                {
+                    "label": "AMER",
+                    "filter": "region:PHRASE(TERM(AMER, TOKENIZED), facet=true, filter=true)",
+                    "count": 51
+                },
+                {
+                    "label": "APAC",
+                    "filter": "region:PHRASE(TERM(APAC, TOKENIZED), facet=true, filter=true)",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "label": "Country",
+            "buckets": [
+                {
+                    "label": "US",
+                    "filter": "country:PHRASE(TERM(US, TOKENIZED), facet=true, filter=true)",
+                    "count": 52
+                }
+            ]
+        },
+        {
+            "label": "Document Type"
+        }
+    ],
+    "feedback": [
+        {
+            "messageName": "abc.searchProfile",
+            "stageName": "applyBusinessCenter",
+            "message": "rrcuser_premium"
+        },
+        {
+            "messageName": "abc.campaign",
+            "stageName": "applyBusinessCenter",
+            "message": "default"
+        }
+    ]
+}

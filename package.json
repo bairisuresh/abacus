@@ -65,6 +65,8 @@
   },
   "dependencies": {
     "core-js": "^2.0.0",
+    "es6-promise": "^3.2.1",
+    "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.1.0",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
