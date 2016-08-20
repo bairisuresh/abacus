@@ -8,12 +8,17 @@ require('styles//HtabContent.scss');
 
 class HtabContentComponent extends React.Component {
   render() {
-    return (
+  	console.error("HtabContentcompu ",this.props);
+  	const {actions, FDataReducer, docArray} = this.props;
+	return (
 		<div className="main-content light-bg">
 			<div className="block overflow-vertical">
 				<ul className="events">
-					<Item/>
-					<Item/><Item/><Item/><Item/><Item/><Item/><Item/>					
+					{
+						docArray.map(function(item){
+							return <Item {...item} />
+						})
+					}
 				</ul>
 			</div>
 		</div>    	

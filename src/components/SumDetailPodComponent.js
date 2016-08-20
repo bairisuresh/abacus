@@ -1,19 +1,39 @@
 'use strict';
 
 import React from 'react';
+import classNames from 'classnames';
 
 require('styles//SumDetailPod.scss');
 
 class SumDetailPodComponent extends React.Component {
+
   render() {
+  	var eDate = "",props = this.props,eLocation = "";
+  	const {btnClass, changeSelection, getPodImage, fields} = this.props;
+	try{
+	  	if(fields.pubdate[0]){  			
+			let date = new Date(fields.pubdate[0])
+	  		eDate = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear(); 
+	  	}	  		
+		eLocation = fields.eventLocation ?fields.eventLocation[0] : "JQB, Quincy, MA";
+	}catch(e){
+		console.error(e.message);
+	}
+
     return (
 		<li>
-			<p className="event-label">Event</p>
-			<h2 className="event-title">NEW TEST EVENT by SQA 5/27/2016</h2>
-			<p className="post-name">JQB, Quincy, MA</p>
-			<p className="event-date">07/25/2016</p>
-			<div className="register-btn active">
-				<p>Registered</p>
+			<span className = "pod-bg-image" style={getPodImage(fields.feed[0])}></span>
+			<p className="event-label">{fields.feed[0]}</p>
+			<h2 className="event-title">{fields.title[0]}</h2>
+			<p className="post-name">{eLocation}</p>
+			<p className="event-date">{eDate}</p>
+			<div className={classNames({
+      'register-btn': true,
+      'active': fields.selected
+    })}
+    		 onClick = { changeSelection} >
+				<span className="p-before" style={btnClass(fields.feed[0])}></span>
+				<p >Register</p>
 			</div>
 		</li>
     );

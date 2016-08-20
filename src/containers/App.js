@@ -19,7 +19,6 @@ class App extends Component {
     super(props)
   }
   componentDidMount(){
-    debugger;
     const { dispatch, FDataReducer } = this.props
     dispatch(fetchJson(FDataReducer.currentSelection));
   }

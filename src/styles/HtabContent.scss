@@ -31,7 +31,7 @@
 				    margin-bottom: 10px;
 				    position: relative;
 				}
-				.event-label:before {
+				.pod-bg-image {
 					content: '';
 				    display: block;
 				    position: absolute;
@@ -61,7 +61,7 @@
 				    right: 10px;
 				    top: 20px;
 				}
-				.register-btn {
+				.register-btn	 {
 				    position: absolute;
 				    right: 10px;
 				    bottom: 5px;
@@ -73,7 +73,7 @@
 					    padding-left: 28px;
 					}				    
 				}
-				.register-btn p:before, .register-btn.active p:before {
+				.register-btn .p-before, .register-btn.active .p-before {
 					content: '';
 				    display: block;
 				    position: absolute;
@@ -88,7 +88,7 @@
 					padding-left: 30px;
 					color: #5ca011;
 				}
-				.register-btn.active p:before {
+				.register-btn.active .p-before {
 					width: 27px;
 				    height: 26px;
 				    background: url(../images/register_active_icon.png);
