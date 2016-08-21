@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import {Html5Entities} from 'html-entities';
 import classNames from 'classnames';
 
 require('styles//SumDetailPod.scss');
@@ -8,7 +9,7 @@ require('styles//SumDetailPod.scss');
 class SumDetailPodComponent extends React.Component {
 
   render() {
-  	var eDate = "",props = this.props,eLocation = "";
+  	let eDate = "",props = this.props,eLocation = "", etitle ="";
   	const {btnClass, changeSelection, getPodImage, fields} = this.props;
 	try{
 	  	if(fields.pubdate[0]){  			
@@ -16,6 +17,7 @@ class SumDetailPodComponent extends React.Component {
 	  		eDate = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear(); 
 	  	}	  		
 		eLocation = fields.eventLocation ?fields.eventLocation[0] : "JQB, Quincy, MA";
+		etitle = fields.title ? Html5Entities.decode(fields.title[0]) :""; 
 	}catch(e){
 		console.error(e.message);
 	}
@@ -24,7 +26,7 @@ class SumDetailPodComponent extends React.Component {
 		<li>
 			<span className = "pod-bg-image" style={getPodImage(fields.feed[0])}></span>
 			<p className="event-label">{fields.feed[0]}</p>
-			<h2 className="event-title">{fields.title[0]}</h2>
+			<h2 className="event-title">{etitle}</h2>
 			<p className="post-name">{eLocation}</p>
 			<p className="event-date">{eDate}</p>
 			<div className={classNames({

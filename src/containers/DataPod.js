@@ -15,7 +15,6 @@ class DataPod extends Component {
   }
   btnClass(feedType){
     let that = this;
-    console.error("DataPod state ",this.state);
     return that.getRegButtonClassName(feedType,that.state.fields.selected);
   }
   getRegButtonClassName(feedtype,selected){
