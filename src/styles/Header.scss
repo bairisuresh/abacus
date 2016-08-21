@@ -10,7 +10,12 @@
       margin-left: 47px;
       font-size: 15px;
   }
-  .main-menu, .settings-btn, .notifications-btn {
+  .alerts h1 {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }  
+  .main-menu, .settings-btn, .notifications-btn, .alerts-back {
     width: 43px;
     height: 43px;      
     background-size: 50%;
@@ -41,4 +46,35 @@
         margin-top: 6px;
     }
   }
+
+.alerts-back {
+    background: url(../images/arrow_left_white.png) no-repeat center;
+    background-size: 25%;
+    left: 0;
+  }
+}
+.configure-btns-wrapper {
+}
+.configure-btns-hldr {
+  padding: 10px 20px 32px 20px;
+  border-bottom: 1px solid rgba(50, 128, 169, 0.3);
+  position: relative;
+}
+.configure-btns-hldr h3 {
+  font-size: 14px;
+  text-align: center;
+  color: #0a2f5d;
+}
+.configure-btns-hldr .save-btn, .configure-btns-hldr .done-btn {
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  color: #000;
+  padding: 12px;
+}
+.configure-btns-hldr .save-btn {
+  left: 0;
+}
+.configure-btns-hldr .done-btn {
+  right: 0;
 }

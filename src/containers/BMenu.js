@@ -13,7 +13,8 @@ class BMenu extends Component {
   render() {
     const { actions, BMReducer, HReducer } = this.props;
     const {isOpen} = BMReducer;
-    const tbmProps = {isOpen,BMReducer,HReducer,actions};
+    let custIcon = (BMReducer.route =="/"?"":false);
+    const tbmProps = {isOpen,custIcon:custIcon, BMReducer,HReducer,actions};
     console.error("Props here is ",this.props);
     //specifying animation type to get component
     return (
@@ -34,7 +35,6 @@ function mapDispatchToProps(dispatch,props) {
     {actionRouteChange: require('../actions/BrMenu.js')},
     require('../actions/Header.js'))
   const actionMap = {actions:bindActionCreators(actions, dispatch)};
-  console.error("mapDispatchToProps actions ",actionMap);
   return actionMap;
 }
 

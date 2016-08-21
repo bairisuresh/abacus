@@ -9,12 +9,12 @@ require('styles/BrMenu.scss');
 class BrMenuComponent extends React.Component {
   render() {
     
-    const { actions } = this.props;
+    const { actions, custIcon } = this.props;
     const {actionRouteChange, navigateToAlerts, navigateToHome} = actions;
     const Menu = MenuObject.slide;
-    console.error("isOpen>>> ",this.props.isOpen)
+    console.error("isOpen>>> ",custIcon);
     return (
-    <Menu isOpen={this.props.isOpen} pageWrapId={ actions.pageWrapId } outerContainerId = {actions.outerContainerId} >
+    <Menu isOpen={this.props.isOpen} customBurgerIcon={ this.props.custIcon } pageWrapId={ actions.pageWrapId } outerContainerId = {actions.outerContainerId} >
 		<div className="profile-details-wrapper">
 			<div className="profile-details-hldr">
 				<div className="profile-details">
@@ -60,7 +60,7 @@ class BrMenuComponent extends React.Component {
 BrMenuComponent.displayName = 'BrMenuComponent';
 
 // Uncomment properties you need
-// BrMenuComponent.propTypes = {};
+BrMenuComponent.propTypes = { custIcon: React.PropTypes.bool};
 // BrMenuComponent.defaultProps = {};
 
 export default BrMenuComponent;

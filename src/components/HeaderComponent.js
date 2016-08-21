@@ -2,27 +2,62 @@
 
 import React from 'react';
 import {Link} from 'react-router';
-import {SETTINGS, ALERTS} from '../actions/const';
+import {HOME,SETTINGS, ALERTS} from '../actions/const';
 require('styles//Header.scss');
 
 class HeaderComponent extends React.Component {
-  render() {
+  getHtmlContet(){
     const {actions,HReducer} = this.props;
-    return (
+    let Home = (
         <div className="top-bar">
           <div className="main-menu"></div>
           <h1>{HReducer.heading}</h1>
           <Link to="/config" >
-            <div onClick={()=>{actions.navigateToSettings({state : SETTINGS});}} className="settings-btn"></div>
+            <div onClick={()=>{actions.navigateToSettings({state : SETTINGS});actions.actionRouteChange("/config");}} className="settings-btn"></div>
           </Link>
           <Link to="/alerts" >
-            <div onClick={()=>{actions.navigateToAlerts({state : ALERTS});}} className="notifications-btn" >
+            <div onClick={()=>{actions.navigateToAlerts({state : ALERTS});actions.actionRouteChange("/alerts");}} className="notifications-btn" >
               <span>12</span>
             </div>
           </Link>
           
         </div>
+    ),settings = (
+      <div className="configure-btns-wrapper">
+        <div className="configure-btns-hldr">
+          <a onClick={e=>e.preventDefault()} className="save-btn">Save filter</a>
+          <h3>Configuration</h3>
+        <Link to="/" className="done-btn"  >
+          <span onClick={()=>{actions.navigateToHome({state : HOME});actions.actionRouteChange("/");}} >Done</span>
+        </Link>
+        </div>
+      </div>
+    ), alerts = (
+      <div className="top-bar alerts">
+        <Link to="/" >
+          <div className="alerts-back" onClick={()=>{actions.navigateToHome({state : HOME});actions.actionRouteChange("/");}} ></div>
+        </Link>
+        <h1>Alerts</h1>
+      </div>    
     );
+    console.error("HReducer state ",HReducer.data.state);
+    switch(HReducer.data.state){
+      case HOME:
+        return Home;
+      break;
+      case SETTINGS:
+        return settings;
+       break;
+      case ALERTS:
+        return alerts;
+       break;
+      default : 
+      return Home
+    }
+  }
+  render() {
+    
+    return this.getHtmlContet();
   }
 }
 
