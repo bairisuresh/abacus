@@ -10,9 +10,9 @@ class AlertTabsComponent extends React.Component {
 		<div className="main-content">
 			<div className="block">
 				<ul className="nav nav-tabs nav-justified alerts-tab">
-					<li className="active"><a data-toggle="tab" href="#today">Today</a></li>
-					<li><a data-toggle="tab" href="#recent">Recent</a></li>
-					<li><a data-toggle="tab" href="#all">All</a></li>
+					<li className="active"><a data-toggle="tab" onClick={e=>e.preventDefault()} href="#today">Today</a></li>
+					<li><a data-toggle="tab" onClick={e=>e.preventDefault()} href="#recent">Recent</a></li>
+					<li><a data-toggle="tab" onClick={e=>e.preventDefault()} href="#all">All</a></li>
 				  </ul>
 				  <div className="tab-content alerts-tab-content">
 					<div id="today" className="tab-pane fade in active">
