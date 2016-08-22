@@ -9,12 +9,11 @@ import Pod from '../components/SumDetailPodComponent';
 class DataPod extends Component {
   constructor(props,context){
     super(props,context);
-    let { fields } = this.props;
-    this.state = Object.assign({},this.state,{fields:fields});
+    this.state = {item :this.props.fields};
   }
   btnClass(feedType){
     let that = this;
-    return that.getRegButtonClassName(feedType,that.state.fields.selected);
+    return that.getRegButtonClassName(feedType,that.state.item.selected);
   }
   getRegButtonClassName(feedtype,selected){
     let image ="";
@@ -74,18 +73,17 @@ class DataPod extends Component {
   }
   componentWillReceiveProps(nextProps) {
     let { fields } = nextProps;
-    this.setState(Object.assign({},this.state,fields));
+    this.setState({item:fields});
   }
   changeSelection(){
-    let fields = Object.assign({},this.state.fields,{selected:!this.state.fields.selected});
-    this.setState(Object.assign({},this.state,{fields:fields}));
+    let fields = Object.assign({},this.state.item,{selected:!this.state.item.selected});
+    this.setState({item:fields});
   };
   render() {
     const {actions, fields} = this.props;
     let that = this;
-    console.log("******************Pod fields ",fields);
-    console.log("******************Pod state ",this.state);
-    const tranferProps = {actions, fields:this.state.fields, getPodImage: that.getPodImage.bind(that),btnClass : that.btnClass.bind(that), changeSelection : that.changeSelection.bind(that)};
+    var state = Object.assign({},this.state,{});
+    const tranferProps = {actions, fields:state.item , getPodImage: that.getPodImage.bind(that),btnClass : that.btnClass.bind(that), changeSelection : that.changeSelection.bind(that)};
     return <Pod {...tranferProps}/>;
   }
 }

@@ -10,9 +10,9 @@ class BrMenuComponent extends React.Component {
   render() {
     
     const { actions, custIcon } = this.props;
-    const {actionRouteChange, navigateToAlerts, navigateToHome, switchToClick} = actions;
+    const {actionRouteChange, navigateToAlerts, switchToClick} = actions;
     const Menu = MenuObject.slide;
-    console.error("isOpen>>> ",custIcon);
+    console.log("isOpen>>> ",custIcon);
     console.log("\n\n\n\n her in bmenu updation \n\n\n\n");    
     return (
     <Menu isOpen={this.props.isOpen} customBurgerIcon={ this.props.custIcon } 
@@ -37,22 +37,22 @@ class BrMenuComponent extends React.Component {
 			 </form>
 		</div>
 		<ul className="slide-menu-links marg-b-30">
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/");navigateToHome({state : HOME})}}><Link to="/" >Home</Link></li>
-			<li onClick={(e)=> {actionRouteChange("/"); switchToClick({tab:'events'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Events</a></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/experts")}}><Link to="/experts" >Experts</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/regulations")}}><Link to="/regulations" >Regulations</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/solutions")}}><Link to="/solutions" >Solutions</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/whitepapers")}}><Link to="/whitepapers" >Whitepapers</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/news")}}><Link to="/news" >News</Link></li>
+			<li onClick={(e)=> {switchToClick({tab:'landingPage'}); }}><Link to="/" >Home</Link></li>
+			<li onClick={(e)=> {switchToClick({tab:'events'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Events</a></li>
+			<li onClick={(e)=> {switchToClick({tab:'experts'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Experts</a></li>
+			<li onClick={(e)=> {switchToClick({tab:'regulations'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Regulations</a></li>
+			<li onClick={(e)=> {switchToClick({tab:'solutions'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Solutions</a></li>
+			<li onClick={(e)=> {switchToClick({tab:'whitepapers'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Whitepapers</a></li>
+			<li onClick={(e)=> {switchToClick({tab:'news'}); }}><a  onClick={(e)=> {e.preventDefault();}}>News</a></li>
 		</ul>
 		<ul className="slide-menu-links">
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/myprofile")}}><Link to="/myprofile" >My Profile</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/alerts"); navigateToAlerts({state : ALERTS});}} ><Link to="/alerts" ><span>My Alerts</span></Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/englishus")}}><Link to="/englishus" className="lang" >English (US)</Link></li>
+			<li ><a  onClick={(e)=> {e.preventDefault();}}>My Profile</a></li>
+			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/alerts"); navigateToAlerts({state : ALERTS});}} ><a  onClick={(e)=> {e.preventDefault();}}><span>My Alerts</span></a></li>
+			<li ><a  onClick={(e)=> {e.preventDefault();}} className="lang" >English (US)</a></li>
 		</ul>
 		
 		<ul className="slide-menu-links menu-logout">
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/logout")}}><Link to="/logout"  >Log Out</Link></li>			
+			<li ><a  onClick={(e)=> {e.preventDefault();}} >Log Out</a></li>		
 		</ul>  
     </Menu>
     );

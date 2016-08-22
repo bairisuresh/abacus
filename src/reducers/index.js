@@ -10,9 +10,7 @@ import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 /* Populated by react-webpack-redux:reducer */
 const reducers = {
-  BMReducer: require('../reducers/BMReducer.js'),
   HReducer: require('../reducers/HReducer.js'),
-  FDataReducer: require('../reducers/FDataReducer.js'),
   TReducer: require('../reducers/TReducer.js')
 };
  module.exports = combineReducers({

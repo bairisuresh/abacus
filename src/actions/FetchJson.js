@@ -17,9 +17,6 @@ function receiveJson(selection,data) {
 };
 
 
-function currentSelection(selection){
-	return { type: CURRENT_JSON, selection };
-}
 
 function failedToFetchJson(selection) {
 	return { type: FAILED_FETCH_JSON, selection };
@@ -58,7 +55,7 @@ module.exports.fetchPostsIfNeeded = function(selection) {
 
 module.exports.fetchJson = function(selection) {
 	return dispatch => {
-		console.error("fetchJson dispatch");
+		console.log("fetchJson dispatch");
 		dispatch(requestJson(selection));
 		return fetch(`../sources/${selection}.json`)
 			.then((response) => {
@@ -70,7 +67,6 @@ module.exports.fetchJson = function(selection) {
 			})
 			.then((json) => {
 				if(json){
-					dispatch(currentSelection(selection));
 					dispatch(receiveJson(selection, json));
 				}else{
 					dispatch(failedToFetchJson(selection));		  		

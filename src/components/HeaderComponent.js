@@ -40,7 +40,7 @@ class HeaderComponent extends React.Component {
         <h1>Alerts</h1>
       </div>    
     );
-    console.error("HReducer state ",HReducer.data.state);
+    console.log("HReducer state ",HReducer.data.state);
     switch(HReducer.data.state){
       case HOME:
         return Home;

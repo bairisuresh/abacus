@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import Swiper from 'react-id-swiper';
 import HTabContent from '../components/HtabContentComponent';
+import classNames from 'classnames';
 
 require('styles//HomeTabs.scss');
 require('styles//swiper.min.css')
@@ -13,16 +14,23 @@ require('styles//swiper.min.css')
 class Body extends Component {
   constructor(props,context){
     super(props,context);
+    this.state = {currentElement:this.props.TReducer.tab};
+  }
+  componentWillReceiveProps(){
+    this.setState({currentElement:this.props.TReducer.tab});
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
     dispatch(actions.switchToClick({tab : 'landingPage'}));
-  }  
+  }
+  isActive(path){
+    return path == this.props.TReducer.tab ? true : false;
+  }
   render() {
-
-    const {actions, FDataReducer,TReducer} = this.props;
-    const {data} = FDataReducer;
-    console.log("reducers states body ",[FDataReducer,TReducer]);
+    const {actions,TReducer} = this.props;
+    const {switchToClick} = actions;
+    const {data} = TReducer, that = this;
+    console.log("reducer props \n\n\n\n ",[TReducer]);
       let docArray = []
       if(data){
       let {documents} = data;
@@ -30,7 +38,7 @@ class Body extends Component {
         docArray = documents;
       }
     }
-    const tHtabProps = {actions, FDataReducer,docArray};
+    const tHtabProps = {actions,docArray};
     const params = {
     nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
@@ -62,12 +70,37 @@ class Body extends Component {
         <div className="swiper-hldr">
           <div className="swiper-container-outer">
             <Swiper {...params}>
-              <div className="swiper-slide active">Home</div>
-              <div className="swiper-slide">Events</div>
-              <div className="swiper-slide">Experts</div>
-              <div className="swiper-slide">Regulations</div>
-              <div className="swiper-slide">News</div>
-              <div className="swiper-slide">White Papers</div>
+              <div onClick={(e)=> {switchToClick({tab:'landingPage'});that.setState({currentElement:"landingPage"}) }} className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'landingPage'
+              })}>Home</div>
+              <div onClick={(e)=> {switchToClick({tab:'events'}); that.setState({currentElement:"events"}) }} className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'events'
+              })} className="swiper-slide">Events</div>
+
+              <div onClick={(e)=> {switchToClick({tab:'experts'}); that.setState({currentElement:"experts"}) }}  className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'experts'
+              })}>Experts</div>
+
+              <div onClick={(e)=> {switchToClick({tab:'regulations'}); that.setState({currentElement:"regulations"}) }} className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'regulations'
+              })}>Regulations</div>
+
+              <div onClick={(e)=> {switchToClick({tab:'solutions'}); that.setState({currentElement:"solutions"}) }} className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'solutions'
+              })}>Solutions</div>
+              <div onClick={(e)=> {switchToClick({tab:'whitepapers'}); that.setState({currentElement:"whitepapers"})}} className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'whitepapers'
+              })}>White Papers</div>
+              <div onClick={(e)=> {switchToClick({tab:'news'}); that.setState({currentElement:"news"})}} className= {classNames({
+                'swiper-slide': true,
+                'active': that.state.currentElement== 'news'
+              })}>News</div>
             </Swiper>
           </div>
         </div>
@@ -80,13 +113,11 @@ class Body extends Component {
 
 Body.propTypes = {
   actions: PropTypes.object.isRequired,
-  FDataReducer: PropTypes.object.isRequired,
   TReducer : PropTypes.object.isRequired
 };
 
 function mapStateToProps(state) {
   const props = {
-    FDataReducer : state.FDataReducer,
     TReducer : state.TReducer
   };
   return props;

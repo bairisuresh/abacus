@@ -8,9 +8,9 @@ import HeaderRoom from '../components/HeaderComponent'
 class Header extends Component {
   render() {
     console.log("headercontainer loaded");
-    const {actions,HReducer,BMReducer} = this.props;
+    const {actions,HReducer,TReducer} = this.props;
     const hcProps = {actions,HReducer}
-    console.error("header Props ",[this.props,HReducer]);
+    console.log("header Props ",[this.props,HReducer]);
     return <HeaderRoom {...hcProps} />;
   }
 }
@@ -20,13 +20,13 @@ function mapDispatchToProps(dispatch,props) {
     {actionRouteChange: require('../actions/BrMenu.js')},
     require('../actions/Header.js'))
   const actionMap = {actions:bindActionCreators(actions, dispatch)};
-  console.error("mapDispatchToProps actions ",actionMap);
+  console.log("mapDispatchToProps actions ",actionMap);
   return actionMap;
 }
 
 const mapStateToProps = (state) => {
-  console.error("state of reducer here is headerjs  ",state);
-  const props = { HReducer: state.HReducer,BMReducer :state.BMReducer };
+  console.log("state of reducer here is headerjs  ",state);
+  const props = { HReducer: state.HReducer,TReducer :state.TReducer };
   return props;
 }
 

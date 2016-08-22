@@ -8,8 +8,8 @@ require('styles//HtabContent.scss');
 
 class HtabContentComponent extends React.Component {
   render() {
-  	console.error("HtabContentcompu ",this.props);
-  	const {actions, FDataReducer, docArray} = this.props;
+  	console.log("HtabContentcompu ",this.props);
+  	const {actions, docArray} = this.props;
 	return (
 		<div className="main-content light-bg">
 			<div className="block overflow-vertical">
