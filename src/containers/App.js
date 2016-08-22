@@ -19,7 +19,8 @@ class App extends Component {
     super(props)
   }
   componentDidMount(){
-    const { dispatch, FDataReducer } = this.props
+    // const { dispatch, FDataReducer,TReducer} = this.props
+    const { dispatch, FDataReducer} = this.props
     dispatch(fetchJson(FDataReducer.currentSelection));
   }
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
       BMReducer,
       HReducer,
       FDataReducer
+      // TReducer
     };
     console.error('actions appjs class ', actions);
     return (
@@ -47,7 +49,8 @@ App.propTypes = {
   actions: PropTypes.object.isRequired,
   BMReducer: PropTypes.object.isRequired,
   HReducer: PropTypes.object.isRequired,
-  FDataReducer: PropTypes.object.isRequired
+  FDataReducer: PropTypes.object.isRequired,
+  // TReducer : PropTypes.object.isRequired
 };
 function mapStateToProps(state) {
   /* Populated by react-webpack-redux:reducer */
@@ -56,7 +59,8 @@ function mapStateToProps(state) {
     BMReducer: state.BMReducer,
     HReducer: state.HReducer,
     HReducer: state.HReducer,
-    FDataReducer : state.FDataReducer
+    FDataReducer : state.FDataReducer,
+    // TReducer : state.TReducer
 
   };
   return props;
@@ -66,7 +70,8 @@ function mapDispatchToProps(dispatch) {
   const actions = {
     BrMenu: require('../actions/BrMenu.js'),
     HeaderActions: require('../actions/Header.js'),
-    FetchJson: require('../actions/FetchJson.js')
+    FetchJson: require('../actions/FetchJson.js'),
+    TabActions: require('../actions/TabActions.js')    
   };
   console.error('app actions ', actions);
   const actionMap = { actions: bindActionCreators(actions, dispatch),dispatch };

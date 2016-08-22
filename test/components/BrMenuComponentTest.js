@@ -9,7 +9,7 @@ import createComponent from 'helpers/shallowRenderHelper';
 
 import BrMenuComponent from 'components//BrMenuComponent.js';
 
-describe('BrMenuComponent', () => {
+xdescribe('BrMenuComponent', () => {
   let component;
 
   beforeEach(() => {
