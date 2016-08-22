@@ -4,13 +4,12 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Element from '../components/SumDetailPodComponent';
+import Pod from '../components/SumDetailPodComponent';
 
 class DataPod extends Component {
   constructor(props,context){
     super(props,context);
     let { fields } = this.props;
-
     this.state = Object.assign({},this.state,{fields:fields});
   }
   btnClass(feedType){
@@ -50,10 +49,8 @@ class DataPod extends Component {
 
     switch(feedtype){
       case "Events":
-        image = "calendar_icon.png";
-      
+        image = "calendar_icon.png";      
       break;
-
       case "Experts":
         image = "expert_icon.png";
       break;
@@ -75,6 +72,10 @@ class DataPod extends Component {
     }
     return {backgroundImage :'url('+"../images/"+image+')'}
   }
+  componentWillReceiveProps(nextProps) {
+    let { fields } = nextProps;
+    this.setState(Object.assign({},this.state,fields));
+  }
   changeSelection(){
     let fields = Object.assign({},this.state.fields,{selected:!this.state.fields.selected});
     this.setState(Object.assign({},this.state,{fields:fields}));
@@ -82,8 +83,10 @@ class DataPod extends Component {
   render() {
     const {actions, fields} = this.props;
     let that = this;
-    const tranferProps = {actions, fields:that.state.fields, getPodImage: that.getPodImage.bind(that),btnClass : that.btnClass.bind(that), changeSelection : that.changeSelection.bind(that)};
-    return <Element {...tranferProps}/>;
+    console.log("******************Pod fields ",fields);
+    console.log("******************Pod state ",this.state);
+    const tranferProps = {actions, fields:this.state.fields, getPodImage: that.getPodImage.bind(that),btnClass : that.btnClass.bind(that), changeSelection : that.changeSelection.bind(that)};
+    return <Pod {...tranferProps}/>;
   }
 }
 

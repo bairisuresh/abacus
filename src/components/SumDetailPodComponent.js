@@ -7,7 +7,14 @@ import classNames from 'classnames';
 require('styles//SumDetailPod.scss');
 
 class SumDetailPodComponent extends React.Component {
-
+	constructor(props,context){
+		super(props,context);
+		console.log("pod in constructor");
+	}
+	componentWillReceiveProps(nextProps,) {
+		let that = this;
+		console.log("Pod nextProps****** ",[nextProps,this.props]);
+	}
   render() {
   	let eDate = "",props = this.props,eLocation = "", etitle ="";
   	const {btnClass, changeSelection, getPodImage, fields} = this.props;
@@ -21,7 +28,7 @@ class SumDetailPodComponent extends React.Component {
 	}catch(e){
 		console.error(e.message);
 	}
-
+	console.log("///////////////////////////////////////////// fields id ",props)
     return (
 		<li className="detail-pod-compu">
 			<span className = "pod-bg-image" style={getPodImage(fields.feed[0])}></span>

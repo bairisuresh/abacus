@@ -16,7 +16,7 @@ class Body extends Component {
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
-    dispatch(actions.switchToClick({click : 'landingPage'}));
+    dispatch(actions.switchToClick({tab : 'landingPage'}));
   }  
   render() {
 

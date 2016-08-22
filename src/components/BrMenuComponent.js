@@ -13,8 +13,10 @@ class BrMenuComponent extends React.Component {
     const {actionRouteChange, navigateToAlerts, navigateToHome, switchToClick} = actions;
     const Menu = MenuObject.slide;
     console.error("isOpen>>> ",custIcon);
+    console.log("\n\n\n\n her in bmenu updation \n\n\n\n");    
     return (
-    <Menu isOpen={this.props.isOpen} customBurgerIcon={ this.props.custIcon } pageWrapId={ actions.pageWrapId } outerContainerId = {actions.outerContainerId} >
+    <Menu isOpen={this.props.isOpen} customBurgerIcon={ this.props.custIcon } 
+    pageWrapId={ actions.pageWrapId } outerContainerId = {actions.outerContainerId} >
 		<div className="profile-details-wrapper">
 			<div className="profile-details-hldr">
 				<div className="profile-details">
@@ -36,7 +38,7 @@ class BrMenuComponent extends React.Component {
 		</div>
 		<ul className="slide-menu-links marg-b-30">
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/");navigateToHome({state : HOME})}}><Link to="/" >Home</Link></li>
-			<li onClick={(e)=> {actionRouteChange("/"); switchToClick({click:'events'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Events</a></li>
+			<li onClick={(e)=> {actionRouteChange("/"); switchToClick({tab:'events'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Events</a></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/experts")}}><Link to="/experts" >Experts</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/regulations")}}><Link to="/regulations" >Regulations</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/solutions")}}><Link to="/solutions" >Solutions</Link></li>
