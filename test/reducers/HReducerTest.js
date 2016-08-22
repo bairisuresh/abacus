@@ -1,6 +1,6 @@
-var reducer = require('../../src/reducers/FDataReducer');
+var reducer = require('../../src/reducers/HReducer');
 
-describe('FDataReducer', () => {
+describe('HReducer', () => {
 
   it('should not change the passed state', (done) => {
 
