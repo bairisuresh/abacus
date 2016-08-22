@@ -12,8 +12,8 @@ import { routerReducer } from 'react-router-redux';
 const reducers = {
   BMReducer: require('../reducers/BMReducer.js'),
   HReducer: require('../reducers/HReducer.js'),
-  FDataReducer: require('../reducers/FDataReducer.js')
-  // TReducer: require('../reducers/TReducer.js')
+  FDataReducer: require('../reducers/FDataReducer.js'),
+  TReducer: require('../reducers/TReducer.js')
 };
  module.exports = combineReducers({
     ...reducers,

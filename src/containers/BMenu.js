@@ -33,7 +33,8 @@ BMenu.propTypes = {
 function mapDispatchToProps(dispatch,props) {
   const actions = Object.assign({},
     {actionRouteChange: require('../actions/BrMenu.js')},
-    require('../actions/Header.js'))
+    require('../actions/Header.js'),
+    require('../actions/TabActions.js'))
   const actionMap = {actions:bindActionCreators(actions, dispatch)};
   return actionMap;
 }
@@ -41,7 +42,8 @@ function mapDispatchToProps(dispatch,props) {
 const mapStateToProps = (state) => {
   console.error("state of reducer here is bmenujs  ",state);
   const props = { BMReducer: state.BMReducer,
-                  HReducer  : state.HReducer };
+                  HReducer  : state.HReducer
+                };
   return props;
 }
 

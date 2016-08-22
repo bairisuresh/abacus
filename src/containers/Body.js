@@ -11,9 +11,18 @@ require('styles//HomeTabs.scss');
 require('styles//swiper.min.css')
 
 class Body extends Component {
+  constructor(props,context){
+    super(props,context);
+  }
+  componentDidMount(){
+    const { dispatch, actions,TReducer} = this.props;
+    dispatch(actions.switchToClick({click : 'landingPage'}));
+  }  
   render() {
-    const {actions, FDataReducer} = this.props;
+
+    const {actions, FDataReducer,TReducer} = this.props;
     const {data} = FDataReducer;
+    console.log("reducers states body ",[FDataReducer,TReducer]);
       let docArray = []
       if(data){
       let {documents} = data;
@@ -69,14 +78,23 @@ class Body extends Component {
   }
 }
 
+Body.propTypes = {
+  actions: PropTypes.object.isRequired,
+  FDataReducer: PropTypes.object.isRequired,
+  TReducer : PropTypes.object.isRequired
+};
+
 function mapStateToProps(state) {
-  const props = {};
+  const props = {
+    FDataReducer : state.FDataReducer,
+    TReducer : state.TReducer
+  };
   return props;
 }
 
 function mapDispatchToProps(dispatch) {
-  const actions = {};
-  const actionMap = { actions: bindActionCreators(actions, dispatch) };
+  const actions = require('../actions/TabActions.js');  
+  const actionMap = { actions: bindActionCreators(actions, dispatch),dispatch };
   return actionMap;
 }
 

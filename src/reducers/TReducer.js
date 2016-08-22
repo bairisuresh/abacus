@@ -4,7 +4,7 @@
  * src/container/App.js accordingly.
  */
 import {SWIPER_CLICK} from '../actions/const';
-const initialState = {click:"home"};
+const initialState = {click:"landingPage"};
 
 module.exports = function(state = initialState, action) {
   /* Keep the reducer clean - do not mutate the original state. */

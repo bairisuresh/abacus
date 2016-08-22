@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 import HeaderRoom from '../components/HeaderComponent'
 class Header extends Component {
   render() {
+    console.log("headercontainer loaded");
     const {actions,HReducer,BMReducer} = this.props;
     const hcProps = {actions,HReducer}
     console.error("header Props ",[this.props,HReducer]);
@@ -24,7 +25,7 @@ function mapDispatchToProps(dispatch,props) {
 }
 
 const mapStateToProps = (state) => {
-  console.error("state of reducer here is bmenujs  ",state);
+  console.error("state of reducer here is headerjs  ",state);
   const props = { HReducer: state.HReducer,BMReducer :state.BMReducer };
   return props;
 }

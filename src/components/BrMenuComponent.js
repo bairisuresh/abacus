@@ -10,7 +10,7 @@ class BrMenuComponent extends React.Component {
   render() {
     
     const { actions, custIcon } = this.props;
-    const {actionRouteChange, navigateToAlerts, navigateToHome} = actions;
+    const {actionRouteChange, navigateToAlerts, navigateToHome, switchToClick} = actions;
     const Menu = MenuObject.slide;
     console.error("isOpen>>> ",custIcon);
     return (
@@ -36,7 +36,7 @@ class BrMenuComponent extends React.Component {
 		</div>
 		<ul className="slide-menu-links marg-b-30">
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/");navigateToHome({state : HOME})}}><Link to="/" >Home</Link></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/events")}}><Link to="/events" >Events</Link></li>
+			<li onClick={(e)=> {actionRouteChange("/"); switchToClick({click:'events'}); }}><a  onClick={(e)=> {e.preventDefault();}}>Events</a></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/experts")}}><Link to="/experts" >Experts</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/regulations")}}><Link to="/regulations" >Regulations</Link></li>
 			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/solutions")}}><Link to="/solutions" >Solutions</Link></li>

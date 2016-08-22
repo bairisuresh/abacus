@@ -1,3 +1,192 @@
 .configlist-component {
 
 }
+.add-results {
+	padding: 10px 10px 0 10px;
+	border-bottom: 1px solid #c1d9e5;
+	position: relative;
+}
+.add-results span.title {
+	color: #727272;
+	font-size: 12px;
+}
+.accordion-wrapper {
+	overflow-y: auto;
+}
+/*------------------------------------*\
+-------- DEMO Code: accordion
+\*------------------------------------*/
+/*----- Accordion -----*/
+.accordion, .accordion * {
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.accordion {
+	overflow:hidden;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width:100%;
+	padding:15px 10px;
+	display:inline-block;
+	border-bottom: 1px solid #c1d9e5;
+	transition:all linear 0.15s;
+	/* Type */
+	font-size:12px;
+	color: #3380a9;
+	background: url(../images/chevron_down.png) no-repeat;
+	background-position: right 15px center;
+    background-size: 14px;
+}
+
+
+/*.accordion-section-title:hover {
+	background: #f0f0f0 url(../images/chevron_up.png) no-repeat;
+	background-position: 96%;
+    background-size: 14px;
+}*/
+
+.accordion-section-title.active {
+	background: #f0f0f0 url(../images/chevron_up.png) no-repeat;
+	background-position: right 15px center;
+    background-size: 14px;
+}
+
+
+
+.accordion-section-title.active {
+	/* Type */
+	text-decoration:none;
+	border: none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+	display:none;
+	background: #f0f0f0;
+	padding: 5px 10px 15px 10px;
+	border-bottom: 1px solid #c1d9e5;
+}
+.accordion-section-content p {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+/* Configuration CSS */
+.configure-btns-wrapper {
+}
+.configure-btns-hldr {
+	padding: 10px 20px 32px 20px;
+	border-bottom: 1px solid rgba(50, 128, 169, 0.3);
+	position: relative;
+}
+.configure-btns-hldr h3 {
+	font-size: 14px;
+	text-align: center;
+	color: #0a2f5d;
+}
+.configure-btns-hldr .save-btn, .configure-btns-hldr .done-btn {
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+	color: #000;
+	padding: 12px;
+}
+.configure-btns-hldr .save-btn {
+	left: 0;
+}
+.configure-btns-hldr .done-btn {
+	right: 0;
+}
+h3.sort {
+    padding: 15px 10px;
+    border-bottom: 1px solid #c1d9e5;
+	font-size: 11px;
+	color: #737373;
+	margin-top: 30px;
+}
+.btns-group {
+}
+.btns-group a {
+	display: inline-block;
+	border: 1px solid #727272;
+	padding: 8px 12px;
+	font-size: 12px;
+	border-radius: 100px;
+	color: #002b5e;
+	margin: 0 6px 12px 0;
+	position: relative;
+}
+.add-results .btns-group a {
+	padding: 8px 30px 8px 12px;
+}
+.add-results .btns-group a span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #e5e5e5 url(../images/add_close_btn.png) no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 7px;
+	right: 8px;
+	border-radius: 20px;
+}
+.btns-group a.active {
+	background: #62c0df;
+	color: #fff;
+	border-color: #62c0df;
+}
+.add-close-btn {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 0;
+	top: 0;
+	background: url(../images/close_btn.png) no-repeat;
+	background-position: center;
+	background-size: 15px;
+}
+.document-search .form-group {
+	margin-bottom: 0;
+}
+.document-search .form-control {
+	text-align: center;
+}
+.alpha-btns {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	border-bottom: 1px solid #c1d9e5;
+	margin-bottom: 20px;
+}
+.alpha-btns a {
+	font-size: 11px;
+	color: #9b9b9b;
+	padding: 10px;
+}
+.alpha-btns a.active {
+	color: #0a2f5d;
+}
+.back-btn {
+	width: 50px;
+	height: 50px;
+	background: #0a2f5d url(../images/back_btn_bg.png) no-repeat;
+	background-position: center;
+    background-size: 24px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+	border-radius: 100px;
+}
