@@ -4,7 +4,7 @@
  * src/container/App.js accordingly.
  */
 import {NAVIGATE_SETTINGS, NAVIGATE_ALERTS, NAVIGATE_HOME, HOME, SETTINGS, ALERTS} from '../actions/const';
-const initialState = {heading:"Regulatory Resource CenterResource Center",data:{state:HOME}};
+const initialState = {heading:"Regulatory Resource Center",data:{state:HOME}};
 
 module.exports = function(state = initialState, action) {
   /* Keep the reducer clean - do not mutate the original state. */
