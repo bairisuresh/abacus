@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 import Swiper from 'react-id-swiper';
 import HTabContent from '../components/HtabContentComponent';
 import classNames from 'classnames';
+import $ from 'jquery';
 
 require('styles//HomeTabs.scss');
 require('styles//swiper.min.css')
@@ -18,10 +19,14 @@ class Body extends Component {
   }
   componentWillReceiveProps(){
     this.setState({currentElement:this.props.TReducer.tab});
+    $('.swiper-button-prev').insertAfter('.swiper-container');
+    $('.swiper-button-next').insertAfter('.swiper-container');
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
     dispatch(actions.switchToClick({tab : 'landingPage'}));
+    $('.swiper-button-prev').insertAfter('.swiper-container');
+    $('.swiper-button-next').insertAfter('.swiper-container');
   }
   isActive(path){
     return path == this.props.TReducer.tab ? true : false;
