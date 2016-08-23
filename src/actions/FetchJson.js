@@ -1,4 +1,5 @@
-import {FETCH_JSON, RECEIVE_JSON, FAILED_FETCH_JSON, CURRENT_JSON} from './const';
+import {FETCH_JSON, RECEIVE_JSON, FAILED_FETCH_JSON, CURRENT_JSON, FAILED_FETCH_DETAIL_JSON, RECEIVE_DETAIL_JSON, FETCH_DETAIL_JSON} from './const';
+
 import fetch from 'isomorphic-fetch'
 require('es6-promise').polyfill();
 
@@ -74,4 +75,85 @@ module.exports.fetchJson = function(selection) {
 			});
 	}
 };
+
+function requestDetailJson(selection){
+	return {
+		type: FETCH_DETAIL_JSON,
+	}	
+}
+
+function receiveDetailJson(finalData,detailJson) {
+
+	/*
+	TODO: Parse Doc array and put detail json in place of existing with {type:"detail"} json
+	*/
+	return {
+		type: RECEIVE_DETAIL_JSON,
+		data,
+		timeStamp : Date.now()
+	}	
+};
+
+function parseDocArray(finalData,detailJson){
+	let {data,docObject} = finalData;
+	let {detailName,idDN} = data;
+	let {documents} = docObject;
+	documents.map(function(data){
+		let {fields} = data
+		switch(detailName){
+	      case "Events":
+	        
+	      break;
+	      case "Experts":
+	        image = "expert_icon.png";
+	      break;
+	      case "Solutions":
+	        image = "solutions.png";
+	      break;
+	      case "Regulations":
+	        image = "regulations_icon.png";
+	      break;
+	      case "News":
+	        image = "news.png";
+	      break;
+	      case "Whitepapers":
+	        image = "whitepapers.png";
+	      break;				
+	      default:
+
+		}
+		data.f
+	})
+}
+
+function failedToFetchDetailJson(selection) {
+	return { type: FAILED_FETCH_DETAIL_JSON, selection };
+};
+
+module.exports.fetchDetailJson = function(data) {
+	let {detailName} = data;
+	let selection = detailName;
+	return (dispatch,state) => {
+		console.log("fetchJson dispatch");
+		dispatch(requestDetailJson(selection));
+		return fetch(`../sources/${selection}.json`)
+			.then((response) => {
+				if(response.status == 200){
+					return response.json();
+				}else{
+					return "";
+				}
+			})
+			.then((json) => {
+				if(json){
+					let docObject = state().TReducer.data;
+					let pasdata = Object.assign({},data,docObject)
+					dispatch(receiveDetailJson(pasdata, json,));
+				}else{
+					dispatch(failedToFetchDetailJson(selection));		  		
+				}
+			});
+	}
+};
+
 	

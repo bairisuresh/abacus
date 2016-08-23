@@ -5,6 +5,7 @@
  */
 import {SWIPER_CLICK,
   FETCH_JSON, RECEIVE_JSON, FAILED_FETCH_JSON,CURRENT_JSON,
+  DETAIL_CLICK,FAILED_FETCH_DETAIL_JSON, RECEIVE_DETAIL_JSON, FETCH_DETAIL_JSON,
   ROUTE_CHANGED
 } from '../actions/const';
 const initialState = {
@@ -28,6 +29,10 @@ module.exports = function(state = initialState, action) {
       return Object.assign({}, state, {tab:action.data.tab});      
 
     } break;
+    case DETAIL_CLICK : {
+      const {data} = action;//{detailName:"",id:"",docArray:[]}
+
+    }break;
     case FAILED_FETCH_JSON:
       return Object.assign({}, state, {
         isFetching: false,
@@ -47,6 +52,23 @@ module.exports = function(state = initialState, action) {
         data: action.data,
         lastUpdated: action.timeStamp
       });break;
+    case FAILED_FETCH_DETAIL_JSON:
+      return Object.assign({}, state, {
+        isFetching: false,
+        data : action.data
+      });
+      break;
+    case FETCH_DETAIL_JSON:
+      return Object.assign({}, state, {
+        isFetching: true,
+      });
+      break;
+    case RECEIVE_DETAIL_JSON:
+      return Object.assign({}, state, {
+        isFetching: false,
+        data: action.data,
+        lastUpdated: action.timeStamp
+      });break;      
     case CURRENT_JSON:
       return Object.assign({}, state, {
         currentSelection: action.selection,

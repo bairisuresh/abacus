@@ -10,4 +10,9 @@ export const CURRENT_JSON = 'CURRENT_JSON';
 export const HOME = 'home';
 export const ALERTS = 'alerts';
 export const SETTINGS = 'settings';
+
 export const SWIPER_CLICK = 'SWIPER_CLICK';
+
+export const FAILED_FETCH_DETAIL_JSON = 'FAILED_FETCH_DETAIL_JSON';
+export const RECEIVE_DETAIL_JSON = 'RECEIVE_DETAIL_JSON';
+export const FETCH_DETAIL_JSON = 'FETCH_DETAIL_JSON';

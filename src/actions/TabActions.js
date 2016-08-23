@@ -1,5 +1,5 @@
 import {SWIPER_CLICK, HOME} from './const';
-import {fetchJson} from './FetchJson';
+import {fetchJson,} from './FetchJson';
 import {navigateToHome} from './Header'
 import actionRouteChange from './BrMenu';
 let tabClick = function(data){
@@ -10,6 +10,7 @@ module.exports = {
 		console.log("dat passed in Tabactions ",data)
 		try{
 			return dispatch => {
+				debugger;
 				dispatch(fetchJson(data.tab)); 
 				console.log("before return ",data)
 				return dispatch(tabClick(data));
@@ -17,5 +18,11 @@ module.exports = {
 		}catch(e){
 			console.log("error is ",e.message);
 		}
-	}}
+	},
+	fetchDetailJson : function(data){
+		return (dispatch,state) => {
+			return dispatch(fetchDetailJson(data));
+		}
+	}
+}
 

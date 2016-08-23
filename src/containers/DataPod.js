@@ -71,6 +71,34 @@ class DataPod extends Component {
     }
     return {backgroundImage :'url('+"../images/"+image+')'}
   }
+  getJsonName(feedtype){
+    let json ="";
+
+    switch(feedtype){
+      case "Events":
+        json = "eventDetail";      
+      break;
+      case "Experts":
+        json = "ExpertDetails";
+      break;
+      case "Solutions":
+        json = "solutionsDetail";
+      break;
+      case "Regulations":
+        json = "regulationDetail";
+      break;
+      case "News":
+        json = "eventDetail";
+      break;
+      case "Whitepapers":
+        json = "whitepaperDetail"
+      break;
+      default : 
+        json = "eventDetail";
+
+    }
+    return json;
+  }
   componentWillReceiveProps(nextProps) {
     let { fields } = nextProps;
     this.setState({item:fields});
@@ -79,6 +107,9 @@ class DataPod extends Component {
     let fields = Object.assign({},this.state.item,{selected:!this.state.item.selected});
     this.setState({item:fields});
   };
+  showDetailView(){
+    this.state.item
+  }
   render() {
     const {actions, fields} = this.props;
     let that = this;

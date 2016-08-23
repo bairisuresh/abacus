@@ -12,7 +12,7 @@ class SumDetailPodComponent extends React.Component {
 	}
   render() {
   	let eDate = "",props = this.props,eLocation = "", etitle ="";
-  	const {btnClass, changeSelection, getPodImage, fields} = this.props;
+  	const {btnClass, changeSelection, getPodImage, fields, showDetailView} = this.props;
   	if(fields.pubdate && fields.pubdate[0]){  			
 		let date = new Date(fields.pubdate[0])
   		eDate = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear();
@@ -26,7 +26,7 @@ class SumDetailPodComponent extends React.Component {
 		<li className="detail-pod-compu">
 			<span className = "pod-bg-image" style={getPodImage(fields.feed[0])}></span>
 			<p className="event-label">{fields.feed[0]}</p>
-			<h2 className="event-title">{etitle}</h2>
+			<h2 className="event-title" onClick="showDetailView">{etitle}</h2>
 			<p className="post-name">{eLocation}</p>
 			<p className="event-date">{eDate}</p>
 			<div className={classNames({

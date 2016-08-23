@@ -1,1 +1,61 @@
-{"totalTime":20,"totalHits":1,"documents":[{"fields":{"title":["2016 Mutual Funds and Investment Management Conference"],"eventId":[202],"eventTitle":["2016 Mutual Funds and Investment Management Conference"],"eventDescription":["<div><b>REGISTRATION FEES</b></div><div>ICI members/FBA members: $1,550</div><div>Nonmembers: $2,100</div><div>Directors: $680</div><div>Government employees: $680</div><div><br></div><div><b>CONFERENCE HIGHLIGHTS</b></div><ul><li>Learn from SEC staff and industry experts about recent and upcoming regulatory efforts affecting funds</li><li>Listen to industry experts discuss what today�s regulatory environment, market trends, and evolving business practices mean for the fund industry of tomorrow</li><li>Learn from senior officials about the SEC�s enforcement and compliance programs</li><li>Hear from industry experts and SEC staff as they assess the �alert� level of current industry topics</li><li>Gather valuable information at the conference�s wide-ranging panel sessions, covering such topics as:</li><li>\tDerivatives regulation</li></ul><ul><li>\tTax and accounting developments</li><li>\tDOL fiduciary rule</li><li>\tEU regulatory process</li><li>\tCybersecurity</li><li>\tEquity market structure</li><li>\tLiquidity risk management</li><li>\tIssues facing fund boards</li><li>\tFunds� interaction with portfolio companies</li><li>\tTrends in fund litigation</li><li>\tOversight of service providers</li><li>\tThe SEC�s use of data for compliance and enforcement purposes</li><li>Network with your peers and exchange ideas about current industry issues and developments</li><li>Earn ethics CLE credit</li></ul>"],"eventHost":["Investment Company Institute (\"ICI\")"],"eventLocation":["JW Marriott Grande Lakes in Orlando, Florida."],"eventSpeakers":["SEC Staff and Industry Experts"],"eventType":["Conference"],"startDate":["2016-03-13T03:00:00.000-0400"],"endDate":["2016-03-16T12:00:00.000-0400"],"topics_tags":["Derivatives","fiduciary","cybersecurity","Liquidity Risk"],"eventUpdatedTimeStamp":["2016-05-05T07:03:17.000-0400"],"feed":["Events"],"uri":["https://www.ici.org/events/upcoming/conf_16_mfimc?WT.mc_id=mconf_feb16"],"country":["US"],"region":["AMER"]}}]}
+{
+    "totalTime": 20,
+    "totalHits": 1,
+    "documents": [
+        {
+            "fields": {
+                "title": [
+                    "2016 Mutual Funds and Investment Management Conference"
+                ],
+                "eventId": [
+                    202
+                ],
+                "eventTitle": [
+                    "2016 Mutual Funds and Investment Management Conference"
+                ],
+                "eventDescription": [
+                    "<div><b>REGISTRATION FEES</b></div><div>ICI members/FBA members: $1,550</div><div>Nonmembers: $2,100</div><div>Directors: $680</div><div>Government employees: $680</div><div><br></div><div><b>CONFERENCE HIGHLIGHTS</b></div><ul><li>Learn from SEC staff and industry experts about recent and upcoming regulatory efforts affecting funds</li><li>Listen to industry experts discuss what today�s regulatory environment, market trends, and evolving business practices mean for the fund industry of tomorrow</li><li>Learn from senior officials about the SEC�s enforcement and compliance programs</li><li>Hear from industry experts and SEC staff as they assess the �alert� level of current industry topics</li><li>Gather valuable information at the conference�s wide-ranging panel sessions, covering such topics as:</li><li>\tDerivatives regulation</li></ul><ul><li>\tTax and accounting developments</li><li>\tDOL fiduciary rule</li><li>\tEU regulatory process</li><li>\tCybersecurity</li><li>\tEquity market structure</li><li>\tLiquidity risk management</li><li>\tIssues facing fund boards</li><li>\tFunds� interaction with portfolio companies</li><li>\tTrends in fund litigation</li><li>\tOversight of service providers</li><li>\tThe SEC�s use of data for compliance and enforcement purposes</li><li>Network with your peers and exchange ideas about current industry issues and developments</li><li>Earn ethics CLE credit</li></ul>"
+                ],
+                "eventHost": [
+                    "Investment Company Institute (\"ICI\")"
+                ],
+                "eventLocation": [
+                    "JW Marriott Grande Lakes in Orlando, Florida."
+                ],
+                "eventSpeakers": [
+                    "SEC Staff and Industry Experts"
+                ],
+                "eventType": [
+                    "Conference"
+                ],
+                "startDate": [
+                    "2016-03-13T03:00:00.000-0400"
+                ],
+                "endDate": [
+                    "2016-03-16T12:00:00.000-0400"
+                ],
+                "topics_tags": [
+                    "Derivatives",
+                    "fiduciary",
+                    "cybersecurity",
+                    "Liquidity Risk"
+                ],
+                "eventUpdatedTimeStamp": [
+                    "2016-05-05T07:03:17.000-0400"
+                ],
+                "feed": [
+                    "Events"
+                ],
+                "uri": [
+                    "https://www.ici.org/events/upcoming/conf_16_mfimc?WT.mc_id=mconf_feb16"
+                ],
+                "country": [
+                    "US"
+                ],
+                "region": [
+                    "AMER"
+                ]
+            }
+        }
+    ]
+}
