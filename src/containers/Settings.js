@@ -8,14 +8,9 @@ import Configuration from '../components/ConfigListComponent';
 
 class Settings extends Component {
   render() {
-    const {actions} = this.props;
-    return <Configuration actions={actions} />;
+    return <Configuration  />;
   }
 }
-
-Settings.propTypes = {
-  actions: PropTypes.object.isRequired
-};
 
 function mapStateToProps(state) {
   const props = {};

@@ -25,7 +25,7 @@ class HeaderComponent extends React.Component {
     ),settings = (
       <div className="configure-btns-wrapper">
         <div className="configure-btns-hldr">
-          <a onClick={e=>e.preventDefault()} className="save-btn">Save filter</a>
+          <a onClick={e=>e.preventDefault()} className="save-btn"><span>Save filter</span></a>
           <h3>Configuration</h3>
         <Link to="/" className="done-btn"  >
           <span onClick={()=>{actions.navigateToHome({state : HOME});actions.actionRouteChange("/");}} >Done</span>

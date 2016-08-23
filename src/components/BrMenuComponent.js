@@ -13,7 +13,7 @@ class BrMenuComponent extends React.Component {
     const {actionRouteChange, navigateToAlerts, switchToClick} = actions;
     const Menu = MenuObject.slide;
     console.log("isOpen>>> ",custIcon);
-    console.log("\n\n\n\n her in bmenu updation \n\n\n\n");    
+    console.log("\n\n\n\n her in bmenu updation \n\n\n\n");   
     return (
     <Menu isOpen={this.props.isOpen} customBurgerIcon={ this.props.custIcon } 
     pageWrapId={ actions.pageWrapId } outerContainerId = {actions.outerContainerId} >
@@ -47,7 +47,9 @@ class BrMenuComponent extends React.Component {
 		</ul>
 		<ul className="slide-menu-links">
 			<li ><a  onClick={(e)=> {e.preventDefault();}}>My Profile</a></li>
-			<li onClick={(e)=> {e.preventDefault();actionRouteChange("/alerts"); navigateToAlerts({state : ALERTS});}} ><a  onClick={(e)=> {e.preventDefault();}}><span>My Alerts</span></a></li>
+			<li  onClick={()=>{navigateToAlerts({state : ALERTS}); actionRouteChange("/alerts");}} >
+			<Link  to="/alerts" ><span >My Alerts</span></Link>
+			</li>
 			<li ><a  onClick={(e)=> {e.preventDefault();}} className="lang" >English (US)</a></li>
 		</ul>
 		

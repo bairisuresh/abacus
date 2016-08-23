@@ -6,9 +6,10 @@
 
   h1 {
     display: inline-block;
-      line-height: 43px;
-      margin-left: 47px;
-      font-size: 15px;
+    line-height: 43px;
+    margin-left: 47px;
+    font-size: 14px;
+    font-weight: 400;      
   }
   .alerts h1 {
     display: block;
@@ -63,16 +64,22 @@
 }
 .configure-btns-hldr h3 {
   font-size: 14px;
+  font-weight: 400;
   text-align: center;
   color: #0a2f5d;
 }
 .configure-btns-hldr .save-btn, .configure-btns-hldr .done-btn {
-  font-size: 12px;
   position: absolute;
   top: 0;
-  color: #000;
   padding: 12px;
+  font-size: 12px;
+  font-weight: 300;
 }
+
+.configure-btns-hldr .save-btn span, .configure-btns-hldr .done-btn span {
+  color: #727272;
+}
+
 .configure-btns-hldr .save-btn {
   left: 0;
 }
