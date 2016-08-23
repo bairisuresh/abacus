@@ -121,15 +121,15 @@ h3.sort {
 .btns-group {
 }
 .btns-group a {
-	display: inline-block;
-	border: 1px solid #727272;
-	padding: 8px 12px;
-	font-size: 12px;
-	font-weight: 300;
-	border-radius: 100px;
-	color: #002b5e;
-	margin: 0 6px 12px 0;
-	position: relative;
+    display: inline-block;
+    border: .5px solid #727272;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 100px;
+    color: #727272;
+    margin: 0 6px 12px 9px;
+    position: relative;
 }
 .add-results .btns-group a {
 	padding: 8px 30px 8px 12px;
