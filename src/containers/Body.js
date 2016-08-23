@@ -82,7 +82,7 @@ class Body extends Component {
               <div onClick={(e)=> {switchToClick({tab:'events'}); that.setState({currentElement:"events"}) }} className= {classNames({
                 'swiper-slide': true,
                 'active': that.state.currentElement== 'events'
-              })} className="swiper-slide">Events</div>
+              })}>Events</div>
 
               <div onClick={(e)=> {switchToClick({tab:'experts'}); that.setState({currentElement:"experts"}) }}  className= {classNames({
                 'swiper-slide': true,
