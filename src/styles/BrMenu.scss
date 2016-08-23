@@ -82,6 +82,7 @@
         padding: 10px 20px;
         border-bottom: 1px solid #c1d9e5;
         font-size: 12px;
+        font-weight: 400;
         color: #3380a9;
         cursor: pointer;
       }
@@ -142,10 +143,12 @@
 .profile-info{ 
   p{
     font-size: 12px;
+    font-weight: 400;
     font-weight: bold;
   }
   span {
     font-size: 10px;
+    font-weight: 300;
   } 
 }
 .menu-search-form {

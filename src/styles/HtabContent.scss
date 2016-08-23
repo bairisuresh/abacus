@@ -24,12 +24,13 @@
 
 				.event-label {
 					display: inline-block;
-				    font-size: 12px;
 				    text-transform: uppercase;
 				    color: #0a2f5d;
 				    padding: 10px 10px 10px 35px;
 				    margin-bottom: 10px;
 				    position: relative;
+					font-size: 12px;
+					font-weight: 300;				    
 				}
 				.pod-bg-image {
 				    display: block;
@@ -43,6 +44,7 @@
 				}
 				.event-title {
 					font-size: 14px;
+					font-weight: 400;
 				    padding-bottom: 20px;
 					margin-bottom: 15px;
 				    color: #000;
@@ -51,11 +53,13 @@
 				}
 				.post-name {
 					font-size: 12px;
+					font-weight: 300;
 				    color: #727272;
 				    margin-bottom: 5px;
 				}
 				.event-date {
 					font-size: 12px;
+					font-weight: 300;
 				    color: #2c9dc0;
 				    position: absolute;
 				    right: 10px;
@@ -84,6 +88,8 @@
 					background-size: cover;
 				}
 				.register-btn.active p {
+					font-size: 12px;
+					font-weight: 300;					
 					padding-left: 30px;
 					color: #5ca011;
 				}

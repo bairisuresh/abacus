@@ -7,8 +7,9 @@
 	position: relative;
 }
 .add-results span.title {
-	color: #727272;
-	font-size: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #727272;
 }
 .accordion-wrapper {
 	overflow-y: auto;
@@ -35,7 +36,8 @@
 	border-bottom: 1px solid #c1d9e5;
 	transition:all linear 0.15s;
 	/* Type */
-	font-size:12px;
+	font-size: 12px;
+	font-weight: 400;
 	color: #3380a9;
 	background: url(../images/chevron_down.png) no-repeat;
 	background-position: right 15px center;
@@ -90,11 +92,13 @@
 }
 .configure-btns-hldr h3 {
 	font-size: 14px;
+	font-weight: 400;
 	text-align: center;
 	color: #0a2f5d;
 }
 .configure-btns-hldr .save-btn, .configure-btns-hldr .done-btn {
 	font-size: 12px;
+	font-weight: 300;
 	position: absolute;
 	top: 0;
 	color: #000;
@@ -109,7 +113,8 @@
 h3.sort {
     padding: 15px 10px;
     border-bottom: 1px solid #c1d9e5;
-	font-size: 11px;
+	font-size: 12px;
+	font-weight: 300;
 	color: #737373;
 	margin-top: 30px;
 }
@@ -120,6 +125,7 @@ h3.sort {
 	border: 1px solid #727272;
 	padding: 8px 12px;
 	font-size: 12px;
+	font-weight: 300;
 	border-radius: 100px;
 	color: #002b5e;
 	margin: 0 6px 12px 0;
