@@ -18,24 +18,33 @@ class Body extends Component {
     this.state = {currentElement:this.props.TReducer.tab};
   }
   componentWillReceiveProps(){
+    console.log("bodyjs props*****************&&&&&&&&&&&&&&&&&&&&&&&&&&&&& ",this.props.TReducer);    
     this.setState({currentElement:this.props.TReducer.tab});
     $('.swiper-button-prev').insertAfter('.swiper-container');
     $('.swiper-button-next').insertAfter('.swiper-container');
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
-    dispatch(actions.switchToClick({tab : 'landingPage'}));
+    dispatch(actions.switchToClick({tab : this.props.TReducer.tab}));
     $('.swiper-button-prev').insertAfter('.swiper-container');
     $('.swiper-button-next').insertAfter('.swiper-container');
   }
   isActive(path){
     return path == this.props.TReducer.tab ? true : false;
   }
+  onSlideNextEnd(e){
+      debugger;
+      }
+onSlidePrevEnd(e){
+    debugger;
+      }      
+  onClickB(w){
+    debugger;
+  }
   render() {
-    const {actions,TReducer} = this.props;
+    const {actions,TReducer,sparams} = this.props;
     const {switchToClick} = actions;
-    const {data} = TReducer, that = this;
-    console.log("reducer props \n\n\n\n ",[TReducer]);
+    const {data} = TReducer, that = this;    
       let docArray = []
       if(data){
       let {documents} = data;
@@ -43,69 +52,33 @@ class Body extends Component {
         docArray = documents;
       }
     }
+    console.log("params,,,,,,,,,,,,,, ",this.props );
     const tHtabProps = {actions,docArray};
-    const params = {
-    nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        slidesPerView: 5,
-        spaceBetween: 50,
-        breakpoints: {
-            1024: {
-                slidesPerView: 4,
-                spaceBetween: 0
-            },
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 0
-            },
-            640: {
-                slidesPerView: 3,
-                spaceBetween: 0
-            },
-            320: {
-                slidesPerView: 3,
-                spaceBetween: 0
-            }
-        }
-    }
+
     return (
       <div className="home-tabs">
          <div className="top-tabs">
         <div className="swiper-hldr">
           <div className="swiper-container-outer">
-            <Swiper {...params}>
-              <div onClick={(e)=> {switchToClick({tab:'landingPage'});that.setState({currentElement:"landingPage"}) }} className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'landingPage'
-              })}>Home</div>
-              <div onClick={(e)=> {switchToClick({tab:'events'}); that.setState({currentElement:"events"}) }} className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'events'
-              })}>Events</div>
-
-              <div onClick={(e)=> {switchToClick({tab:'experts'}); that.setState({currentElement:"experts"}) }}  className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'experts'
-              })}>Experts</div>
-
-              <div onClick={(e)=> {switchToClick({tab:'regulations'}); that.setState({currentElement:"regulations"}) }} className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'regulations'
-              })}>Regulations</div>
-
-              <div onClick={(e)=> {switchToClick({tab:'solutions'}); that.setState({currentElement:"solutions"}) }} className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'solutions'
-              })}>Solutions</div>
-              <div onClick={(e)=> {switchToClick({tab:'whitepapers'}); that.setState({currentElement:"whitepapers"})}} className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'whitepapers'
-              })}>White Papers</div>
-              <div onClick={(e)=> {switchToClick({tab:'news'}); that.setState({currentElement:"news"})}} className= {classNames({
-                'swiper-slide': true,
-                'active': that.state.currentElement== 'news'
-              })}>News</div>
+            <Swiper {...sparams} onSlidePrevEnd={this.onSlidePrevEnd.bind(this)} 
+            onSlideNextEnd={this.onSlideNextEnd.bind(this)}
+            onClick={this.onClickB.bind(this)} >
+            {
+              that.props.swiperItems.map(obj=>
+                <div onClick={()=> {
+                  switchToClick({tab:Object.keys(obj)[0]});
+                  }} 
+                  className= {classNames({
+                    'swiper-slide': true,
+                    'swiper-slide-active': that.state.currentElement== Object.keys(obj)[0]
+                  })}>
+                    {obj[Object.keys(obj)[0]]}
+                  </div>
+                )
+                            
+            }
+              
+              
             </Swiper>
           </div>
         </div>
@@ -118,9 +91,45 @@ class Body extends Component {
 
 Body.propTypes = {
   actions: PropTypes.object.isRequired,
-  TReducer : PropTypes.object.isRequired
+  TReducer : PropTypes.object.isRequired,
+  swiperItems: PropTypes.array.isRequired,
+  sparams: PropTypes.object.isRequired,
 };
 
+Body.defaultProps = {
+  swiperItems: [{"landingPage":"Home"},
+                {"events":"Events"},
+                {"experts":"Experts"},
+                {"regulations":"Regulations"},
+                {"solutions":"Solutions"},
+                {"whitepapers":"Whitepapers"},
+                {"news":"News"}],
+  sparams : {
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      paginationClickable: true,
+      slidesPerView: 5,
+      spaceBetween: 50,
+      breakpoints: {
+          1024: {
+              slidesPerView: 4,
+              spaceBetween: 0
+          },
+          768: {
+              slidesPerView: 3,
+              spaceBetween: 0
+          },
+          640: {
+              slidesPerView: 3,
+              spaceBetween: 0
+          },
+          320: {
+              slidesPerView: 3,
+              spaceBetween: 0
+          }
+      }
+    }
+}
 function mapStateToProps(state) {
   const props = {
     TReducer : state.TReducer

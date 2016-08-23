@@ -1,7 +1,5 @@
-import {SWIPER_CLICK, HOME} from './const';
-import {fetchJson,} from './FetchJson';
-import {navigateToHome} from './Header'
-import actionRouteChange from './BrMenu';
+import {SWIPER_CLICK} from './const';
+import {fetchJson,fetchDetailJson} from './FetchJson';
 let tabClick = function(data){
 	return {type:SWIPER_CLICK,data};	
 }
@@ -10,7 +8,6 @@ module.exports = {
 		console.log("dat passed in Tabactions ",data)
 		try{
 			return dispatch => {
-				debugger;
 				dispatch(fetchJson(data.tab)); 
 				console.log("before return ",data)
 				return dispatch(tabClick(data));

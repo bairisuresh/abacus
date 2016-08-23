@@ -84,9 +84,7 @@ function requestDetailJson(selection){
 
 function receiveDetailJson(finalData,detailJson) {
 
-	/*
-	TODO: Parse Doc array and put detail json in place of existing with {type:"detail"} json
-	*/
+	let data = parseDocArray(finalData,detailJson);
 	return {
 		type: RECEIVE_DETAIL_JSON,
 		data,
@@ -98,31 +96,47 @@ function parseDocArray(finalData,detailJson){
 	let {data,docObject} = finalData;
 	let {detailName,idDN} = data;
 	let {documents} = docObject;
-	documents.map(function(data){
+	return documents.map(function(data){
 		let {fields} = data
 		switch(detailName){
 	      case "Events":
-	        
+	        if(fields.eventId[0] == idDN){
+	        	detailJson.documents[0].fields.type = 'detail';
+	        	fields = detailJson.documents[0].fields
+	        }
 	      break;
 	      case "Experts":
-	        image = "expert_icon.png";
+	        if(fields[".id"][0] == idDN){
+	        	detailJson.documents[0].fields.type = 'detail';
+	        	fields = detailJson.documents[0].fields
+	        }
 	      break;
 	      case "Solutions":
-	        image = "solutions.png";
+	        if(fields.documentId[0] == idDN){
+	        	detailJson.documents[0].fields.type = 'detail';
+	        	fields = detailJson.documents[0].fields
+	        }	        
 	      break;
 	      case "Regulations":
-	        image = "regulations_icon.png";
+	        if(fields[".id"][0] == idDN){
+	        	detailJson.documents[0].fields.type = 'detail';
+	        	fields = detailJson.documents[0].fields
+	        }
 	      break;
 	      case "News":
-	        image = "news.png";
+	        if(fields.eventId[0] == idDN){
+	        	detailJson.documents[0].fields.type = 'detail';
+	        	fields = detailJson.documents[0].fields
+	        }
 	      break;
 	      case "Whitepapers":
-	        image = "whitepapers.png";
-	      break;				
-	      default:
-
+	        if(fields.documentId[0] == idDN){
+	        	detailJson.documents[0].fields.type = 'detail';
+	        	fields = detailJson.documents[0].fields
+	        }
+	      break;	      
 		}
-		data.f
+	    return detailJson		
 	})
 }
 
@@ -134,7 +148,7 @@ module.exports.fetchDetailJson = function(data) {
 	let {detailName} = data;
 	let selection = detailName;
 	return (dispatch,state) => {
-		console.log("fetchJson dispatch");
+		console.log("fetchDetailJson dispatch");
 		dispatch(requestDetailJson(selection));
 		return fetch(`../sources/${selection}.json`)
 			.then((response) => {

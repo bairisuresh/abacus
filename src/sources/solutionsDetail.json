@@ -1,1 +1,41 @@
-{"totalTime":8,"totalHits":1,"documents":[{"fields":{"documentId":["38108"],"title":["Treasurers' Insights Product Sheet","SSO-9111A Treasurer Support Oversight_2PAGE_US_RL1.indd"],"documentSecureURL":["/rrc/getDoc?fileId=38108&appId=CP38"],"organization":["SSC"],"region":["AMER"],"topics_tags":["GAAP","IFRS","regulatory reporting","SOC 1"],"feed":["Solutions"],"teaser":["Treasurers’ Insights  Enhanced Reporting Model  We provide additional oversight layers to help you save time and focus on high-risk areas.  Global Services  additional reconciliations and checks — so you can focus your efforts on risk mitigation and core business activities.  Treasurers’ Insights helps you to:  • Increase scalability. Our service gives  you the flexibility to add a broad range of new products and complex funds while keeping or reducing your oversight staffing levels.  • Leverage ... "],"country":["US"]}}]}
+{
+    "totalTime": 8,
+    "totalHits": 1,
+    "documents": [
+        {
+            "fields": {
+                "documentId": [
+                    "38108"
+                ],
+                "title": [
+                    "Treasurers' Insights Product Sheet",
+                    "SSO-9111A Treasurer Support Oversight_2PAGE_US_RL1.indd"
+                ],
+                "documentSecureURL": [
+                    "/rrc/getDoc?fileId=38108&appId=CP38"
+                ],
+                "organization": [
+                    "SSC"
+                ],
+                "region": [
+                    "AMER"
+                ],
+                "topics_tags": [
+                    "GAAP",
+                    "IFRS",
+                    "regulatory reporting",
+                    "SOC 1"
+                ],
+                "feed": [
+                    "Solutions"
+                ],
+                "teaser": [
+                    "Treasurers’ Insights  Enhanced Reporting Model  We provide additional oversight layers to help you save time and focus on high-risk areas.  Global Services  additional reconciliations and checks — so you can focus your efforts on risk mitigation and core business activities.  Treasurers’ Insights helps you to:  • Increase scalability. Our service gives  you the flexibility to add a broad range of new products and complex funds while keeping or reducing your oversight staffing levels.  • Leverage ... "
+                ],
+                "country": [
+                    "US"
+                ]
+            }
+        }
+    ]
+}

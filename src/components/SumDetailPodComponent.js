@@ -26,7 +26,7 @@ class SumDetailPodComponent extends React.Component {
 		<li className="detail-pod-compu">
 			<span className = "pod-bg-image" style={getPodImage(fields.feed[0])}></span>
 			<p className="event-label">{fields.feed[0]}</p>
-			<h2 className="event-title" onClick="showDetailView">{etitle}</h2>
+			<h2 className="event-title" onClick={showDetailView}>{etitle}</h2>
 			<p className="post-name">{eLocation}</p>
 			<p className="event-date">{eDate}</p>
 			<div className={classNames({
