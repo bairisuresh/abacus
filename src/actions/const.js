@@ -13,6 +13,7 @@ export const SETTINGS = 'settings';
 
 export const SWIPER_CLICK = 'SWIPER_CLICK';
 
+export const DETAIL_CLICK = "DETAIL_CLICK";
 export const FAILED_FETCH_DETAIL_JSON = 'FAILED_FETCH_DETAIL_JSON';
 export const RECEIVE_DETAIL_JSON = 'RECEIVE_DETAIL_JSON';
 export const FETCH_DETAIL_JSON = 'FETCH_DETAIL_JSON';

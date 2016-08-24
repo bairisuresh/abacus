@@ -25,14 +25,14 @@ function failedToFetchJson(selection) {
 
 
 function shouldFetchPosts(state, selection) {
-  const posts = state.postsBySubreddit[selection]
-  if (!posts) {
-    return true
-  } else if (posts.isFetching) {
-    return false
-  } else {
-    return posts.didInvalidate
-  }
+	const posts = state.postsBySubreddit[selection]
+	if (!posts) {
+		return true
+	} else if (posts.isFetching) {
+		return false
+	} else {
+		return posts.didInvalidate
+	}
 }
 
 module.exports.fetchPostsIfNeeded = function(selection) {
@@ -44,14 +44,14 @@ module.exports.fetchPostsIfNeeded = function(selection) {
   // a cached value is already available.
 
   return (dispatch, getState) => {
-    if (shouldFetchPosts(getState(), selection)) {
+  	if (shouldFetchPosts(getState(), selection)) {
       // Dispatch a thunk from thunk!
       return dispatch(fetchJson(selection))
-    } else {
+  } else {
       // Let the calling code know there's nothing to wait for.
       return Promise.resolve()
-    }
   }
+}
 }
 
 module.exports.fetchJson = function(selection) {
@@ -59,20 +59,20 @@ module.exports.fetchJson = function(selection) {
 		console.log("fetchJson dispatch");
 		dispatch(requestJson(selection));
 		return fetch(`../sources/${selection}.json`)
-			.then((response) => {
-				if(response.status == 200){
-					return response.json();
-				}else{
-					return "";
-				}
-			})
-			.then((json) => {
-				if(json){
-					dispatch(receiveJson(selection, json));
-				}else{
-					dispatch(failedToFetchJson(selection));		  		
-				}
-			});
+		.then((response) => {
+			if(response.status == 200){
+				return response.json();
+			}else{
+				return "";
+			}
+		})
+		.then((json) => {
+			if(json){
+				dispatch(receiveJson(selection, json));
+			}else{
+				dispatch(failedToFetchJson(selection));		  		
+			}
+		});
 	}
 };
 
@@ -82,61 +82,66 @@ function requestDetailJson(selection){
 	}	
 }
 
-function receiveDetailJson(finalData,detailJson) {
-
-	let data = parseDocArray(finalData,detailJson);
+// function receiveDetailJson(finalData,detailJson) {
+function receiveDetailJson(detailJson) {
+	detailJson.type = 'detail';
+	// let data = parseDocArray(finalData,detailJson);
 	return {
 		type: RECEIVE_DETAIL_JSON,
-		data,
+		detailJson,
 		timeStamp : Date.now()
 	}	
 };
 
 function parseDocArray(finalData,detailJson){
 	let {data,docObject} = finalData;
-	let {detailName,idDN} = data;
+	let {detailName,id} = data;
+	let idDN = id;
 	let {documents} = docObject;
+	debugger;
 	return documents.map(function(data){
-		let {fields} = data
+		let fields = "";
+		fields = data.fields;
 		switch(detailName){
-	      case "Events":
-	        if(fields.eventId[0] == idDN){
-	        	detailJson.documents[0].fields.type = 'detail';
-	        	fields = detailJson.documents[0].fields
-	        }
+			case "eventDetail":
+	      	//for events and news
+	      	if((fields.eventId && fields.eventId[0] == idDN) || 
+	      		(fields[".id"] && fields[".id"][0] == idDN)){
+	      		debugger;
+	      		fields.type = 'detail';
+	      	fields = detailJson.documents[0].fields
+	      }
 	      break;
-	      case "Experts":
-	        if(fields[".id"][0] == idDN){
-	        	detailJson.documents[0].fields.type = 'detail';
-	        	fields = detailJson.documents[0].fields
-	        }
+	      case "ExpertDetails":
+	      if(fields[".id"][0] == idDN){
+	      	debugger;
+	      	fields.type = 'detail';
+	      	fields = detailJson.documents[0].fields
+	      }
 	      break;
-	      case "Solutions":
-	        if(fields.documentId[0] == idDN){
-	        	detailJson.documents[0].fields.type = 'detail';
-	        	fields = detailJson.documents[0].fields
-	        }	        
+	      case "solutionsDetail":
+	      if(fields.documentId[0] == idDN){
+	      	debugger;
+	      	fields.type = 'detail';
+	      	fields = detailJson.documents[0].fields
+	      }	        
 	      break;
-	      case "Regulations":
-	        if(fields[".id"][0] == idDN){
-	        	detailJson.documents[0].fields.type = 'detail';
-	        	fields = detailJson.documents[0].fields
-	        }
+	      case "regulationDetail":
+	      if(fields[".id"][0] == idDN){
+	  		debugger;
+	      	fields.type = 'detail';
+	      	fields = detailJson.documents[0].fields
+	      }
 	      break;
-	      case "News":
-	        if(fields.eventId[0] == idDN){
-	        	detailJson.documents[0].fields.type = 'detail';
-	        	fields = detailJson.documents[0].fields
-	        }
-	      break;
-	      case "Whitepapers":
-	        if(fields.documentId[0] == idDN){
-	        	detailJson.documents[0].fields.type = 'detail';
-	        	fields = detailJson.documents[0].fields
-	        }
+	      case "whitepaperDetail":
+	      if(fields.documentId[0] == idDN){
+	      	debugger;
+	      	fields.type = 'detail';
+	      	fields = detailJson.documents[0].fields
+	      }
 	      break;	      
-		}
-	    return detailJson		
+	  }
+	  return {fields:fields};		
 	})
 }
 
@@ -147,27 +152,29 @@ function failedToFetchDetailJson(selection) {
 module.exports.fetchDetailJson = function(data) {
 	let {detailName} = data;
 	let selection = detailName;
+	console.log("*****fetchDetailJson ",data);
 	return (dispatch,state) => {
 		console.log("fetchDetailJson dispatch");
 		dispatch(requestDetailJson(selection));
 		return fetch(`../sources/${selection}.json`)
-			.then((response) => {
-				if(response.status == 200){
-					return response.json();
-				}else{
-					return "";
-				}
-			})
-			.then((json) => {
-				if(json){
-					let docObject = state().TReducer.data;
-					let pasdata = Object.assign({},data,docObject)
-					dispatch(receiveDetailJson(pasdata, json,));
-				}else{
-					dispatch(failedToFetchDetailJson(selection));		  		
-				}
-			});
+		.then((response) => {
+			if(response.status == 200){
+				return response.json();
+			}else{
+				return "";
+			}
+		})
+		.then((json) => {
+			if(json){
+				/*let docObject = state().TReducer.data;
+				let pasdata = Object.assign({},{data:data},{docObject:docObject})*/
+				// dispatch(receiveDetailJson(pasdata, json));
+				dispatch(receiveDetailJson(json));
+			}else{
+				dispatch(failedToFetchDetailJson(selection));		  		
+			}
+		});
 	}
 };
 
-	
+

@@ -37,15 +37,16 @@ class Body extends Component {
   isActive(path){
     return path == this.props.TReducer.tab ? true : false;
   }
-  onSlideNextEnd(e){
-    switchToClick({tab:this.state.arrayMenu[1]});
+  /*onSlideNextEnd(e){
+    const { actions} = this.props;
+    console.log("e.activeindex next end ",e.activeIndex);
+    actions.switchToClick({tab:this.state.arrayMenu[e.activeIndex]});
   }
   onSlidePrevEnd(e){
-    const {actions,arrayMenu} = this.props;
-    const {switchToClick} = actions;
-    let obj = arrayMenu[e.snapIndex]
-    switchToClick({tab:obj});
-  }
+    const { actions} = this.props;
+    console.log("e.activeindex prev end ",e.activeIndex);
+    actions.switchToClick({tab:this.state.arrayMenu[e.activeIndex]});
+  }*/
 
   getArray(){
     let {TReducer} = this.props;
@@ -69,17 +70,20 @@ class Body extends Component {
   render() {
     const {actions,TReducer,sparams} = this.props;
     const {switchToClick} = actions;
-    const {data} = TReducer, that = this;    
-      let docArray = []
-      if(data){
-      let {documents} = data;
-      if(documents && documents.length){
-        docArray = documents;
+    const {data, detailJson} = TReducer, that = this;    
+      let docObject = []
+      if(detailJson){
+        //for detailview
+        docObject = detailJson;
+      }else if(data){
+        //for summaryview
+        let {documents} = data;
+        if(documents && documents.length){
+          docObject = documents;
+        }
       }
-    }
     console.log("params,,,,,,,,,,,,,, ",this.props );
-    const tHtabProps = {actions,docArray};
-
+    const tHtabProps = {actions,docObject};
     return (
       <div className="home-tabs">
          <div className="top-tabs">

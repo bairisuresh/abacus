@@ -10,6 +10,7 @@ class DataPod extends Component {
   constructor(props,context){
     super(props,context);
     this.state = {item :this.props.fields};
+    this.showDetailView = this.showDetailView.bind(this);
   }
   btnClass(feedType){
     let that = this;
@@ -42,6 +43,31 @@ class DataPod extends Component {
         image = !selected ? "register_icon.png": "register_active_icon.png" ;
     }
     return {backgroundImage :'url('+"../images/"+image+')'}
+  }
+  getId(fields){
+    let detailName = fields.feed[0];
+    switch(detailName){
+        case "Events":
+          return fields.eventId[0];
+        break;
+        case "Experts":
+          return fields[".id"][0];
+        break;
+        case "Solutions":
+          return fields.documentId[0];
+        break;
+        case "Regulations":
+          return fields[".id"][0];
+        break;
+        case "News":
+          return fields[".id"][0];
+        break;
+        case "Whitepapers":
+          return fields.documentId[0];
+        break;
+        default:
+          return "";
+    }    
   }
   getPodImage(feedtype,selected){
     let image ="";
@@ -108,14 +134,17 @@ class DataPod extends Component {
     this.setState({item:fields});
   };
   showDetailView(){
-    this.state.item
+    //data is {detailName:"",id:""}
+    let {actions} = this.props;
+    console.log("feed is showDetailView",this.state.item.feed[0]);
+    actions.fetchDetailJson({detailName:this.getJsonName(this.state.item.feed[0]),id:this.getId(this.state.item)});
   }
   render() {
     const {actions, fields} = this.props;
     let that = this;
     var state = Object.assign({},this.state,{});
     const tranferProps = {actions, fields:state.item , getPodImage: that.getPodImage.bind(that),btnClass : that.btnClass.bind(that), changeSelection : that.changeSelection.bind(that)};
-    return <Pod {...tranferProps}/>;
+    return <Pod {...tranferProps} showDetailView={this.showDetailView}/>;
   }
 }
 
@@ -129,7 +158,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  const actions = {};
+  const actions = require('../actions/TabActions');
   const actionMap = { actions: bindActionCreators(actions, dispatch) };
   return actionMap;
 }

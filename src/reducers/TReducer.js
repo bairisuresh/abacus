@@ -12,6 +12,7 @@ const initialState = {
     isFetching: false,
     data: "",
     tab : "landingPage",
+    detailJson: "",
 
     isOpen:false,
     route:"/"
@@ -30,8 +31,7 @@ module.exports = function(state = initialState, action) {
 
     } break;
     case DETAIL_CLICK : {
-      const {data} = action;//{detailName:"",id:"",docArray:[]}
-
+      return state;      
     }break;
     case FAILED_FETCH_JSON:
       return Object.assign({}, state, {
@@ -66,7 +66,7 @@ module.exports = function(state = initialState, action) {
     case RECEIVE_DETAIL_JSON:
       return Object.assign({}, state, {
         isFetching: false,
-        data: action.data,
+        detailJson: action.detailJson,        
         lastUpdated: action.timeStamp
       });break;      
     case CURRENT_JSON:
