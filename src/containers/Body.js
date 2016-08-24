@@ -15,13 +15,18 @@ require('styles//swiper.min.css')
 class Body extends Component {
   constructor(props,context){
     super(props,context);
-    this.state = {currentElement:this.props.TReducer.tab};
+    let arrayMenu = this.props.arrayMenu;
+    this.state = {currentElement:this.props.TReducer.tab,arrayMenu};
+    this.getArray.bind(this);
+    this.getDisplayName.bind(this);
   }
   componentWillReceiveProps(){
-    console.log("bodyjs props*****************&&&&&&&&&&&&&&&&&&&&&&&&&&&&& ",this.props.TReducer);    
-    this.setState({currentElement:this.props.TReducer.tab});
+    console.log("bodyjs props*****************&&&&&&&&&&&&&&&&&&&&&&&&&&&&& ",this.state);    
+    let arrayMenu = this.getArray();
+    this.setState({currentElement:this.props.TReducer.tab,arrayMenu});
     $('.swiper-button-prev').insertAfter('.swiper-container');
     $('.swiper-button-next').insertAfter('.swiper-container');
+
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
@@ -33,13 +38,33 @@ class Body extends Component {
     return path == this.props.TReducer.tab ? true : false;
   }
   onSlideNextEnd(e){
-      debugger;
-      }
-onSlidePrevEnd(e){
-    debugger;
-      }      
-  onClickB(w){
-    debugger;
+    switchToClick({tab:this.state.arrayMenu[1]});
+  }
+  onSlidePrevEnd(e){
+    const {actions,arrayMenu} = this.props;
+    const {switchToClick} = actions;
+    let obj = arrayMenu[e.snapIndex]
+    switchToClick({tab:obj});
+  }
+
+  getArray(){
+    let {TReducer} = this.props;
+    let {arrayMenu} = this.state;
+    console.log("indexis ",arrayMenu.indexOf(TReducer.tab));
+    var indexEle = arrayMenu.indexOf(TReducer.tab);
+    arrayMenu = arrayMenu.splice(indexEle, 1).concat(arrayMenu);
+    console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%arrayMenu ",arrayMenu);
+    return arrayMenu;
+  }
+  getDisplayName(key){
+    var sItmes = this.props.swiperItems;
+    for(var i=0;i<sItmes.length;i++){
+      let obj = {};
+      obj = sItmes[i];
+      if(obj[key]){
+        return obj[key];
+      }        
+    }
   }
   render() {
     const {actions,TReducer,sparams} = this.props;
@@ -60,25 +85,21 @@ onSlidePrevEnd(e){
          <div className="top-tabs">
         <div className="swiper-hldr">
           <div className="swiper-container-outer">
-            <Swiper {...sparams} onSlidePrevEnd={this.onSlidePrevEnd.bind(this)} 
-            onSlideNextEnd={this.onSlideNextEnd.bind(this)}
-            onClick={this.onClickB.bind(this)} >
+            <Swiper {...sparams} >
             {
-              that.props.swiperItems.map(obj=>
+              that.state.arrayMenu.map((obj,index)=>
                 <div onClick={()=> {
-                  switchToClick({tab:Object.keys(obj)[0]});
+                  switchToClick({tab:obj});
                   }} 
                   className= {classNames({
                     'swiper-slide': true,
-                    'swiper-slide-active': that.state.currentElement== Object.keys(obj)[0]
-                  })}>
-                    {obj[Object.keys(obj)[0]]}
-                  </div>
-                )
-                            
+                    'active': that.state.currentElement== obj
+                  })
+                }>
+                  {that.getDisplayName(obj)}
+                </div>
+              )
             }
-              
-              
             </Swiper>
           </div>
         </div>
@@ -104,6 +125,7 @@ Body.defaultProps = {
                 {"solutions":"Solutions"},
                 {"whitepapers":"Whitepapers"},
                 {"news":"News"}],
+  arrayMenu : ["landingPage", "events", "experts", "regulations", "solutions", "whitepapers", "news"],
   sparams : {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
