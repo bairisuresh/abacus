@@ -137,7 +137,7 @@ class HtabContentComponent extends React.Component {
 			<div className="clearfix"></div>
 			</ul>
 
-			<div dangerouslySetInnerHTML={{__html: detailData.expertDetails || detailData.eventDescription || detailData.teaser}} />
+			<div className="server-data" dangerouslySetInnerHTML={{__html: detailData.expertDetails || detailData.eventDescription || detailData.teaser}} />
 
 			</div>
 			</div>
