@@ -29,7 +29,7 @@ class Body extends Component {
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
-    dispatch(actions.switchToClick({tab : this.props.TReducer.tab}));
+    dispatch(actions.switchToClick({tab : TReducer.tab}));
     $('.swiper-button-prev').insertAfter($("#outterSwiper").find('.swiper-container'));
     $('.swiper-button-next').insertAfter($("#outterSwiper").find('.swiper-container'));
   }
@@ -77,7 +77,7 @@ class Body extends Component {
           <div id="outterSwiper" className="swiper-container-outer">
             <Swiper {...sparams} >
             {
-              that.state.arrayMenu.map((obj,index)=>
+              that.state.arrayMenu.map((obj)=>
                 <div onClick={()=> {
                   switchToClick({tab:obj});
                   }} 

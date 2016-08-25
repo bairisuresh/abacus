@@ -12,3 +12,14 @@ class MyComponent extends React.Component {
   }
 }
 ```
+Download the project
+
+Go to abacus/
+
+	npm install 
+
+	npm run start
+
+To run testcases
+
+	npm run test
