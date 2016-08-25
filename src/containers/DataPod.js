@@ -110,7 +110,7 @@ class DataPod extends Component {
       case "Solutions":
         json = "solutionsDetail";
       break;
-      case "Regulations":
+      case "Rules":
         json = "regulationDetail";
       break;
       case "News":
@@ -136,7 +136,7 @@ class DataPod extends Component {
   showDetailView(){
     //data is {detailName:"",id:""}
     let {actions} = this.props;
-    console.log("feed is showDetailView",this.state.item.feed[0]);
+    console.log("feed is showDetailView",this.state.item.feed[0]);    
     actions.fetchDetailJson({detailName:this.getJsonName(this.state.item.feed[0]),id:this.getId(this.state.item)});
   }
   render() {

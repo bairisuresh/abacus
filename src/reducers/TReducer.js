@@ -27,7 +27,7 @@ module.exports = function(state = initialState, action) {
     
     case SWIPER_CLICK: {
       console.log("befoer assigning state ",action.data.tab);
-      return Object.assign({}, state, {tab:action.data.tab});      
+      return Object.assign({}, state, {tab:action.data.tab,detailJson:""});      
 
     } break;
     case DETAIL_CLICK : {
