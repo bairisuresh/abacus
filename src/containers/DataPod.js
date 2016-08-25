@@ -10,6 +10,7 @@ class DataPod extends Component {
   constructor(props,context){
     super(props,context);
     this.state = {item :this.props.fields};
+    this.showDetailView = this.showDetailView.bind(this);
   }
   btnClass(feedType){
     let that = this;
@@ -43,7 +44,26 @@ class DataPod extends Component {
     }
     return {backgroundImage :'url('+"../images/"+image+')'}
   }
-  getPodImage(feedtype,selected){
+  getId(fields){
+    let detailName = fields.feed[0];
+    switch(detailName){
+        case "Events":
+          return fields.eventId[0];
+        case "Experts":
+          return fields[".id"][0];
+        case "Solutions":
+          return fields.documentId[0];
+        case "Regulations":
+          return fields[".id"][0];
+        case "News":
+          return fields[".id"][0];
+        case "Whitepapers":
+          return fields.documentId[0];
+        default:
+          return "";
+    }    
+  }
+  getPodImage(feedtype){
     let image ="";
 
     switch(feedtype){
@@ -71,6 +91,34 @@ class DataPod extends Component {
     }
     return {backgroundImage :'url('+"../images/"+image+')'}
   }
+  getJsonName(feedtype){
+    let json ="";
+
+    switch(feedtype){
+      case "Events":
+        json = "eventDetail";      
+      break;
+      case "Experts":
+        json = "ExpertDetails";
+      break;
+      case "Solutions":
+        json = "solutionsDetail";
+      break;
+      case "Rules":
+        json = "regulationDetail";
+      break;
+      case "News":
+        json = "eventDetail";
+      break;
+      case "Whitepapers":
+        json = "whitepaperDetail"
+      break;
+      default : 
+        json = "eventDetail";
+
+    }
+    return json;
+  }
   componentWillReceiveProps(nextProps) {
     let { fields } = nextProps;
     this.setState({item:fields});
@@ -78,13 +126,18 @@ class DataPod extends Component {
   changeSelection(){
     let fields = Object.assign({},this.state.item,{selected:!this.state.item.selected});
     this.setState({item:fields});
-  };
+  }
+  showDetailView(){
+    //data is {detailName:"",id:""}
+    let {actions} = this.props;
+    actions.fetchDetailJson({detailName:this.getJsonName(this.state.item.feed[0]),id:this.getId(this.state.item)});
+  }
   render() {
-    const {actions, fields} = this.props;
+    const {actions} = this.props;
     let that = this;
     var state = Object.assign({},this.state,{});
     const tranferProps = {actions, fields:state.item , getPodImage: that.getPodImage.bind(that),btnClass : that.btnClass.bind(that), changeSelection : that.changeSelection.bind(that)};
-    return <Pod {...tranferProps}/>;
+    return <Pod {...tranferProps} showDetailView={this.showDetailView}/>;
   }
 }
 
@@ -92,13 +145,13 @@ DataPod.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
-function mapStateToProps(state) {
+function mapStateToProps() {
   const props = {};
   return props;
 }
 
 function mapDispatchToProps(dispatch) {
-  const actions = {};
+  const actions = require('../actions/TabActions');
   const actionMap = { actions: bindActionCreators(actions, dispatch) };
   return actionMap;
 }

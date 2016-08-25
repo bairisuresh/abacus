@@ -5,8 +5,7 @@
  *          you edit them, they are not updated again.
  */
 import React, {
-  Component,
-  PropTypes
+  Component
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -19,7 +18,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("appcontainer loaded");
     return (
       <Main>
         {this.props.children}  
@@ -33,7 +31,7 @@ class App extends Component {
  *       adjust it here.
  */
 
-function mapStateToProps(state) {
+function mapStateToProps() {
   /* Populated by react-webpack-redux:reducer */
   const props = {};
   return props;

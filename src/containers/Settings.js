@@ -1,6 +1,5 @@
 import React, {
-  Component,
-  PropTypes
+  Component
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -12,7 +11,7 @@ class Settings extends Component {
   }
 }
 
-function mapStateToProps(state) {
+function mapStateToProps() {
   const props = {};
   return props;
 }

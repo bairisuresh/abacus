@@ -9,7 +9,6 @@ require('styles//Main.scss');
 
 class MainComponent extends React.Component {
   render() {
-  	console.log("MainComponent loaded");
     return (
       	<div className='app-container'>
 	      	<HeaderCont/>

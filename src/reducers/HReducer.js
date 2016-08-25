@@ -15,15 +15,15 @@ module.exports = function(state = initialState, action) {
     case NAVIGATE_SETTINGS: {
       // Modify next state depending on the action and return it
       return {heading:"Configuration",data :Object.assign({},action.data,{state:SETTINGS})};
-    } break;
+    } 
 
     case NAVIGATE_ALERTS: {
       return {heading:"My Alerts",data :Object.assign({},action.data,{state:ALERTS})};
-    } break;
+    } 
 
     case NAVIGATE_HOME: {
       return {heading:"Regulatory Resource Center",data :Object.assign({},action.data,{state:HOME})};
-    } break;
+    } 
     
     default: {
       /* Return original state if no actions were consumed. */

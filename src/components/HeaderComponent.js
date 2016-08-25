@@ -40,17 +40,13 @@ class HeaderComponent extends React.Component {
         <h1>Alerts</h1>
       </div>    
     );
-    console.log("HReducer state ",HReducer.data.state);
     switch(HReducer.data.state){
       case HOME:
         return Home;
-      break;
       case SETTINGS:
         return settings;
-       break;
       case ALERTS:
         return alerts;
-       break;
       default : 
       return Home
     }

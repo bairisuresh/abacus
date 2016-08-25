@@ -1,5 +1,4 @@
 import React from 'react';
-import { combineReducers } from 'redux';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import configureStore from './stores';

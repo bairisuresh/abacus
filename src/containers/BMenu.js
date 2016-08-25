@@ -4,8 +4,6 @@ import React, {
 } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import MenuObject from 'react-burger-menu';
-import { Link } from 'react-router';
 import BrMenu from '../components/BrMenuComponent';
 require('styles//BrMenu.scss');
 
@@ -15,7 +13,6 @@ class BMenu extends Component {
     const {isOpen} = TReducer;
     let custIcon = (TReducer.route =="/"?"":false);
     const tbmProps = {isOpen,custIcon:custIcon,HReducer,actions,TReducer};
-    console.log("Props here is ",this.props);
     //specifying animation type to get component
     return (
       <BrMenu {...tbmProps}/>
@@ -30,7 +27,7 @@ BMenu.propTypes = {
 
 
 
-function mapDispatchToProps(dispatch,props) {
+function mapDispatchToProps(dispatch) {
   const actions = Object.assign({},
     {actionRouteChange: require('../actions/BrMenu.js')},
     require('../actions/Header.js'),
@@ -40,7 +37,6 @@ function mapDispatchToProps(dispatch,props) {
 }
 
 const mapStateToProps = (state) => {
-  console.log("state of reducer here is bmenujs  ",state);
   const props = { 
                   HReducer  : state.HReducer,
                   TReducer  : state.TReducer

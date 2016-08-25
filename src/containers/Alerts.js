@@ -17,7 +17,7 @@ Alerts.propTypes = {
   actions: PropTypes.object.isRequired
 };
 
-function mapStateToProps(state) {
+function mapStateToProps() {
   const props = {};
   return props;
 }
