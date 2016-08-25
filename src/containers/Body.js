@@ -24,15 +24,15 @@ class Body extends Component {
     console.log("bodyjs props*****************&&&&&&&&&&&&&&&&&&&&&&&&&&&&& ",this.state);    
     let arrayMenu = this.getArray();
     this.setState({currentElement:this.props.TReducer.tab,arrayMenu});
-    $('.swiper-button-prev').insertAfter('.swiper-container');
-    $('.swiper-button-next').insertAfter('.swiper-container');
+    $('.swiper-button-prev').insertAfter($("#outterSwiper").find('.swiper-container'));
+    $('.swiper-button-next').insertAfter($("#outterSwiper").find('.swiper-container'));
 
   }
   componentDidMount(){
     const { dispatch, actions,TReducer} = this.props;
     dispatch(actions.switchToClick({tab : this.props.TReducer.tab}));
-    $('.swiper-button-prev').insertAfter('.swiper-container');
-    $('.swiper-button-next').insertAfter('.swiper-container');
+    $('.swiper-button-prev').insertAfter($("#outterSwiper").find('.swiper-container'));
+    $('.swiper-button-next').insertAfter($("#outterSwiper").find('.swiper-container'));
   }
   isActive(path){
     return path == this.props.TReducer.tab ? true : false;
@@ -88,7 +88,7 @@ class Body extends Component {
       <div className="home-tabs">
          <div className="top-tabs">
         <div className="swiper-hldr">
-          <div className="swiper-container-outer">
+          <div id="outterSwiper" className="swiper-container-outer">
             <Swiper {...sparams} >
             {
               that.state.arrayMenu.map((obj,index)=>

@@ -28,32 +28,63 @@ class HtabContentComponent extends React.Component {
 		}
 	}
 
-	assignMatchedKeyValues(n,o){
+	assignMatchedKeyValues(n,o,iA){
 		let i;
 		console.log("new key values ",n);
 		for(i in n){
 			o[i]? n[i] = o[i][0]:"";
 		};
 		console.log("newData assignMatchedKeyValues ",n);
-		return n;
+		return this.getIteratedArray(n,iA)	
+	}
+	getIteratedArray(newArray,iterateA){
+		let i = 0,iterables = [];
+		for(i=0;i<iterateA.length;i++){
+			let obj = "",tempObj={};
+			obj = newArray[iterateA[i]];
+			if(obj){
+				tempObj[iterateA[i]] = obj;
+				iterables.push(tempObj);
+			}
+		}
+		newArray.iterables = iterables;
+		return newArray;
 	}
 	getFinalJson(detailData){
-		let {formatedJson, labels} = this.props;
+		let {formatedJson, labels,iterate} = this.props;
 		let newData = formatedJson[detailData.feed[0]];
 		let labelsKey = detailData.feed[0].toLowerCase()+"labels";
-		newData.labels = labels[labelsKey];
-		return this.formatAllDates(this.assignMatchedKeyValues(newData,detailData));
+		let iArray = iterate[detailData.feed[0]];
+		newData.labels = labels[labelsKey];		
+		return this.formatAllDates(this.assignMatchedKeyValues(newData,detailData,iArray));
 	}
 
 	formatAllDates(data){
 		let formatAllDate = ["eventUpdatedTimeStamp","expertUpdatedTimeStamp","pubdate", "documentPubDate"], i = 0;
+		let formatSEDates = ["startDate","endDate"];
+		let month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 		for(i=0;i<formatAllDate.length;i++){
 			let ldate = "";
 			ldate = data[formatAllDate[i]];
 			if(ldate){
 				let date = new Date(ldate);
-				delete data.ldate;
-				data.podDate = (date.getMonth()+1)+"/"+date.getDate()+"/"+date.getFullYear();
+				delete data[formatAllDate[i]];
+				data.podDate = (date.getUTCMonth()+1)+"/"+date.getUTCDate()+"/"+date.getUTCFullYear();
+			}
+		}
+		for(i=0;i<formatSEDates.length;i++){
+			let sedate = ""
+			sedate = new Date(data[formatSEDates[i]]);
+			data[formatSEDates[i]] = data[formatSEDates[i]] ? sedate.toUTCString():""; 
+		}
+		//getting url
+		let links = ["uri","documentSecureURL"];
+		for(i=0;i<links.length;i++){
+			let link = "";
+			link = data[links[i]];
+			if(link){
+				delete data[links[i]];
+				data.link = link;
 			}
 		}
 		return data;
@@ -84,23 +115,29 @@ class HtabContentComponent extends React.Component {
 			<div className="event_detail_hldr">
 			<div className="block overflow-vertical">
 			<h2>{detailData.title}</h2>
-			<p>March 13,2016 07:00 AM - March 16,2016 04:00 PM</p>
+			{
+				detailData.startDate ? <p>{ detailData.startDate+" - "+detailData.endDate}</p>:""
+			}
+			
 			<ul className="event-info">
-			<li>Speakers</li>
-			<li>SEC Staff and Industry Experts</li>
 
-			<li>Host</li>
-			<li>Investment Company Institute ("ICI")</li>
+			{
+				detailData.iterables.map((obj)=>{
+					let keys = Object.keys(obj),label = detailData.labels[keys[0]];
+					console.log("label here is ",label);
+					return ([<li>{label}</li>,<li>{obj[keys[0]]}</li>]);
+				})
+			}
 
-			<li>Location</li>
-			<li>JW Marriott Grande Lakes in Orlando, Florida.</li>
-
-			<li>Event Link</li>
-			<li><a href="https://www.ici.org/events/upcoming/conf_16_mfimc?WT.mc_id=mconf_feb16">https://www.ici.org/events/upcoming/conf_16_mfimc?WT.mc_id=mconf_feb16</a></li>
+			{
+				[<li>{detailData.labels.link}</li>,
+				<li><a href={detailData.link}>{detailData.link}</a></li>]
+			}
+			
 			<div className="clearfix"></div>
 			</ul>
 
-				<div dangerouslySetInnerHTML={{__html: detailData.expertDetails || detailData.eventDescription || detailData.teaser}} />.
+			<div dangerouslySetInnerHTML={{__html: detailData.expertDetails || detailData.eventDescription || detailData.teaser}} />
 
 			</div>
 			</div>
@@ -111,15 +148,17 @@ class HtabContentComponent extends React.Component {
 			<div className="swiper-container swiper-recommend">
 			<Swiper {...sparams} >
 			{
-				that.props.arrayMenu.map((obj,index)=>
-					<div 
-					className= {classNames({
-						'swiper-slide': true,
-						'active': "landingPage"== obj
-					})
-				}>
-				{that.getDisplayName(obj)}
-				</div>
+				that.props.arrayMenu.map((obj,index)=>{				
+					console.log("obj arrayMenu ",obj,detailData.feed)
+					return (<div 
+						className= {classNames({
+							'swiper-slide': true,
+							'active': obj == detailData.feed
+						})
+					}>
+					{obj}
+					</div>)
+				}
 				)
 			}
 			</Swiper>
@@ -158,7 +197,7 @@ HtabContentComponent.defaultProps = {
 	{"solutions":"Solutions"},
 	{"whitepapers":"Whitepapers"},
 	{"news":"News"}],
-	arrayMenu : ["landingPage", "events", "experts", "regulations", "solutions", "whitepapers", "news"],
+	arrayMenu : ["Home", "Events", "Experts", "Rules", "Solutions", "Whitepapers", "News"],
 	sparams : {
 		nextButton: '.swiper-button-next',
 		prevButton: '.swiper-button-prev',
@@ -184,7 +223,6 @@ HtabContentComponent.defaultProps = {
 			}
 		}
 	},
-
 	formatedJson : {
 		Events:{
 			title:"",
@@ -199,7 +237,6 @@ HtabContentComponent.defaultProps = {
 			eventUpdatedTimeStamp:""
 		},
 		Experts:{
-			expertName:"",
 			expertName : "",
 			expertEmail: "",
 			expertPhone : "",
@@ -238,20 +275,28 @@ HtabContentComponent.defaultProps = {
 			eventHost:"Host",
 			eventSpeakers:"Speakers",
 			eventLocation:"Location",
-			uri:"Event Link"
+			link:"Event Link"
 		},expertslabels:{
 			expertName : "Expert Name",
 			expertEmail: "Expert Email",
 			expertPhone : "Expert Phone",
 			expertDivision :"Expert Division"
-		},soultionslabels:{
-			documentSecureURL : "Document Link"
+		},solutionslabels:{
+			link : "Document Link"
 		},ruleslabels:{
-			documentSecureURL : "Rules Link"
+			link : "Rules Link"
 		},whitepaperslabels:{
-			documentSecureURL : "Document Link",
+			link : "Document Link",
 			documentAuthor : "Document Author",    
-		}}    
-	};
+		}
+	},
+	iterate:{
+		Events:["eventHost","eventSpeakers","eventLocation"],
+		Experts:["expertName","expertEmail","expertPhone","expertDivision"],
+		Solutions:[],
+		Rules : [],
+		Whitepapers : ["documentAuthor"]
+	}    
+};
 
-	export default HtabContentComponent;
+export default HtabContentComponent;
